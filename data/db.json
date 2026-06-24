@@ -1,0 +1,6326 @@
+{
+  "users": [
+    {
+      "id": "u-admin-001",
+      "name": "System Admin",
+      "avatar": "ShieldCheck",
+      "email": "admin@gov.in",
+      "password": "admin",
+      "level": 99,
+      "xp": 99999,
+      "shieldPoints": 9999,
+      "issuesReported": 0,
+      "issuesValidated": 0,
+      "accuracy": 1,
+      "neighborhood": "bbmp_hq",
+      "joinedAt": "2025-06-23T15:21:55.975Z",
+      "title": "Administrator",
+      "role": "admin",
+      "notifications": []
+    },
+    {
+      "id": "u1",
+      "name": "Arjun Reddy",
+      "avatar": "User",
+      "level": 18,
+      "xp": 4500,
+      "shieldPoints": 320,
+      "issuesReported": 45,
+      "issuesValidated": 120,
+      "accuracy": 0.94,
+      "neighborhood": "koramangala",
+      "joinedAt": "2025-12-25T15:21:55.975Z",
+      "title": "Champion",
+      "notifications": [
+        {
+          "message": "Update on \"Deep pothole on 80 Feet Road\": Status changed to IN PROGRESS",
+          "id": "notif-1782228499724-iel56",
+          "createdAt": "2026-06-23T15:28:19.724Z",
+          "read": false
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "name": "Priya Sharma",
+      "avatar": "User",
+      "level": 22,
+      "xp": 6200,
+      "shieldPoints": 580,
+      "issuesReported": 78,
+      "issuesValidated": 200,
+      "accuracy": 0.97,
+      "neighborhood": "indiranagar",
+      "joinedAt": "2025-10-26T15:21:55.975Z",
+      "title": "Legend",
+      "notifications": [
+        {
+          "message": "Update on \"Deep pothole on 80 Feet Road\": Status changed to IN PROGRESS",
+          "id": "notif-1782228499724-1erh1",
+          "createdAt": "2026-06-23T15:28:19.724Z",
+          "read": false
+        }
+      ]
+    },
+    {
+      "id": "u3",
+      "name": "Karthik Nair",
+      "avatar": "User",
+      "level": 12,
+      "xp": 2100,
+      "shieldPoints": 150,
+      "issuesReported": 22,
+      "issuesValidated": 55,
+      "accuracy": 0.88,
+      "neighborhood": "jayanagar",
+      "joinedAt": "2026-03-25T15:21:55.975Z",
+      "title": "Guardian",
+      "notifications": [
+        {
+          "message": "Update on \"Deep pothole on 80 Feet Road\": Status changed to IN PROGRESS",
+          "id": "notif-1782228499724-8d18h",
+          "createdAt": "2026-06-23T15:28:19.724Z",
+          "read": false
+        }
+      ]
+    },
+    {
+      "id": "u4",
+      "name": "Ananya Rao",
+      "avatar": "User",
+      "level": 15,
+      "xp": 3300,
+      "shieldPoints": 245,
+      "issuesReported": 38,
+      "issuesValidated": 90,
+      "accuracy": 0.91,
+      "neighborhood": "whitefield",
+      "joinedAt": "2026-01-24T15:21:55.975Z",
+      "title": "Guardian",
+      "notifications": [
+        {
+          "message": "Update on \"Entire street dark - 5 lights out\": Status changed to VALIDATED",
+          "id": "notif-1782228504763-w8ti1",
+          "createdAt": "2026-06-23T15:28:24.763Z",
+          "read": false
+        }
+      ]
+    },
+    {
+      "id": "u5",
+      "name": "Rahul Gowda",
+      "avatar": "User",
+      "level": 8,
+      "xp": 1200,
+      "shieldPoints": 85,
+      "issuesReported": 15,
+      "issuesValidated": 30,
+      "accuracy": 0.85,
+      "neighborhood": "hsr_layout",
+      "joinedAt": "2026-04-24T15:21:55.975Z",
+      "title": "Ranger",
+      "notifications": []
+    },
+    {
+      "id": "u6",
+      "name": "Deepika Iyer",
+      "avatar": "User",
+      "level": 10,
+      "xp": 1800,
+      "shieldPoints": 120,
+      "issuesReported": 20,
+      "issuesValidated": 48,
+      "accuracy": 0.9,
+      "neighborhood": "koramangala",
+      "joinedAt": "2026-02-23T15:21:55.975Z",
+      "title": "Ranger",
+      "notifications": [
+        {
+          "message": "Update on \"Deep pothole on 80 Feet Road\": Status changed to IN PROGRESS",
+          "id": "notif-1782228499725-ceikt",
+          "createdAt": "2026-06-23T15:28:19.725Z",
+          "read": false
+        }
+      ]
+    },
+    {
+      "id": "u7",
+      "name": "Suresh Kumar",
+      "avatar": "User",
+      "level": 6,
+      "xp": 800,
+      "shieldPoints": 55,
+      "issuesReported": 10,
+      "issuesValidated": 18,
+      "accuracy": 0.82,
+      "neighborhood": "malleshwaram",
+      "joinedAt": "2026-05-09T15:21:55.975Z",
+      "title": "Ranger",
+      "notifications": []
+    },
+    {
+      "id": "u8",
+      "name": "Meera Joshi",
+      "avatar": "User",
+      "level": 20,
+      "xp": 5800,
+      "shieldPoints": 490,
+      "issuesReported": 65,
+      "issuesValidated": 180,
+      "accuracy": 0.96,
+      "neighborhood": "indiranagar",
+      "joinedAt": "2025-12-05T15:21:55.975Z",
+      "title": "Champion",
+      "notifications": [
+        {
+          "message": "Update on \"Deep pothole on 80 Feet Road\": Status changed to IN PROGRESS",
+          "id": "notif-1782228499725-sqvgl",
+          "createdAt": "2026-06-23T15:28:19.725Z",
+          "read": false
+        }
+      ]
+    },
+    {
+      "id": "u9",
+      "name": "Vikram Singh",
+      "avatar": "User",
+      "level": 4,
+      "xp": 450,
+      "shieldPoints": 30,
+      "issuesReported": 6,
+      "issuesValidated": 10,
+      "accuracy": 0.78,
+      "neighborhood": "jayanagar",
+      "joinedAt": "2026-06-03T15:21:55.975Z",
+      "title": "Scout",
+      "notifications": []
+    },
+    {
+      "id": "u10",
+      "name": "Lakshmi Menon",
+      "avatar": "User",
+      "level": 14,
+      "xp": 2900,
+      "shieldPoints": 210,
+      "issuesReported": 32,
+      "issuesValidated": 75,
+      "accuracy": 0.92,
+      "neighborhood": "whitefield",
+      "joinedAt": "2026-02-13T15:21:55.975Z",
+      "title": "Guardian",
+      "notifications": []
+    },
+    {
+      "id": "u11",
+      "name": "Aditya Patel",
+      "avatar": "User",
+      "level": 3,
+      "xp": 280,
+      "shieldPoints": 18,
+      "issuesReported": 4,
+      "issuesValidated": 5,
+      "accuracy": 0.75,
+      "neighborhood": "hsr_layout",
+      "joinedAt": "2026-06-13T15:21:55.975Z",
+      "title": "Scout",
+      "notifications": []
+    },
+    {
+      "id": "u12",
+      "name": "Kavitha Rangan",
+      "avatar": "User",
+      "level": 16,
+      "xp": 3800,
+      "shieldPoints": 290,
+      "issuesReported": 42,
+      "issuesValidated": 95,
+      "accuracy": 0.93,
+      "neighborhood": "malleshwaram",
+      "joinedAt": "2026-01-14T15:21:55.975Z",
+      "title": "Champion",
+      "notifications": []
+    },
+    {
+      "id": "u13",
+      "name": "Mohammed Farhan",
+      "avatar": "User",
+      "level": 9,
+      "xp": 1500,
+      "shieldPoints": 100,
+      "issuesReported": 18,
+      "issuesValidated": 40,
+      "accuracy": 0.87,
+      "neighborhood": "koramangala",
+      "joinedAt": "2026-04-09T15:21:55.975Z",
+      "title": "Ranger",
+      "notifications": []
+    },
+    {
+      "id": "u14",
+      "name": "Sneha Kulkarni",
+      "avatar": "User",
+      "level": 7,
+      "xp": 950,
+      "shieldPoints": 65,
+      "issuesReported": 12,
+      "issuesValidated": 22,
+      "accuracy": 0.84,
+      "neighborhood": "indiranagar",
+      "joinedAt": "2026-05-04T15:21:55.975Z",
+      "title": "Ranger",
+      "notifications": []
+    },
+    {
+      "id": "u15",
+      "name": "Ravi Shankar",
+      "avatar": "User",
+      "level": 11,
+      "xp": 1950,
+      "shieldPoints": 140,
+      "issuesReported": 25,
+      "issuesValidated": 60,
+      "accuracy": 0.89,
+      "neighborhood": "jayanagar",
+      "joinedAt": "2026-03-15T15:21:55.975Z",
+      "title": "Guardian",
+      "notifications": []
+    },
+    {
+      "id": "u-admin-001",
+      "name": "System Admin",
+      "avatar": "ShieldCheck",
+      "email": "admin@gov.in",
+      "password": "admin",
+      "level": 99,
+      "xp": 99999,
+      "shieldPoints": 9999,
+      "issuesReported": 0,
+      "issuesValidated": 0,
+      "accuracy": 1,
+      "neighborhood": "bbmp_hq",
+      "joinedAt": "2025-06-23T15:54:39.755Z",
+      "title": "Administrator",
+      "role": "admin",
+      "notifications": []
+    },
+    {
+      "id": "u1",
+      "name": "Arjun Reddy",
+      "avatar": "User",
+      "level": 18,
+      "xp": 4500,
+      "shieldPoints": 320,
+      "issuesReported": 45,
+      "issuesValidated": 120,
+      "accuracy": 0.94,
+      "neighborhood": "koramangala",
+      "joinedAt": "2025-12-25T15:54:39.753Z",
+      "title": "Champion",
+      "notifications": []
+    },
+    {
+      "id": "u2",
+      "name": "Priya Sharma",
+      "avatar": "User",
+      "level": 22,
+      "xp": 6200,
+      "shieldPoints": 580,
+      "issuesReported": 78,
+      "issuesValidated": 200,
+      "accuracy": 0.97,
+      "neighborhood": "indiranagar",
+      "joinedAt": "2025-10-26T15:54:39.754Z",
+      "title": "Legend",
+      "notifications": []
+    },
+    {
+      "id": "u3",
+      "name": "Karthik Nair",
+      "avatar": "User",
+      "level": 12,
+      "xp": 2100,
+      "shieldPoints": 150,
+      "issuesReported": 22,
+      "issuesValidated": 55,
+      "accuracy": 0.88,
+      "neighborhood": "jayanagar",
+      "joinedAt": "2026-03-25T15:54:39.754Z",
+      "title": "Guardian",
+      "notifications": []
+    },
+    {
+      "id": "u4",
+      "name": "Ananya Rao",
+      "avatar": "User",
+      "level": 15,
+      "xp": 3300,
+      "shieldPoints": 245,
+      "issuesReported": 38,
+      "issuesValidated": 90,
+      "accuracy": 0.91,
+      "neighborhood": "whitefield",
+      "joinedAt": "2026-01-24T15:54:39.754Z",
+      "title": "Guardian",
+      "notifications": []
+    },
+    {
+      "id": "u5",
+      "name": "Rahul Gowda",
+      "avatar": "User",
+      "level": 8,
+      "xp": 1200,
+      "shieldPoints": 85,
+      "issuesReported": 15,
+      "issuesValidated": 30,
+      "accuracy": 0.85,
+      "neighborhood": "hsr_layout",
+      "joinedAt": "2026-04-24T15:54:39.754Z",
+      "title": "Ranger",
+      "notifications": []
+    },
+    {
+      "id": "u6",
+      "name": "Deepika Iyer",
+      "avatar": "User",
+      "level": 10,
+      "xp": 1800,
+      "shieldPoints": 120,
+      "issuesReported": 20,
+      "issuesValidated": 48,
+      "accuracy": 0.9,
+      "neighborhood": "koramangala",
+      "joinedAt": "2026-02-23T15:54:39.754Z",
+      "title": "Ranger",
+      "notifications": []
+    },
+    {
+      "id": "u7",
+      "name": "Suresh Kumar",
+      "avatar": "User",
+      "level": 6,
+      "xp": 800,
+      "shieldPoints": 55,
+      "issuesReported": 10,
+      "issuesValidated": 18,
+      "accuracy": 0.82,
+      "neighborhood": "malleshwaram",
+      "joinedAt": "2026-05-09T15:54:39.754Z",
+      "title": "Ranger",
+      "notifications": []
+    },
+    {
+      "id": "u8",
+      "name": "Meera Joshi",
+      "avatar": "User",
+      "level": 20,
+      "xp": 5800,
+      "shieldPoints": 490,
+      "issuesReported": 65,
+      "issuesValidated": 180,
+      "accuracy": 0.96,
+      "neighborhood": "indiranagar",
+      "joinedAt": "2025-12-05T15:54:39.754Z",
+      "title": "Champion",
+      "notifications": []
+    },
+    {
+      "id": "u9",
+      "name": "Vikram Singh",
+      "avatar": "User",
+      "level": 4,
+      "xp": 450,
+      "shieldPoints": 30,
+      "issuesReported": 6,
+      "issuesValidated": 10,
+      "accuracy": 0.78,
+      "neighborhood": "jayanagar",
+      "joinedAt": "2026-06-03T15:54:39.754Z",
+      "title": "Scout",
+      "notifications": []
+    },
+    {
+      "id": "u10",
+      "name": "Lakshmi Menon",
+      "avatar": "User",
+      "level": 14,
+      "xp": 2900,
+      "shieldPoints": 210,
+      "issuesReported": 32,
+      "issuesValidated": 75,
+      "accuracy": 0.92,
+      "neighborhood": "whitefield",
+      "joinedAt": "2026-02-13T15:54:39.754Z",
+      "title": "Guardian",
+      "notifications": []
+    },
+    {
+      "id": "u11",
+      "name": "Aditya Patel",
+      "avatar": "User",
+      "level": 3,
+      "xp": 280,
+      "shieldPoints": 18,
+      "issuesReported": 4,
+      "issuesValidated": 5,
+      "accuracy": 0.75,
+      "neighborhood": "hsr_layout",
+      "joinedAt": "2026-06-13T15:54:39.754Z",
+      "title": "Scout",
+      "notifications": []
+    },
+    {
+      "id": "u12",
+      "name": "Kavitha Rangan",
+      "avatar": "User",
+      "level": 16,
+      "xp": 3800,
+      "shieldPoints": 290,
+      "issuesReported": 42,
+      "issuesValidated": 95,
+      "accuracy": 0.93,
+      "neighborhood": "malleshwaram",
+      "joinedAt": "2026-01-14T15:54:39.754Z",
+      "title": "Champion",
+      "notifications": []
+    },
+    {
+      "id": "u13",
+      "name": "Mohammed Farhan",
+      "avatar": "User",
+      "level": 9,
+      "xp": 1500,
+      "shieldPoints": 100,
+      "issuesReported": 18,
+      "issuesValidated": 40,
+      "accuracy": 0.87,
+      "neighborhood": "koramangala",
+      "joinedAt": "2026-04-09T15:54:39.754Z",
+      "title": "Ranger",
+      "notifications": []
+    },
+    {
+      "id": "u14",
+      "name": "Sneha Kulkarni",
+      "avatar": "User",
+      "level": 7,
+      "xp": 950,
+      "shieldPoints": 65,
+      "issuesReported": 12,
+      "issuesValidated": 22,
+      "accuracy": 0.84,
+      "neighborhood": "indiranagar",
+      "joinedAt": "2026-05-04T15:54:39.754Z",
+      "title": "Ranger",
+      "notifications": []
+    },
+    {
+      "id": "u15",
+      "name": "Ravi Shankar",
+      "avatar": "User",
+      "level": 11,
+      "xp": 1950,
+      "shieldPoints": 140,
+      "issuesReported": 25,
+      "issuesValidated": 60,
+      "accuracy": 0.89,
+      "neighborhood": "jayanagar",
+      "joinedAt": "2026-03-15T15:54:39.754Z",
+      "title": "Guardian",
+      "notifications": []
+    },
+    {
+      "id": "u-admin-001",
+      "name": "System Admin",
+      "avatar": "ShieldCheck",
+      "email": "admin@gov.in",
+      "password": "admin",
+      "level": 99,
+      "xp": 99999,
+      "shieldPoints": 9999,
+      "issuesReported": 0,
+      "issuesValidated": 0,
+      "accuracy": 1,
+      "neighborhood": "bbmp_hq",
+      "joinedAt": "2025-06-23T15:54:39.959Z",
+      "title": "Administrator",
+      "role": "admin",
+      "notifications": []
+    },
+    {
+      "id": "u1",
+      "name": "Arjun Reddy",
+      "avatar": "User",
+      "level": 18,
+      "xp": 4500,
+      "shieldPoints": 320,
+      "issuesReported": 45,
+      "issuesValidated": 120,
+      "accuracy": 0.94,
+      "neighborhood": "koramangala",
+      "joinedAt": "2025-12-25T15:54:39.958Z",
+      "title": "Champion",
+      "notifications": []
+    },
+    {
+      "id": "u2",
+      "name": "Priya Sharma",
+      "avatar": "User",
+      "level": 22,
+      "xp": 6200,
+      "shieldPoints": 580,
+      "issuesReported": 78,
+      "issuesValidated": 200,
+      "accuracy": 0.97,
+      "neighborhood": "indiranagar",
+      "joinedAt": "2025-10-26T15:54:39.958Z",
+      "title": "Legend",
+      "notifications": []
+    },
+    {
+      "id": "u3",
+      "name": "Karthik Nair",
+      "avatar": "User",
+      "level": 12,
+      "xp": 2100,
+      "shieldPoints": 150,
+      "issuesReported": 22,
+      "issuesValidated": 55,
+      "accuracy": 0.88,
+      "neighborhood": "jayanagar",
+      "joinedAt": "2026-03-25T15:54:39.958Z",
+      "title": "Guardian",
+      "notifications": []
+    },
+    {
+      "id": "u4",
+      "name": "Ananya Rao",
+      "avatar": "User",
+      "level": 15,
+      "xp": 3300,
+      "shieldPoints": 245,
+      "issuesReported": 38,
+      "issuesValidated": 90,
+      "accuracy": 0.91,
+      "neighborhood": "whitefield",
+      "joinedAt": "2026-01-24T15:54:39.958Z",
+      "title": "Guardian",
+      "notifications": []
+    },
+    {
+      "id": "u5",
+      "name": "Rahul Gowda",
+      "avatar": "User",
+      "level": 8,
+      "xp": 1200,
+      "shieldPoints": 85,
+      "issuesReported": 15,
+      "issuesValidated": 30,
+      "accuracy": 0.85,
+      "neighborhood": "hsr_layout",
+      "joinedAt": "2026-04-24T15:54:39.958Z",
+      "title": "Ranger",
+      "notifications": []
+    },
+    {
+      "id": "u6",
+      "name": "Deepika Iyer",
+      "avatar": "User",
+      "level": 10,
+      "xp": 1800,
+      "shieldPoints": 120,
+      "issuesReported": 20,
+      "issuesValidated": 48,
+      "accuracy": 0.9,
+      "neighborhood": "koramangala",
+      "joinedAt": "2026-02-23T15:54:39.958Z",
+      "title": "Ranger",
+      "notifications": []
+    },
+    {
+      "id": "u7",
+      "name": "Suresh Kumar",
+      "avatar": "User",
+      "level": 6,
+      "xp": 800,
+      "shieldPoints": 55,
+      "issuesReported": 10,
+      "issuesValidated": 18,
+      "accuracy": 0.82,
+      "neighborhood": "malleshwaram",
+      "joinedAt": "2026-05-09T15:54:39.958Z",
+      "title": "Ranger",
+      "notifications": []
+    },
+    {
+      "id": "u8",
+      "name": "Meera Joshi",
+      "avatar": "User",
+      "level": 20,
+      "xp": 5800,
+      "shieldPoints": 490,
+      "issuesReported": 65,
+      "issuesValidated": 180,
+      "accuracy": 0.96,
+      "neighborhood": "indiranagar",
+      "joinedAt": "2025-12-05T15:54:39.958Z",
+      "title": "Champion",
+      "notifications": []
+    },
+    {
+      "id": "u9",
+      "name": "Vikram Singh",
+      "avatar": "User",
+      "level": 4,
+      "xp": 450,
+      "shieldPoints": 30,
+      "issuesReported": 6,
+      "issuesValidated": 10,
+      "accuracy": 0.78,
+      "neighborhood": "jayanagar",
+      "joinedAt": "2026-06-03T15:54:39.958Z",
+      "title": "Scout",
+      "notifications": []
+    },
+    {
+      "id": "u10",
+      "name": "Lakshmi Menon",
+      "avatar": "User",
+      "level": 14,
+      "xp": 2900,
+      "shieldPoints": 210,
+      "issuesReported": 32,
+      "issuesValidated": 75,
+      "accuracy": 0.92,
+      "neighborhood": "whitefield",
+      "joinedAt": "2026-02-13T15:54:39.958Z",
+      "title": "Guardian",
+      "notifications": []
+    },
+    {
+      "id": "u11",
+      "name": "Aditya Patel",
+      "avatar": "User",
+      "level": 3,
+      "xp": 280,
+      "shieldPoints": 18,
+      "issuesReported": 4,
+      "issuesValidated": 5,
+      "accuracy": 0.75,
+      "neighborhood": "hsr_layout",
+      "joinedAt": "2026-06-13T15:54:39.959Z",
+      "title": "Scout",
+      "notifications": []
+    },
+    {
+      "id": "u12",
+      "name": "Kavitha Rangan",
+      "avatar": "User",
+      "level": 16,
+      "xp": 3800,
+      "shieldPoints": 290,
+      "issuesReported": 42,
+      "issuesValidated": 95,
+      "accuracy": 0.93,
+      "neighborhood": "malleshwaram",
+      "joinedAt": "2026-01-14T15:54:39.959Z",
+      "title": "Champion",
+      "notifications": []
+    },
+    {
+      "id": "u13",
+      "name": "Mohammed Farhan",
+      "avatar": "User",
+      "level": 9,
+      "xp": 1500,
+      "shieldPoints": 100,
+      "issuesReported": 18,
+      "issuesValidated": 40,
+      "accuracy": 0.87,
+      "neighborhood": "koramangala",
+      "joinedAt": "2026-04-09T15:54:39.959Z",
+      "title": "Ranger",
+      "notifications": []
+    },
+    {
+      "id": "u14",
+      "name": "Sneha Kulkarni",
+      "avatar": "User",
+      "level": 7,
+      "xp": 950,
+      "shieldPoints": 65,
+      "issuesReported": 12,
+      "issuesValidated": 22,
+      "accuracy": 0.84,
+      "neighborhood": "indiranagar",
+      "joinedAt": "2026-05-04T15:54:39.959Z",
+      "title": "Ranger",
+      "notifications": []
+    },
+    {
+      "id": "u15",
+      "name": "Ravi Shankar",
+      "avatar": "User",
+      "level": 11,
+      "xp": 1950,
+      "shieldPoints": 140,
+      "issuesReported": 25,
+      "issuesValidated": 60,
+      "accuracy": 0.89,
+      "neighborhood": "jayanagar",
+      "joinedAt": "2026-03-15T15:54:39.959Z",
+      "title": "Guardian",
+      "notifications": []
+    }
+  ],
+  "issues": [
+    {
+      "id": "iss-001",
+      "category": "pothole",
+      "title": "Deep pothole on 80 Feet Road",
+      "description": "A dangerous pothole approximately 2 feet wide and 8 inches deep has formed on 80 Feet Road near the Koramangala water tank junction. Multiple vehicles have been damaged. The pothole fills with water during rain making it invisible to drivers.",
+      "severity": 8.5,
+      "status": "validated",
+      "reportedBy": "u1",
+      "lat": 12.9352,
+      "lng": 77.619,
+      "neighborhood": "koramangala",
+      "landmark": "Koramangala Water Tank Junction",
+      "reportedAt": "2026-06-20T15:54:39.959Z",
+      "updatedAt": "2026-06-23T09:54:39.959Z",
+      "validators": [
+        "u2",
+        "u3",
+        "u6",
+        "u8"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.92,
+      "stakeTotal": 45,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u1",
+          "at": "2026-06-20T15:54:39.959Z",
+          "note": "Issue reported with photo evidence"
+        },
+        {
+          "action": "validated",
+          "by": "u2",
+          "at": "2026-06-20T15:54:39.959Z",
+          "note": "Confirmed - drove past this today"
+        },
+        {
+          "action": "validated",
+          "by": "u3",
+          "at": "2026-06-21T15:54:39.959Z",
+          "note": "Very dangerous, needs urgent fix"
+        },
+        {
+          "action": "validated",
+          "by": "u6",
+          "at": "2026-06-21T15:54:39.959Z",
+          "note": "Saw a bike skid here yesterday"
+        },
+        {
+          "action": "validated",
+          "by": "u8",
+          "at": "2026-06-22T15:54:39.959Z",
+          "note": "Still unfixed, getting worse"
+        }
+      ],
+      "imageColor": "#6B5B3D",
+      "dna": "POT-KRM-H85-3DA",
+      "upvotes": 12,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-002",
+      "category": "water_leak",
+      "title": "Major water pipeline burst on 12th Main",
+      "description": "A major water pipeline has burst near 12th Main Road, Indiranagar. Water is gushing out and flooding the road. The leak has been ongoing for 2 days with no response from BWSSB. Nearby houses are facing water shortage.",
+      "severity": 9.2,
+      "status": "in_progress",
+      "reportedBy": "u2",
+      "lat": 12.9784,
+      "lng": 77.6408,
+      "neighborhood": "indiranagar",
+      "landmark": "12th Main Indiranagar",
+      "reportedAt": "2026-06-21T15:54:39.959Z",
+      "updatedAt": "2026-06-23T12:54:39.959Z",
+      "validators": [
+        "u1",
+        "u4",
+        "u8",
+        "u14",
+        "u3"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.96,
+      "stakeTotal": 78,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u2",
+          "at": "2026-06-21T15:54:39.959Z",
+          "note": "Massive leak, road flooded"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-21T15:54:39.959Z",
+          "note": "Confirmed, water wasting rapidly"
+        },
+        {
+          "action": "validated",
+          "by": "u4",
+          "at": "2026-06-22T15:54:39.959Z",
+          "note": "Entire road is waterlogged"
+        },
+        {
+          "action": "status_change",
+          "by": "system",
+          "at": "2026-06-23T07:54:39.959Z",
+          "note": "BWSSB team dispatched"
+        },
+        {
+          "action": "in_progress",
+          "by": "system",
+          "at": "2026-06-23T12:54:39.959Z",
+          "note": "Repair work started"
+        }
+      ],
+      "imageColor": "#4A90D9",
+      "dna": "WLK-IND-H92-2DB",
+      "upvotes": 9,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-003",
+      "category": "garbage",
+      "title": "Garbage dumping near park entrance",
+      "description": "Illegal garbage dumping has been happening near the entrance of Jayanagar 4th Block Park. Plastic waste, food scraps, and construction debris piled up. Strong foul smell. Stray dogs gathering in the area creating nuisance.",
+      "severity": 6.8,
+      "status": "validated",
+      "reportedBy": "u3",
+      "lat": 12.926,
+      "lng": 77.582,
+      "neighborhood": "jayanagar",
+      "landmark": "Jayanagar 4th Block Park",
+      "reportedAt": "2026-06-18T15:54:39.959Z",
+      "updatedAt": "2026-06-22T15:54:39.959Z",
+      "validators": [
+        "u9",
+        "u15"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.84,
+      "stakeTotal": 22,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u3",
+          "at": "2026-06-18T15:54:39.959Z",
+          "note": "Garbage pile growing daily"
+        },
+        {
+          "action": "validated",
+          "by": "u9",
+          "at": "2026-06-19T15:54:39.959Z",
+          "note": "Can confirm, very unhygienic"
+        },
+        {
+          "action": "validated",
+          "by": "u15",
+          "at": "2026-06-20T15:54:39.959Z",
+          "note": "BBMP should act immediately"
+        }
+      ],
+      "imageColor": "#8B6914",
+      "dna": "GRB-JAY-H68-5DC",
+      "upvotes": 2,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-004",
+      "category": "streetlight",
+      "title": "Entire street dark - 5 lights out",
+      "description": "Five consecutive streetlights on ITPL Main Road near Whitefield are completely non-functional. The stretch is extremely dark and dangerous at night. There have been reports of chain snatching in this area.",
+      "severity": 8,
+      "status": "reported",
+      "reportedBy": "u4",
+      "lat": 12.9698,
+      "lng": 77.75,
+      "neighborhood": "whitefield",
+      "landmark": "ITPL Main Road",
+      "reportedAt": "2026-06-22T15:54:39.959Z",
+      "updatedAt": "2026-06-22T15:54:39.959Z",
+      "validators": [
+        "u10"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.65,
+      "stakeTotal": 15,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u4",
+          "at": "2026-06-22T15:54:39.959Z",
+          "note": "Extremely dangerous at night"
+        },
+        {
+          "action": "validated",
+          "by": "u10",
+          "at": "2026-06-22T21:54:39.959Z",
+          "note": "Yes, very scary to walk here at night"
+        }
+      ],
+      "imageColor": "#1a1a2e",
+      "dna": "STL-WHT-H80-1DD",
+      "upvotes": 4,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-005",
+      "category": "pothole",
+      "title": "Series of potholes on HSR 27th Main",
+      "description": "Multiple potholes have formed on 27th Main Road, HSR Layout Sector 1. At least 4 large potholes within a 200m stretch. The road was recently dug up for cable laying and never properly restored.",
+      "severity": 7.2,
+      "status": "validated",
+      "reportedBy": "u5",
+      "lat": 12.9116,
+      "lng": 77.6389,
+      "neighborhood": "hsr_layout",
+      "landmark": "HSR 27th Main Road",
+      "reportedAt": "2026-06-16T15:54:39.959Z",
+      "updatedAt": "2026-06-21T15:54:39.959Z",
+      "validators": [
+        "u1",
+        "u11"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.81,
+      "stakeTotal": 18,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u5",
+          "at": "2026-06-16T15:54:39.959Z",
+          "note": "Road is in terrible condition"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-18T15:54:39.959Z",
+          "note": "Confirmed during morning jog"
+        },
+        {
+          "action": "validated",
+          "by": "u11",
+          "at": "2026-06-20T15:54:39.959Z",
+          "note": "My car tire got damaged here"
+        }
+      ],
+      "imageColor": "#5C5040",
+      "dna": "POT-HSR-H72-7DE",
+      "upvotes": 5,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-006",
+      "category": "damage",
+      "title": "Cracked footpath near bus stop",
+      "description": "The footpath near Malleshwaram Circle bus stop has severely cracked and is partially caved in. Pedestrians especially elderly people are at risk. Steel rebar is exposed creating a tripping hazard.",
+      "severity": 7.8,
+      "status": "validated",
+      "reportedBy": "u7",
+      "lat": 12.9966,
+      "lng": 77.5713,
+      "neighborhood": "malleshwaram",
+      "landmark": "Malleshwaram Circle Bus Stop",
+      "reportedAt": "2026-06-19T15:54:39.959Z",
+      "updatedAt": "2026-06-22T15:54:39.959Z",
+      "validators": [
+        "u12",
+        "u15",
+        "u3"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.89,
+      "stakeTotal": 35,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u7",
+          "at": "2026-06-19T15:54:39.959Z",
+          "note": "Footpath is caving in"
+        },
+        {
+          "action": "validated",
+          "by": "u12",
+          "at": "2026-06-20T15:54:39.959Z",
+          "note": "Very dangerous for elderly"
+        },
+        {
+          "action": "validated",
+          "by": "u15",
+          "at": "2026-06-21T15:54:39.959Z",
+          "note": "Exposed rebar is hazardous"
+        },
+        {
+          "action": "validated",
+          "by": "u3",
+          "at": "2026-06-22T15:54:39.959Z",
+          "note": "Someone fell here yesterday"
+        }
+      ],
+      "imageColor": "#7D7368",
+      "dna": "DMG-MAL-H78-4DF",
+      "upvotes": 12,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-007",
+      "category": "garbage",
+      "title": "Construction debris blocking drain",
+      "description": "Construction debris from a nearby building site has been dumped into the storm water drain on 5th Cross, Koramangala. The drain is completely blocked. With monsoon approaching this could cause severe flooding.",
+      "severity": 8.8,
+      "status": "validated",
+      "reportedBy": "u6",
+      "lat": 12.934,
+      "lng": 77.62,
+      "neighborhood": "koramangala",
+      "landmark": "5th Cross Koramangala",
+      "reportedAt": "2026-06-21T15:54:39.959Z",
+      "updatedAt": "2026-06-23T03:54:39.959Z",
+      "validators": [
+        "u1",
+        "u13",
+        "u2",
+        "u8"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.93,
+      "stakeTotal": 55,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u6",
+          "at": "2026-06-21T15:54:39.959Z",
+          "note": "Drain completely blocked by debris"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-21T15:54:39.959Z",
+          "note": "Flooding risk is real"
+        },
+        {
+          "action": "validated",
+          "by": "u13",
+          "at": "2026-06-22T15:54:39.959Z",
+          "note": "Construction site nearby is responsible"
+        },
+        {
+          "action": "validated",
+          "by": "u2",
+          "at": "2026-06-22T15:54:39.959Z",
+          "note": "This needs immediate BBMP action"
+        },
+        {
+          "action": "validated",
+          "by": "u8",
+          "at": "2026-06-23T03:54:39.959Z",
+          "note": "Water already stagnating"
+        }
+      ],
+      "imageColor": "#A09070",
+      "dna": "GRB-KRM-H88-2DG",
+      "upvotes": 13,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-008",
+      "category": "water_leak",
+      "title": "Sewage overflow on residential street",
+      "description": "Sewage is overflowing from a manhole on 3rd Main Road, HSR Layout Sector 2. The entire street is flooded with sewage water. Residents are unable to step out of their homes. Severe health hazard.",
+      "severity": 9.5,
+      "status": "in_progress",
+      "reportedBy": "u5",
+      "lat": 12.913,
+      "lng": 77.635,
+      "neighborhood": "hsr_layout",
+      "landmark": "3rd Main Road HSR Sector 2",
+      "reportedAt": "2026-06-22T15:54:39.959Z",
+      "updatedAt": "2026-06-23T13:54:39.959Z",
+      "validators": [
+        "u1",
+        "u2",
+        "u4",
+        "u6",
+        "u8",
+        "u11"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.98,
+      "stakeTotal": 95,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u5",
+          "at": "2026-06-22T15:54:39.959Z",
+          "note": "Emergency - sewage flooding"
+        },
+        {
+          "action": "validated",
+          "by": "u11",
+          "at": "2026-06-22T15:54:39.959Z",
+          "note": "Confirmed, cannot leave home"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-22T19:54:39.959Z",
+          "note": "Health emergency!"
+        },
+        {
+          "action": "validated",
+          "by": "u2",
+          "at": "2026-06-22T21:54:39.959Z",
+          "note": "BWSSB must respond NOW"
+        },
+        {
+          "action": "status_change",
+          "by": "system",
+          "at": "2026-06-23T10:54:39.959Z",
+          "note": "Emergency team dispatched"
+        },
+        {
+          "action": "in_progress",
+          "by": "system",
+          "at": "2026-06-23T13:54:39.959Z",
+          "note": "Cleanup underway"
+        }
+      ],
+      "imageColor": "#4A6B3D",
+      "dna": "WLK-HSR-H95-1DH",
+      "upvotes": 3,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-009",
+      "category": "pothole",
+      "title": "Crater-sized pothole on service road",
+      "description": "A massive pothole has formed on the Outer Ring Road service road near Marathahalli. The pothole is over 3 feet wide and a foot deep. Already caused two accidents this week.",
+      "severity": 9,
+      "status": "reported",
+      "reportedBy": "u4",
+      "lat": 12.9568,
+      "lng": 77.7011,
+      "neighborhood": "whitefield",
+      "landmark": "ORR Service Road Marathahalli",
+      "reportedAt": "2026-06-23T07:54:39.959Z",
+      "updatedAt": "2026-06-23T07:54:39.959Z",
+      "validators": [],
+      "disputes": [],
+      "swarmConfidence": 0,
+      "stakeTotal": 10,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u4",
+          "at": "2026-06-23T07:54:39.959Z",
+          "note": "Extremely dangerous crater on road"
+        }
+      ],
+      "imageColor": "#4D4030",
+      "dna": "POT-WHT-H90-0DI",
+      "upvotes": 4,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-010",
+      "category": "streetlight",
+      "title": "Flickering streetlight creating hazard",
+      "description": "A streetlight on Church Street, Indiranagar is rapidly flickering on and off causing disorientation to drivers. The strobe-like effect is dangerous for those with photosensitive conditions.",
+      "severity": 5.5,
+      "status": "reported",
+      "reportedBy": "u14",
+      "lat": 12.979,
+      "lng": 77.639,
+      "neighborhood": "indiranagar",
+      "landmark": "Church Street Indiranagar",
+      "reportedAt": "2026-06-22T15:54:39.959Z",
+      "updatedAt": "2026-06-22T15:54:39.959Z",
+      "validators": [
+        "u2"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.58,
+      "stakeTotal": 8,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u14",
+          "at": "2026-06-22T15:54:39.959Z",
+          "note": "Dangerous flickering light"
+        },
+        {
+          "action": "validated",
+          "by": "u2",
+          "at": "2026-06-22T19:54:39.959Z",
+          "note": "Can confirm, very distracting while driving"
+        }
+      ],
+      "imageColor": "#2C2C3E",
+      "dna": "STL-IND-H55-1DJ",
+      "upvotes": 11,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-011",
+      "category": "garbage",
+      "title": "Overflowing garbage bin at market",
+      "description": "The community garbage bin outside KR Market junction has been overflowing for a week. Garbage is spread across the sidewalk. Food waste is attracting rats and stray animals.",
+      "severity": 6.2,
+      "status": "resolved",
+      "reportedBy": "u12",
+      "lat": 12.998,
+      "lng": 77.57,
+      "neighborhood": "malleshwaram",
+      "landmark": "KR Market Junction Malleshwaram",
+      "reportedAt": "2026-06-13T15:54:39.959Z",
+      "updatedAt": "2026-06-20T15:54:39.959Z",
+      "validators": [
+        "u7",
+        "u15",
+        "u3"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.87,
+      "stakeTotal": 28,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u12",
+          "at": "2026-06-13T15:54:39.959Z",
+          "note": "Bin overflowing for days"
+        },
+        {
+          "action": "validated",
+          "by": "u7",
+          "at": "2026-06-14T15:54:39.959Z",
+          "note": "Horrible smell in the area"
+        },
+        {
+          "action": "validated",
+          "by": "u15",
+          "at": "2026-06-15T15:54:39.959Z",
+          "note": "Rats everywhere at night"
+        },
+        {
+          "action": "in_progress",
+          "by": "system",
+          "at": "2026-06-18T15:54:39.959Z",
+          "note": "BBMP pourakarmikas dispatched"
+        },
+        {
+          "action": "resolved",
+          "by": "system",
+          "at": "2026-06-20T15:54:39.959Z",
+          "note": "Bin cleared and sanitized"
+        }
+      ],
+      "imageColor": "#8B7355",
+      "dna": "GRB-MAL-H62-ADK",
+      "upvotes": 4,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-012",
+      "category": "damage",
+      "title": "Broken boundary wall leaning on road",
+      "description": "The boundary wall of an abandoned property on CMH Road is severely leaning towards the road. Large cracks visible. Could collapse any time especially during rain or wind.",
+      "severity": 8.3,
+      "status": "validated",
+      "reportedBy": "u8",
+      "lat": 12.975,
+      "lng": 77.635,
+      "neighborhood": "indiranagar",
+      "landmark": "CMH Road Indiranagar",
+      "reportedAt": "2026-06-20T15:54:39.959Z",
+      "updatedAt": "2026-06-22T15:54:39.959Z",
+      "validators": [
+        "u2",
+        "u14",
+        "u1"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.9,
+      "stakeTotal": 40,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u8",
+          "at": "2026-06-20T15:54:39.959Z",
+          "note": "Wall could collapse anytime"
+        },
+        {
+          "action": "validated",
+          "by": "u2",
+          "at": "2026-06-21T15:54:39.959Z",
+          "note": "Extremely dangerous for pedestrians"
+        },
+        {
+          "action": "validated",
+          "by": "u14",
+          "at": "2026-06-21T15:54:39.959Z",
+          "note": "Cracks are getting wider daily"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-22T15:54:39.959Z",
+          "note": "Needs emergency demolition"
+        }
+      ],
+      "imageColor": "#8A7E6B",
+      "dna": "DMG-IND-H83-3DL",
+      "upvotes": 15,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-013",
+      "category": "pothole",
+      "title": "Road cave-in near metro construction",
+      "description": "The road has partially caved in near the Jayanagar Metro station construction site. A 4-foot wide sinkhole has appeared. Metal barriers have been placed but are inadequate.",
+      "severity": 9.3,
+      "status": "in_progress",
+      "reportedBy": "u15",
+      "lat": 12.929,
+      "lng": 77.583,
+      "neighborhood": "jayanagar",
+      "landmark": "Near Jayanagar Metro Station",
+      "reportedAt": "2026-06-22T15:54:39.959Z",
+      "updatedAt": "2026-06-23T11:54:39.959Z",
+      "validators": [
+        "u3",
+        "u9",
+        "u1",
+        "u2",
+        "u12"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.95,
+      "stakeTotal": 82,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u15",
+          "at": "2026-06-22T15:54:39.959Z",
+          "note": "Road caving in! Emergency!"
+        },
+        {
+          "action": "validated",
+          "by": "u3",
+          "at": "2026-06-22T15:54:39.959Z",
+          "note": "Massive sinkhole forming"
+        },
+        {
+          "action": "validated",
+          "by": "u9",
+          "at": "2026-06-22T19:54:39.959Z",
+          "note": "This is extremely dangerous"
+        },
+        {
+          "action": "in_progress",
+          "by": "system",
+          "at": "2026-06-23T11:54:39.959Z",
+          "note": "Metro contractor team on site"
+        }
+      ],
+      "imageColor": "#3D3528",
+      "dna": "POT-JAY-H93-1DM",
+      "upvotes": 7,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-014",
+      "category": "water_leak",
+      "title": "Tap water running brown/muddy",
+      "description": "Residents on 17th Cross, Malleshwaram have been receiving brown colored water from taps for 3 days. Water smells of mud and is not safe for consumption. BWSSB not responding to complaints.",
+      "severity": 7.5,
+      "status": "validated",
+      "reportedBy": "u7",
+      "lat": 12.995,
+      "lng": 77.573,
+      "neighborhood": "malleshwaram",
+      "landmark": "17th Cross Malleshwaram",
+      "reportedAt": "2026-06-20T15:54:39.959Z",
+      "updatedAt": "2026-06-22T15:54:39.959Z",
+      "validators": [
+        "u12",
+        "u15"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.82,
+      "stakeTotal": 20,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u7",
+          "at": "2026-06-20T15:54:39.959Z",
+          "note": "Brown water from taps"
+        },
+        {
+          "action": "validated",
+          "by": "u12",
+          "at": "2026-06-21T15:54:39.959Z",
+          "note": "Same issue at my house too"
+        },
+        {
+          "action": "validated",
+          "by": "u15",
+          "at": "2026-06-22T15:54:39.959Z",
+          "note": "Buying bottled water now"
+        }
+      ],
+      "imageColor": "#7B6B4E",
+      "dna": "WLK-MAL-H75-3DN",
+      "upvotes": 11,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-015",
+      "category": "streetlight",
+      "title": "Fallen electric pole after storm",
+      "description": "An electric pole has fallen after last night's thunderstorm on 100 Feet Road, Koramangala. Live wires are dangling close to the ground. Area cordoned off by residents using makeshift barriers.",
+      "severity": 9.8,
+      "status": "in_progress",
+      "reportedBy": "u13",
+      "lat": 12.937,
+      "lng": 77.621,
+      "neighborhood": "koramangala",
+      "landmark": "100 Feet Road Koramangala",
+      "reportedAt": "2026-06-23T09:54:39.959Z",
+      "updatedAt": "2026-06-23T14:54:39.959Z",
+      "validators": [
+        "u1",
+        "u6",
+        "u2",
+        "u8",
+        "u3",
+        "u4"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.99,
+      "stakeTotal": 110,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u13",
+          "at": "2026-06-23T09:54:39.959Z",
+          "note": "EMERGENCY - Live wires on road!"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-23T10:54:39.959Z",
+          "note": "Life threatening! Stay away!"
+        },
+        {
+          "action": "validated",
+          "by": "u6",
+          "at": "2026-06-23T10:54:39.959Z",
+          "note": "Called BESCOM emergency"
+        },
+        {
+          "action": "in_progress",
+          "by": "system",
+          "at": "2026-06-23T13:54:39.959Z",
+          "note": "BESCOM team arrived on site"
+        }
+      ],
+      "imageColor": "#1C1C2D",
+      "dna": "STL-KRM-H98-0DO",
+      "upvotes": 6,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-016",
+      "category": "garbage",
+      "title": "Plastic waste choking lake inlet",
+      "description": "Massive amounts of plastic waste have accumulated at the inlet of Agara Lake. The inlet pipe is almost completely blocked. This is causing water stagnation and killing aquatic life.",
+      "severity": 7.8,
+      "status": "validated",
+      "reportedBy": "u1",
+      "lat": 12.92,
+      "lng": 77.638,
+      "neighborhood": "hsr_layout",
+      "landmark": "Agara Lake Inlet",
+      "reportedAt": "2026-06-19T15:54:39.959Z",
+      "updatedAt": "2026-06-22T15:54:39.959Z",
+      "validators": [
+        "u5",
+        "u11",
+        "u6"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.86,
+      "stakeTotal": 30,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u1",
+          "at": "2026-06-19T15:54:39.959Z",
+          "note": "Lake inlet choked with plastic"
+        },
+        {
+          "action": "validated",
+          "by": "u5",
+          "at": "2026-06-20T15:54:39.959Z",
+          "note": "Fish dying in the area"
+        },
+        {
+          "action": "validated",
+          "by": "u11",
+          "at": "2026-06-21T15:54:39.959Z",
+          "note": "This is an ecological disaster"
+        },
+        {
+          "action": "validated",
+          "by": "u6",
+          "at": "2026-06-22T15:54:39.959Z",
+          "note": "Needs NGO + BBMP joint action"
+        }
+      ],
+      "imageColor": "#3D6B4A",
+      "dna": "GRB-HSR-H78-4DP",
+      "upvotes": 16,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-017",
+      "category": "damage",
+      "title": "Bridge railing missing section",
+      "description": "A 10-foot section of the bridge railing on Koramangala inner ring road overpass is completely missing. No warning signs placed. Extremely dangerous for two-wheelers and pedestrians.",
+      "severity": 9,
+      "status": "reported",
+      "reportedBy": "u6",
+      "lat": 12.938,
+      "lng": 77.625,
+      "neighborhood": "koramangala",
+      "landmark": "Koramangala IRR Overpass",
+      "reportedAt": "2026-06-23T03:54:39.959Z",
+      "updatedAt": "2026-06-23T03:54:39.959Z",
+      "validators": [
+        "u1"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.55,
+      "stakeTotal": 12,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u6",
+          "at": "2026-06-23T03:54:39.959Z",
+          "note": "Bridge railing missing - deadly!"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-23T05:54:39.959Z",
+          "note": "This is life-threatening"
+        }
+      ],
+      "imageColor": "#5A5A5A",
+      "dna": "DMG-KRM-H90-0DQ",
+      "upvotes": 15,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-018",
+      "category": "pothole",
+      "title": "Waterlogged road impossible to pass",
+      "description": "The road near Sony Signal, Jayanagar is perpetually waterlogged due to blocked drainage. Vehicles get stuck daily. Auto-rickshaws refuse to go through this route.",
+      "severity": 6.5,
+      "status": "resolved",
+      "reportedBy": "u9",
+      "lat": 12.927,
+      "lng": 77.585,
+      "neighborhood": "jayanagar",
+      "landmark": "Sony Signal Jayanagar",
+      "reportedAt": "2026-06-08T15:54:39.959Z",
+      "updatedAt": "2026-06-18T15:54:39.959Z",
+      "validators": [
+        "u3",
+        "u15"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.83,
+      "stakeTotal": 18,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u9",
+          "at": "2026-06-08T15:54:39.959Z",
+          "note": "Road permanently waterlogged"
+        },
+        {
+          "action": "validated",
+          "by": "u3",
+          "at": "2026-06-09T15:54:39.959Z",
+          "note": "Drainage blocked for months"
+        },
+        {
+          "action": "in_progress",
+          "by": "system",
+          "at": "2026-06-15T15:54:39.959Z",
+          "note": "Drain clearing initiated"
+        },
+        {
+          "action": "resolved",
+          "by": "system",
+          "at": "2026-06-18T15:54:39.959Z",
+          "note": "Drainage restored, road resurfaced"
+        }
+      ],
+      "imageColor": "#506878",
+      "dna": "POT-JAY-H65-FDR",
+      "upvotes": 16,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-019",
+      "category": "other",
+      "title": "Illegal parking blocking ambulance route",
+      "description": "Cars are illegally parked on both sides of the road near Whitefield hospital, reducing it to single lane. Ambulances unable to pass during emergencies. Despite no-parking signs, enforcement is absent.",
+      "severity": 7,
+      "status": "reported",
+      "reportedBy": "u10",
+      "lat": 12.971,
+      "lng": 77.748,
+      "neighborhood": "whitefield",
+      "landmark": "Near Whitefield Hospital",
+      "reportedAt": "2026-06-21T15:54:39.959Z",
+      "updatedAt": "2026-06-21T15:54:39.959Z",
+      "validators": [
+        "u4"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.6,
+      "stakeTotal": 10,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u10",
+          "at": "2026-06-21T15:54:39.959Z",
+          "note": "Ambulances cant get through!"
+        },
+        {
+          "action": "validated",
+          "by": "u4",
+          "at": "2026-06-22T15:54:39.959Z",
+          "note": "Witnessed ambulance stuck in traffic"
+        }
+      ],
+      "imageColor": "#6A6A7A",
+      "dna": "OTH-WHT-H70-2DS",
+      "upvotes": 7,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-020",
+      "category": "water_leak",
+      "title": "Overflowing manhole during rain",
+      "description": "The manhole cover on 3rd Cross, Koramangala overflows every time it rains. Dirty water enters ground floor houses. The manhole cover is also partially broken and a tripping hazard.",
+      "severity": 7,
+      "status": "validated",
+      "reportedBy": "u13",
+      "lat": 12.9345,
+      "lng": 77.623,
+      "neighborhood": "koramangala",
+      "landmark": "3rd Cross Koramangala",
+      "reportedAt": "2026-06-17T15:54:39.959Z",
+      "updatedAt": "2026-06-21T15:54:39.959Z",
+      "validators": [
+        "u1",
+        "u6"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.79,
+      "stakeTotal": 16,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u13",
+          "at": "2026-06-17T15:54:39.959Z",
+          "note": "Manhole overflows during rain"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-18T15:54:39.959Z",
+          "note": "Yes, a recurring problem here"
+        },
+        {
+          "action": "validated",
+          "by": "u6",
+          "at": "2026-06-20T15:54:39.959Z",
+          "note": "My house got flooded last rain"
+        }
+      ],
+      "imageColor": "#5B6B5B",
+      "dna": "WLK-KRM-H70-6DT",
+      "upvotes": 14,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-021",
+      "category": "streetlight",
+      "title": "Sparking transformer box",
+      "description": "An electrical transformer box near Indiranagar BDA Complex is sparking intermittently. Burning smell noticed by passersby. Potential fire hazard.",
+      "severity": 9,
+      "status": "validated",
+      "reportedBy": "u2",
+      "lat": 12.977,
+      "lng": 77.642,
+      "neighborhood": "indiranagar",
+      "landmark": "BDA Complex Indiranagar",
+      "reportedAt": "2026-06-22T21:54:39.959Z",
+      "updatedAt": "2026-06-23T09:54:39.959Z",
+      "validators": [
+        "u8",
+        "u14",
+        "u1"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.91,
+      "stakeTotal": 50,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u2",
+          "at": "2026-06-22T21:54:39.959Z",
+          "note": "Transformer sparking - fire risk!"
+        },
+        {
+          "action": "validated",
+          "by": "u8",
+          "at": "2026-06-22T23:54:39.959Z",
+          "note": "Confirmed, called BESCOM"
+        },
+        {
+          "action": "validated",
+          "by": "u14",
+          "at": "2026-06-23T03:54:39.959Z",
+          "note": "Burning smell getting stronger"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-23T09:54:39.959Z",
+          "note": "Still sparking, no response yet"
+        }
+      ],
+      "imageColor": "#FF6633",
+      "dna": "STL-IND-H90-0DU",
+      "upvotes": 2,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-022",
+      "category": "garbage",
+      "title": "Dead animal carcass on roadside",
+      "description": "A dead stray dog carcass has been lying on the roadside near HSR Layout Sector 4 park for 3 days. BBMP has not removed it despite multiple calls. Health hazard to children playing in the park.",
+      "severity": 6.5,
+      "status": "resolved",
+      "reportedBy": "u11",
+      "lat": 12.908,
+      "lng": 77.64,
+      "neighborhood": "hsr_layout",
+      "landmark": "HSR Sector 4 Park",
+      "reportedAt": "2026-06-15T15:54:39.959Z",
+      "updatedAt": "2026-06-19T15:54:39.959Z",
+      "validators": [
+        "u5"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.62,
+      "stakeTotal": 8,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u11",
+          "at": "2026-06-15T15:54:39.959Z",
+          "note": "Dead animal needs removal"
+        },
+        {
+          "action": "validated",
+          "by": "u5",
+          "at": "2026-06-16T15:54:39.959Z",
+          "note": "Children play near here"
+        },
+        {
+          "action": "in_progress",
+          "by": "system",
+          "at": "2026-06-18T15:54:39.959Z",
+          "note": "BBMP van scheduled"
+        },
+        {
+          "action": "resolved",
+          "by": "system",
+          "at": "2026-06-19T15:54:39.959Z",
+          "note": "Carcass removed and area sanitized"
+        }
+      ],
+      "imageColor": "#666655",
+      "dna": "GRB-HSR-H65-8DV",
+      "upvotes": 5,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-023",
+      "category": "damage",
+      "title": "Collapsed compound wall after rain",
+      "description": "A compound wall of a residential building on 7th Main, Jayanagar collapsed during heavy rain last night. Debris is blocking half the road. No injuries reported but road is partially blocked.",
+      "severity": 6.8,
+      "status": "in_progress",
+      "reportedBy": "u3",
+      "lat": 12.93,
+      "lng": 77.581,
+      "neighborhood": "jayanagar",
+      "landmark": "7th Main Jayanagar",
+      "reportedAt": "2026-06-22T15:54:39.959Z",
+      "updatedAt": "2026-06-23T07:54:39.959Z",
+      "validators": [
+        "u9",
+        "u15"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.8,
+      "stakeTotal": 16,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u3",
+          "at": "2026-06-22T15:54:39.959Z",
+          "note": "Wall collapsed, debris on road"
+        },
+        {
+          "action": "validated",
+          "by": "u9",
+          "at": "2026-06-22T19:54:39.959Z",
+          "note": "Road partially blocked"
+        },
+        {
+          "action": "validated",
+          "by": "u15",
+          "at": "2026-06-22T23:54:39.959Z",
+          "note": "Needs debris clearing"
+        },
+        {
+          "action": "in_progress",
+          "by": "system",
+          "at": "2026-06-23T07:54:39.959Z",
+          "note": "BBMP clearing team dispatched"
+        }
+      ],
+      "imageColor": "#8B7D6B",
+      "dna": "DMG-JAY-H68-1DW",
+      "upvotes": 15,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-024",
+      "category": "other",
+      "title": "Overhanging tree branch on power line",
+      "description": "A large tree branch is resting on a high-tension power line on Sampige Road, Malleshwaram. Risk of power line snapping or fire. BESCOM needs to coordinate with BBMP for trimming.",
+      "severity": 8,
+      "status": "reported",
+      "reportedBy": "u12",
+      "lat": 12.999,
+      "lng": 77.572,
+      "neighborhood": "malleshwaram",
+      "landmark": "Sampige Road Malleshwaram",
+      "reportedAt": "2026-06-23T11:54:39.959Z",
+      "updatedAt": "2026-06-23T11:54:39.959Z",
+      "validators": [],
+      "disputes": [],
+      "swarmConfidence": 0,
+      "stakeTotal": 8,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u12",
+          "at": "2026-06-23T11:54:39.959Z",
+          "note": "Tree on power line - fire risk!"
+        }
+      ],
+      "imageColor": "#2D5A1E",
+      "dna": "OTH-MAL-H80-0DX",
+      "upvotes": 14,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-025",
+      "category": "pothole",
+      "title": "Road surface peeling off in patches",
+      "description": "The newly laid road on Lavelle Road, Indiranagar has started peeling off in large patches just 2 months after resurfacing. Clearly substandard material was used. Tax money wasted.",
+      "severity": 5.8,
+      "status": "reported",
+      "reportedBy": "u14",
+      "lat": 12.976,
+      "lng": 77.638,
+      "neighborhood": "indiranagar",
+      "landmark": "Lavelle Road Indiranagar",
+      "reportedAt": "2026-06-21T15:54:39.959Z",
+      "updatedAt": "2026-06-21T15:54:39.959Z",
+      "validators": [
+        "u2"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.55,
+      "stakeTotal": 6,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u14",
+          "at": "2026-06-21T15:54:39.959Z",
+          "note": "New road already peeling off!"
+        },
+        {
+          "action": "validated",
+          "by": "u2",
+          "at": "2026-06-22T15:54:39.959Z",
+          "note": "Corruption? Just 2 months old"
+        }
+      ],
+      "imageColor": "#4A4A38",
+      "dna": "POT-IND-H58-2DY",
+      "upvotes": 13,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-001",
+      "category": "pothole",
+      "title": "Deep pothole on 80 Feet Road",
+      "description": "A dangerous pothole approximately 2 feet wide and 8 inches deep has formed on 80 Feet Road near the Koramangala water tank junction. Multiple vehicles have been damaged. The pothole fills with water during rain making it invisible to drivers.",
+      "severity": 8.5,
+      "status": "validated",
+      "reportedBy": "u1",
+      "lat": 12.9352,
+      "lng": 77.619,
+      "neighborhood": "koramangala",
+      "landmark": "Koramangala Water Tank Junction",
+      "reportedAt": "2026-06-20T15:54:39.754Z",
+      "updatedAt": "2026-06-23T09:54:39.754Z",
+      "validators": [
+        "u2",
+        "u3",
+        "u6",
+        "u8"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.92,
+      "stakeTotal": 45,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u1",
+          "at": "2026-06-20T15:54:39.754Z",
+          "note": "Issue reported with photo evidence"
+        },
+        {
+          "action": "validated",
+          "by": "u2",
+          "at": "2026-06-20T15:54:39.755Z",
+          "note": "Confirmed - drove past this today"
+        },
+        {
+          "action": "validated",
+          "by": "u3",
+          "at": "2026-06-21T15:54:39.755Z",
+          "note": "Very dangerous, needs urgent fix"
+        },
+        {
+          "action": "validated",
+          "by": "u6",
+          "at": "2026-06-21T15:54:39.755Z",
+          "note": "Saw a bike skid here yesterday"
+        },
+        {
+          "action": "validated",
+          "by": "u8",
+          "at": "2026-06-22T15:54:39.755Z",
+          "note": "Still unfixed, getting worse"
+        }
+      ],
+      "imageColor": "#6B5B3D",
+      "dna": "POT-KRM-H85-3DA",
+      "upvotes": 10,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-002",
+      "category": "water_leak",
+      "title": "Major water pipeline burst on 12th Main",
+      "description": "A major water pipeline has burst near 12th Main Road, Indiranagar. Water is gushing out and flooding the road. The leak has been ongoing for 2 days with no response from BWSSB. Nearby houses are facing water shortage.",
+      "severity": 9.2,
+      "status": "in_progress",
+      "reportedBy": "u2",
+      "lat": 12.9784,
+      "lng": 77.6408,
+      "neighborhood": "indiranagar",
+      "landmark": "12th Main Indiranagar",
+      "reportedAt": "2026-06-21T15:54:39.755Z",
+      "updatedAt": "2026-06-23T12:54:39.755Z",
+      "validators": [
+        "u1",
+        "u4",
+        "u8",
+        "u14",
+        "u3"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.96,
+      "stakeTotal": 78,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u2",
+          "at": "2026-06-21T15:54:39.755Z",
+          "note": "Massive leak, road flooded"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-21T15:54:39.755Z",
+          "note": "Confirmed, water wasting rapidly"
+        },
+        {
+          "action": "validated",
+          "by": "u4",
+          "at": "2026-06-22T15:54:39.755Z",
+          "note": "Entire road is waterlogged"
+        },
+        {
+          "action": "status_change",
+          "by": "system",
+          "at": "2026-06-23T07:54:39.755Z",
+          "note": "BWSSB team dispatched"
+        },
+        {
+          "action": "in_progress",
+          "by": "system",
+          "at": "2026-06-23T12:54:39.755Z",
+          "note": "Repair work started"
+        }
+      ],
+      "imageColor": "#4A90D9",
+      "dna": "WLK-IND-H92-2DB",
+      "upvotes": 6,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-003",
+      "category": "garbage",
+      "title": "Garbage dumping near park entrance",
+      "description": "Illegal garbage dumping has been happening near the entrance of Jayanagar 4th Block Park. Plastic waste, food scraps, and construction debris piled up. Strong foul smell. Stray dogs gathering in the area creating nuisance.",
+      "severity": 6.8,
+      "status": "validated",
+      "reportedBy": "u3",
+      "lat": 12.926,
+      "lng": 77.582,
+      "neighborhood": "jayanagar",
+      "landmark": "Jayanagar 4th Block Park",
+      "reportedAt": "2026-06-18T15:54:39.755Z",
+      "updatedAt": "2026-06-22T15:54:39.755Z",
+      "validators": [
+        "u9",
+        "u15"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.84,
+      "stakeTotal": 22,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u3",
+          "at": "2026-06-18T15:54:39.755Z",
+          "note": "Garbage pile growing daily"
+        },
+        {
+          "action": "validated",
+          "by": "u9",
+          "at": "2026-06-19T15:54:39.755Z",
+          "note": "Can confirm, very unhygienic"
+        },
+        {
+          "action": "validated",
+          "by": "u15",
+          "at": "2026-06-20T15:54:39.755Z",
+          "note": "BBMP should act immediately"
+        }
+      ],
+      "imageColor": "#8B6914",
+      "dna": "GRB-JAY-H68-5DC",
+      "upvotes": 2,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-004",
+      "category": "streetlight",
+      "title": "Entire street dark - 5 lights out",
+      "description": "Five consecutive streetlights on ITPL Main Road near Whitefield are completely non-functional. The stretch is extremely dark and dangerous at night. There have been reports of chain snatching in this area.",
+      "severity": 8,
+      "status": "reported",
+      "reportedBy": "u4",
+      "lat": 12.9698,
+      "lng": 77.75,
+      "neighborhood": "whitefield",
+      "landmark": "ITPL Main Road",
+      "reportedAt": "2026-06-22T15:54:39.755Z",
+      "updatedAt": "2026-06-22T15:54:39.755Z",
+      "validators": [
+        "u10"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.65,
+      "stakeTotal": 15,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u4",
+          "at": "2026-06-22T15:54:39.755Z",
+          "note": "Extremely dangerous at night"
+        },
+        {
+          "action": "validated",
+          "by": "u10",
+          "at": "2026-06-22T21:54:39.755Z",
+          "note": "Yes, very scary to walk here at night"
+        }
+      ],
+      "imageColor": "#1a1a2e",
+      "dna": "STL-WHT-H80-1DD",
+      "upvotes": 16,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-005",
+      "category": "pothole",
+      "title": "Series of potholes on HSR 27th Main",
+      "description": "Multiple potholes have formed on 27th Main Road, HSR Layout Sector 1. At least 4 large potholes within a 200m stretch. The road was recently dug up for cable laying and never properly restored.",
+      "severity": 7.2,
+      "status": "validated",
+      "reportedBy": "u5",
+      "lat": 12.9116,
+      "lng": 77.6389,
+      "neighborhood": "hsr_layout",
+      "landmark": "HSR 27th Main Road",
+      "reportedAt": "2026-06-16T15:54:39.755Z",
+      "updatedAt": "2026-06-21T15:54:39.755Z",
+      "validators": [
+        "u1",
+        "u11"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.81,
+      "stakeTotal": 18,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u5",
+          "at": "2026-06-16T15:54:39.755Z",
+          "note": "Road is in terrible condition"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-18T15:54:39.755Z",
+          "note": "Confirmed during morning jog"
+        },
+        {
+          "action": "validated",
+          "by": "u11",
+          "at": "2026-06-20T15:54:39.755Z",
+          "note": "My car tire got damaged here"
+        }
+      ],
+      "imageColor": "#5C5040",
+      "dna": "POT-HSR-H72-7DE",
+      "upvotes": 4,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-006",
+      "category": "damage",
+      "title": "Cracked footpath near bus stop",
+      "description": "The footpath near Malleshwaram Circle bus stop has severely cracked and is partially caved in. Pedestrians especially elderly people are at risk. Steel rebar is exposed creating a tripping hazard.",
+      "severity": 7.8,
+      "status": "validated",
+      "reportedBy": "u7",
+      "lat": 12.9966,
+      "lng": 77.5713,
+      "neighborhood": "malleshwaram",
+      "landmark": "Malleshwaram Circle Bus Stop",
+      "reportedAt": "2026-06-19T15:54:39.755Z",
+      "updatedAt": "2026-06-22T15:54:39.755Z",
+      "validators": [
+        "u12",
+        "u15",
+        "u3"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.89,
+      "stakeTotal": 35,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u7",
+          "at": "2026-06-19T15:54:39.755Z",
+          "note": "Footpath is caving in"
+        },
+        {
+          "action": "validated",
+          "by": "u12",
+          "at": "2026-06-20T15:54:39.755Z",
+          "note": "Very dangerous for elderly"
+        },
+        {
+          "action": "validated",
+          "by": "u15",
+          "at": "2026-06-21T15:54:39.755Z",
+          "note": "Exposed rebar is hazardous"
+        },
+        {
+          "action": "validated",
+          "by": "u3",
+          "at": "2026-06-22T15:54:39.755Z",
+          "note": "Someone fell here yesterday"
+        }
+      ],
+      "imageColor": "#7D7368",
+      "dna": "DMG-MAL-H78-4DF",
+      "upvotes": 16,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-007",
+      "category": "garbage",
+      "title": "Construction debris blocking drain",
+      "description": "Construction debris from a nearby building site has been dumped into the storm water drain on 5th Cross, Koramangala. The drain is completely blocked. With monsoon approaching this could cause severe flooding.",
+      "severity": 8.8,
+      "status": "validated",
+      "reportedBy": "u6",
+      "lat": 12.934,
+      "lng": 77.62,
+      "neighborhood": "koramangala",
+      "landmark": "5th Cross Koramangala",
+      "reportedAt": "2026-06-21T15:54:39.755Z",
+      "updatedAt": "2026-06-23T03:54:39.755Z",
+      "validators": [
+        "u1",
+        "u13",
+        "u2",
+        "u8"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.93,
+      "stakeTotal": 55,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u6",
+          "at": "2026-06-21T15:54:39.755Z",
+          "note": "Drain completely blocked by debris"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-21T15:54:39.755Z",
+          "note": "Flooding risk is real"
+        },
+        {
+          "action": "validated",
+          "by": "u13",
+          "at": "2026-06-22T15:54:39.755Z",
+          "note": "Construction site nearby is responsible"
+        },
+        {
+          "action": "validated",
+          "by": "u2",
+          "at": "2026-06-22T15:54:39.755Z",
+          "note": "This needs immediate BBMP action"
+        },
+        {
+          "action": "validated",
+          "by": "u8",
+          "at": "2026-06-23T03:54:39.755Z",
+          "note": "Water already stagnating"
+        }
+      ],
+      "imageColor": "#A09070",
+      "dna": "GRB-KRM-H88-2DG",
+      "upvotes": 3,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-008",
+      "category": "water_leak",
+      "title": "Sewage overflow on residential street",
+      "description": "Sewage is overflowing from a manhole on 3rd Main Road, HSR Layout Sector 2. The entire street is flooded with sewage water. Residents are unable to step out of their homes. Severe health hazard.",
+      "severity": 9.5,
+      "status": "in_progress",
+      "reportedBy": "u5",
+      "lat": 12.913,
+      "lng": 77.635,
+      "neighborhood": "hsr_layout",
+      "landmark": "3rd Main Road HSR Sector 2",
+      "reportedAt": "2026-06-22T15:54:39.755Z",
+      "updatedAt": "2026-06-23T13:54:39.755Z",
+      "validators": [
+        "u1",
+        "u2",
+        "u4",
+        "u6",
+        "u8",
+        "u11"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.98,
+      "stakeTotal": 95,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u5",
+          "at": "2026-06-22T15:54:39.755Z",
+          "note": "Emergency - sewage flooding"
+        },
+        {
+          "action": "validated",
+          "by": "u11",
+          "at": "2026-06-22T15:54:39.755Z",
+          "note": "Confirmed, cannot leave home"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-22T19:54:39.755Z",
+          "note": "Health emergency!"
+        },
+        {
+          "action": "validated",
+          "by": "u2",
+          "at": "2026-06-22T21:54:39.755Z",
+          "note": "BWSSB must respond NOW"
+        },
+        {
+          "action": "status_change",
+          "by": "system",
+          "at": "2026-06-23T10:54:39.755Z",
+          "note": "Emergency team dispatched"
+        },
+        {
+          "action": "in_progress",
+          "by": "system",
+          "at": "2026-06-23T13:54:39.755Z",
+          "note": "Cleanup underway"
+        }
+      ],
+      "imageColor": "#4A6B3D",
+      "dna": "WLK-HSR-H95-1DH",
+      "upvotes": 4,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-009",
+      "category": "pothole",
+      "title": "Crater-sized pothole on service road",
+      "description": "A massive pothole has formed on the Outer Ring Road service road near Marathahalli. The pothole is over 3 feet wide and a foot deep. Already caused two accidents this week.",
+      "severity": 9,
+      "status": "reported",
+      "reportedBy": "u4",
+      "lat": 12.9568,
+      "lng": 77.7011,
+      "neighborhood": "whitefield",
+      "landmark": "ORR Service Road Marathahalli",
+      "reportedAt": "2026-06-23T07:54:39.755Z",
+      "updatedAt": "2026-06-23T07:54:39.755Z",
+      "validators": [],
+      "disputes": [],
+      "swarmConfidence": 0,
+      "stakeTotal": 10,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u4",
+          "at": "2026-06-23T07:54:39.755Z",
+          "note": "Extremely dangerous crater on road"
+        }
+      ],
+      "imageColor": "#4D4030",
+      "dna": "POT-WHT-H90-0DI",
+      "upvotes": 16,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-010",
+      "category": "streetlight",
+      "title": "Flickering streetlight creating hazard",
+      "description": "A streetlight on Church Street, Indiranagar is rapidly flickering on and off causing disorientation to drivers. The strobe-like effect is dangerous for those with photosensitive conditions.",
+      "severity": 5.5,
+      "status": "reported",
+      "reportedBy": "u14",
+      "lat": 12.979,
+      "lng": 77.639,
+      "neighborhood": "indiranagar",
+      "landmark": "Church Street Indiranagar",
+      "reportedAt": "2026-06-22T15:54:39.755Z",
+      "updatedAt": "2026-06-22T15:54:39.755Z",
+      "validators": [
+        "u2"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.58,
+      "stakeTotal": 8,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u14",
+          "at": "2026-06-22T15:54:39.755Z",
+          "note": "Dangerous flickering light"
+        },
+        {
+          "action": "validated",
+          "by": "u2",
+          "at": "2026-06-22T19:54:39.755Z",
+          "note": "Can confirm, very distracting while driving"
+        }
+      ],
+      "imageColor": "#2C2C3E",
+      "dna": "STL-IND-H55-1DJ",
+      "upvotes": 15,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-011",
+      "category": "garbage",
+      "title": "Overflowing garbage bin at market",
+      "description": "The community garbage bin outside KR Market junction has been overflowing for a week. Garbage is spread across the sidewalk. Food waste is attracting rats and stray animals.",
+      "severity": 6.2,
+      "status": "resolved",
+      "reportedBy": "u12",
+      "lat": 12.998,
+      "lng": 77.57,
+      "neighborhood": "malleshwaram",
+      "landmark": "KR Market Junction Malleshwaram",
+      "reportedAt": "2026-06-13T15:54:39.755Z",
+      "updatedAt": "2026-06-20T15:54:39.755Z",
+      "validators": [
+        "u7",
+        "u15",
+        "u3"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.87,
+      "stakeTotal": 28,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u12",
+          "at": "2026-06-13T15:54:39.755Z",
+          "note": "Bin overflowing for days"
+        },
+        {
+          "action": "validated",
+          "by": "u7",
+          "at": "2026-06-14T15:54:39.755Z",
+          "note": "Horrible smell in the area"
+        },
+        {
+          "action": "validated",
+          "by": "u15",
+          "at": "2026-06-15T15:54:39.755Z",
+          "note": "Rats everywhere at night"
+        },
+        {
+          "action": "in_progress",
+          "by": "system",
+          "at": "2026-06-18T15:54:39.755Z",
+          "note": "BBMP pourakarmikas dispatched"
+        },
+        {
+          "action": "resolved",
+          "by": "system",
+          "at": "2026-06-20T15:54:39.755Z",
+          "note": "Bin cleared and sanitized"
+        }
+      ],
+      "imageColor": "#8B7355",
+      "dna": "GRB-MAL-H62-ADK",
+      "upvotes": 3,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-012",
+      "category": "damage",
+      "title": "Broken boundary wall leaning on road",
+      "description": "The boundary wall of an abandoned property on CMH Road is severely leaning towards the road. Large cracks visible. Could collapse any time especially during rain or wind.",
+      "severity": 8.3,
+      "status": "validated",
+      "reportedBy": "u8",
+      "lat": 12.975,
+      "lng": 77.635,
+      "neighborhood": "indiranagar",
+      "landmark": "CMH Road Indiranagar",
+      "reportedAt": "2026-06-20T15:54:39.755Z",
+      "updatedAt": "2026-06-22T15:54:39.755Z",
+      "validators": [
+        "u2",
+        "u14",
+        "u1"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.9,
+      "stakeTotal": 40,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u8",
+          "at": "2026-06-20T15:54:39.755Z",
+          "note": "Wall could collapse anytime"
+        },
+        {
+          "action": "validated",
+          "by": "u2",
+          "at": "2026-06-21T15:54:39.755Z",
+          "note": "Extremely dangerous for pedestrians"
+        },
+        {
+          "action": "validated",
+          "by": "u14",
+          "at": "2026-06-21T15:54:39.755Z",
+          "note": "Cracks are getting wider daily"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-22T15:54:39.755Z",
+          "note": "Needs emergency demolition"
+        }
+      ],
+      "imageColor": "#8A7E6B",
+      "dna": "DMG-IND-H83-3DL",
+      "upvotes": 8,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-013",
+      "category": "pothole",
+      "title": "Road cave-in near metro construction",
+      "description": "The road has partially caved in near the Jayanagar Metro station construction site. A 4-foot wide sinkhole has appeared. Metal barriers have been placed but are inadequate.",
+      "severity": 9.3,
+      "status": "in_progress",
+      "reportedBy": "u15",
+      "lat": 12.929,
+      "lng": 77.583,
+      "neighborhood": "jayanagar",
+      "landmark": "Near Jayanagar Metro Station",
+      "reportedAt": "2026-06-22T15:54:39.755Z",
+      "updatedAt": "2026-06-23T11:54:39.755Z",
+      "validators": [
+        "u3",
+        "u9",
+        "u1",
+        "u2",
+        "u12"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.95,
+      "stakeTotal": 82,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u15",
+          "at": "2026-06-22T15:54:39.755Z",
+          "note": "Road caving in! Emergency!"
+        },
+        {
+          "action": "validated",
+          "by": "u3",
+          "at": "2026-06-22T15:54:39.755Z",
+          "note": "Massive sinkhole forming"
+        },
+        {
+          "action": "validated",
+          "by": "u9",
+          "at": "2026-06-22T19:54:39.755Z",
+          "note": "This is extremely dangerous"
+        },
+        {
+          "action": "in_progress",
+          "by": "system",
+          "at": "2026-06-23T11:54:39.755Z",
+          "note": "Metro contractor team on site"
+        }
+      ],
+      "imageColor": "#3D3528",
+      "dna": "POT-JAY-H93-1DM",
+      "upvotes": 2,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-014",
+      "category": "water_leak",
+      "title": "Tap water running brown/muddy",
+      "description": "Residents on 17th Cross, Malleshwaram have been receiving brown colored water from taps for 3 days. Water smells of mud and is not safe for consumption. BWSSB not responding to complaints.",
+      "severity": 7.5,
+      "status": "validated",
+      "reportedBy": "u7",
+      "lat": 12.995,
+      "lng": 77.573,
+      "neighborhood": "malleshwaram",
+      "landmark": "17th Cross Malleshwaram",
+      "reportedAt": "2026-06-20T15:54:39.755Z",
+      "updatedAt": "2026-06-22T15:54:39.755Z",
+      "validators": [
+        "u12",
+        "u15"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.82,
+      "stakeTotal": 20,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u7",
+          "at": "2026-06-20T15:54:39.755Z",
+          "note": "Brown water from taps"
+        },
+        {
+          "action": "validated",
+          "by": "u12",
+          "at": "2026-06-21T15:54:39.755Z",
+          "note": "Same issue at my house too"
+        },
+        {
+          "action": "validated",
+          "by": "u15",
+          "at": "2026-06-22T15:54:39.755Z",
+          "note": "Buying bottled water now"
+        }
+      ],
+      "imageColor": "#7B6B4E",
+      "dna": "WLK-MAL-H75-3DN",
+      "upvotes": 15,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-015",
+      "category": "streetlight",
+      "title": "Fallen electric pole after storm",
+      "description": "An electric pole has fallen after last night's thunderstorm on 100 Feet Road, Koramangala. Live wires are dangling close to the ground. Area cordoned off by residents using makeshift barriers.",
+      "severity": 9.8,
+      "status": "in_progress",
+      "reportedBy": "u13",
+      "lat": 12.937,
+      "lng": 77.621,
+      "neighborhood": "koramangala",
+      "landmark": "100 Feet Road Koramangala",
+      "reportedAt": "2026-06-23T09:54:39.755Z",
+      "updatedAt": "2026-06-23T14:54:39.755Z",
+      "validators": [
+        "u1",
+        "u6",
+        "u2",
+        "u8",
+        "u3",
+        "u4"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.99,
+      "stakeTotal": 110,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u13",
+          "at": "2026-06-23T09:54:39.755Z",
+          "note": "EMERGENCY - Live wires on road!"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-23T10:54:39.755Z",
+          "note": "Life threatening! Stay away!"
+        },
+        {
+          "action": "validated",
+          "by": "u6",
+          "at": "2026-06-23T10:54:39.755Z",
+          "note": "Called BESCOM emergency"
+        },
+        {
+          "action": "in_progress",
+          "by": "system",
+          "at": "2026-06-23T13:54:39.755Z",
+          "note": "BESCOM team arrived on site"
+        }
+      ],
+      "imageColor": "#1C1C2D",
+      "dna": "STL-KRM-H98-0DO",
+      "upvotes": 16,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-016",
+      "category": "garbage",
+      "title": "Plastic waste choking lake inlet",
+      "description": "Massive amounts of plastic waste have accumulated at the inlet of Agara Lake. The inlet pipe is almost completely blocked. This is causing water stagnation and killing aquatic life.",
+      "severity": 7.8,
+      "status": "validated",
+      "reportedBy": "u1",
+      "lat": 12.92,
+      "lng": 77.638,
+      "neighborhood": "hsr_layout",
+      "landmark": "Agara Lake Inlet",
+      "reportedAt": "2026-06-19T15:54:39.755Z",
+      "updatedAt": "2026-06-22T15:54:39.755Z",
+      "validators": [
+        "u5",
+        "u11",
+        "u6"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.86,
+      "stakeTotal": 30,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u1",
+          "at": "2026-06-19T15:54:39.755Z",
+          "note": "Lake inlet choked with plastic"
+        },
+        {
+          "action": "validated",
+          "by": "u5",
+          "at": "2026-06-20T15:54:39.755Z",
+          "note": "Fish dying in the area"
+        },
+        {
+          "action": "validated",
+          "by": "u11",
+          "at": "2026-06-21T15:54:39.755Z",
+          "note": "This is an ecological disaster"
+        },
+        {
+          "action": "validated",
+          "by": "u6",
+          "at": "2026-06-22T15:54:39.755Z",
+          "note": "Needs NGO + BBMP joint action"
+        }
+      ],
+      "imageColor": "#3D6B4A",
+      "dna": "GRB-HSR-H78-4DP",
+      "upvotes": 8,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-017",
+      "category": "damage",
+      "title": "Bridge railing missing section",
+      "description": "A 10-foot section of the bridge railing on Koramangala inner ring road overpass is completely missing. No warning signs placed. Extremely dangerous for two-wheelers and pedestrians.",
+      "severity": 9,
+      "status": "reported",
+      "reportedBy": "u6",
+      "lat": 12.938,
+      "lng": 77.625,
+      "neighborhood": "koramangala",
+      "landmark": "Koramangala IRR Overpass",
+      "reportedAt": "2026-06-23T03:54:39.755Z",
+      "updatedAt": "2026-06-23T03:54:39.755Z",
+      "validators": [
+        "u1"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.55,
+      "stakeTotal": 12,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u6",
+          "at": "2026-06-23T03:54:39.755Z",
+          "note": "Bridge railing missing - deadly!"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-23T05:54:39.755Z",
+          "note": "This is life-threatening"
+        }
+      ],
+      "imageColor": "#5A5A5A",
+      "dna": "DMG-KRM-H90-0DQ",
+      "upvotes": 2,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-018",
+      "category": "pothole",
+      "title": "Waterlogged road impossible to pass",
+      "description": "The road near Sony Signal, Jayanagar is perpetually waterlogged due to blocked drainage. Vehicles get stuck daily. Auto-rickshaws refuse to go through this route.",
+      "severity": 6.5,
+      "status": "resolved",
+      "reportedBy": "u9",
+      "lat": 12.927,
+      "lng": 77.585,
+      "neighborhood": "jayanagar",
+      "landmark": "Sony Signal Jayanagar",
+      "reportedAt": "2026-06-08T15:54:39.755Z",
+      "updatedAt": "2026-06-18T15:54:39.755Z",
+      "validators": [
+        "u3",
+        "u15"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.83,
+      "stakeTotal": 18,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u9",
+          "at": "2026-06-08T15:54:39.755Z",
+          "note": "Road permanently waterlogged"
+        },
+        {
+          "action": "validated",
+          "by": "u3",
+          "at": "2026-06-09T15:54:39.755Z",
+          "note": "Drainage blocked for months"
+        },
+        {
+          "action": "in_progress",
+          "by": "system",
+          "at": "2026-06-15T15:54:39.755Z",
+          "note": "Drain clearing initiated"
+        },
+        {
+          "action": "resolved",
+          "by": "system",
+          "at": "2026-06-18T15:54:39.755Z",
+          "note": "Drainage restored, road resurfaced"
+        }
+      ],
+      "imageColor": "#506878",
+      "dna": "POT-JAY-H65-FDR",
+      "upvotes": 11,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-019",
+      "category": "other",
+      "title": "Illegal parking blocking ambulance route",
+      "description": "Cars are illegally parked on both sides of the road near Whitefield hospital, reducing it to single lane. Ambulances unable to pass during emergencies. Despite no-parking signs, enforcement is absent.",
+      "severity": 7,
+      "status": "reported",
+      "reportedBy": "u10",
+      "lat": 12.971,
+      "lng": 77.748,
+      "neighborhood": "whitefield",
+      "landmark": "Near Whitefield Hospital",
+      "reportedAt": "2026-06-21T15:54:39.755Z",
+      "updatedAt": "2026-06-21T15:54:39.755Z",
+      "validators": [
+        "u4"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.6,
+      "stakeTotal": 10,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u10",
+          "at": "2026-06-21T15:54:39.755Z",
+          "note": "Ambulances cant get through!"
+        },
+        {
+          "action": "validated",
+          "by": "u4",
+          "at": "2026-06-22T15:54:39.755Z",
+          "note": "Witnessed ambulance stuck in traffic"
+        }
+      ],
+      "imageColor": "#6A6A7A",
+      "dna": "OTH-WHT-H70-2DS",
+      "upvotes": 9,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-020",
+      "category": "water_leak",
+      "title": "Overflowing manhole during rain",
+      "description": "The manhole cover on 3rd Cross, Koramangala overflows every time it rains. Dirty water enters ground floor houses. The manhole cover is also partially broken and a tripping hazard.",
+      "severity": 7,
+      "status": "validated",
+      "reportedBy": "u13",
+      "lat": 12.9345,
+      "lng": 77.623,
+      "neighborhood": "koramangala",
+      "landmark": "3rd Cross Koramangala",
+      "reportedAt": "2026-06-17T15:54:39.755Z",
+      "updatedAt": "2026-06-21T15:54:39.755Z",
+      "validators": [
+        "u1",
+        "u6"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.79,
+      "stakeTotal": 16,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u13",
+          "at": "2026-06-17T15:54:39.755Z",
+          "note": "Manhole overflows during rain"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-18T15:54:39.755Z",
+          "note": "Yes, a recurring problem here"
+        },
+        {
+          "action": "validated",
+          "by": "u6",
+          "at": "2026-06-20T15:54:39.755Z",
+          "note": "My house got flooded last rain"
+        }
+      ],
+      "imageColor": "#5B6B5B",
+      "dna": "WLK-KRM-H70-6DT",
+      "upvotes": 11,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-021",
+      "category": "streetlight",
+      "title": "Sparking transformer box",
+      "description": "An electrical transformer box near Indiranagar BDA Complex is sparking intermittently. Burning smell noticed by passersby. Potential fire hazard.",
+      "severity": 9,
+      "status": "validated",
+      "reportedBy": "u2",
+      "lat": 12.977,
+      "lng": 77.642,
+      "neighborhood": "indiranagar",
+      "landmark": "BDA Complex Indiranagar",
+      "reportedAt": "2026-06-22T21:54:39.755Z",
+      "updatedAt": "2026-06-23T09:54:39.755Z",
+      "validators": [
+        "u8",
+        "u14",
+        "u1"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.91,
+      "stakeTotal": 50,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u2",
+          "at": "2026-06-22T21:54:39.755Z",
+          "note": "Transformer sparking - fire risk!"
+        },
+        {
+          "action": "validated",
+          "by": "u8",
+          "at": "2026-06-22T23:54:39.755Z",
+          "note": "Confirmed, called BESCOM"
+        },
+        {
+          "action": "validated",
+          "by": "u14",
+          "at": "2026-06-23T03:54:39.755Z",
+          "note": "Burning smell getting stronger"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-23T09:54:39.755Z",
+          "note": "Still sparking, no response yet"
+        }
+      ],
+      "imageColor": "#FF6633",
+      "dna": "STL-IND-H90-0DU",
+      "upvotes": 7,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-022",
+      "category": "garbage",
+      "title": "Dead animal carcass on roadside",
+      "description": "A dead stray dog carcass has been lying on the roadside near HSR Layout Sector 4 park for 3 days. BBMP has not removed it despite multiple calls. Health hazard to children playing in the park.",
+      "severity": 6.5,
+      "status": "resolved",
+      "reportedBy": "u11",
+      "lat": 12.908,
+      "lng": 77.64,
+      "neighborhood": "hsr_layout",
+      "landmark": "HSR Sector 4 Park",
+      "reportedAt": "2026-06-15T15:54:39.755Z",
+      "updatedAt": "2026-06-19T15:54:39.755Z",
+      "validators": [
+        "u5"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.62,
+      "stakeTotal": 8,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u11",
+          "at": "2026-06-15T15:54:39.755Z",
+          "note": "Dead animal needs removal"
+        },
+        {
+          "action": "validated",
+          "by": "u5",
+          "at": "2026-06-16T15:54:39.755Z",
+          "note": "Children play near here"
+        },
+        {
+          "action": "in_progress",
+          "by": "system",
+          "at": "2026-06-18T15:54:39.755Z",
+          "note": "BBMP van scheduled"
+        },
+        {
+          "action": "resolved",
+          "by": "system",
+          "at": "2026-06-19T15:54:39.755Z",
+          "note": "Carcass removed and area sanitized"
+        }
+      ],
+      "imageColor": "#666655",
+      "dna": "GRB-HSR-H65-8DV",
+      "upvotes": 15,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-023",
+      "category": "damage",
+      "title": "Collapsed compound wall after rain",
+      "description": "A compound wall of a residential building on 7th Main, Jayanagar collapsed during heavy rain last night. Debris is blocking half the road. No injuries reported but road is partially blocked.",
+      "severity": 6.8,
+      "status": "in_progress",
+      "reportedBy": "u3",
+      "lat": 12.93,
+      "lng": 77.581,
+      "neighborhood": "jayanagar",
+      "landmark": "7th Main Jayanagar",
+      "reportedAt": "2026-06-22T15:54:39.755Z",
+      "updatedAt": "2026-06-23T07:54:39.755Z",
+      "validators": [
+        "u9",
+        "u15"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.8,
+      "stakeTotal": 16,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u3",
+          "at": "2026-06-22T15:54:39.755Z",
+          "note": "Wall collapsed, debris on road"
+        },
+        {
+          "action": "validated",
+          "by": "u9",
+          "at": "2026-06-22T19:54:39.755Z",
+          "note": "Road partially blocked"
+        },
+        {
+          "action": "validated",
+          "by": "u15",
+          "at": "2026-06-22T23:54:39.755Z",
+          "note": "Needs debris clearing"
+        },
+        {
+          "action": "in_progress",
+          "by": "system",
+          "at": "2026-06-23T07:54:39.755Z",
+          "note": "BBMP clearing team dispatched"
+        }
+      ],
+      "imageColor": "#8B7D6B",
+      "dna": "DMG-JAY-H68-1DW",
+      "upvotes": 15,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-024",
+      "category": "other",
+      "title": "Overhanging tree branch on power line",
+      "description": "A large tree branch is resting on a high-tension power line on Sampige Road, Malleshwaram. Risk of power line snapping or fire. BESCOM needs to coordinate with BBMP for trimming.",
+      "severity": 8,
+      "status": "reported",
+      "reportedBy": "u12",
+      "lat": 12.999,
+      "lng": 77.572,
+      "neighborhood": "malleshwaram",
+      "landmark": "Sampige Road Malleshwaram",
+      "reportedAt": "2026-06-23T11:54:39.755Z",
+      "updatedAt": "2026-06-23T11:54:39.755Z",
+      "validators": [],
+      "disputes": [],
+      "swarmConfidence": 0,
+      "stakeTotal": 8,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u12",
+          "at": "2026-06-23T11:54:39.755Z",
+          "note": "Tree on power line - fire risk!"
+        }
+      ],
+      "imageColor": "#2D5A1E",
+      "dna": "OTH-MAL-H80-0DX",
+      "upvotes": 6,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-025",
+      "category": "pothole",
+      "title": "Road surface peeling off in patches",
+      "description": "The newly laid road on Lavelle Road, Indiranagar has started peeling off in large patches just 2 months after resurfacing. Clearly substandard material was used. Tax money wasted.",
+      "severity": 5.8,
+      "status": "reported",
+      "reportedBy": "u14",
+      "lat": 12.976,
+      "lng": 77.638,
+      "neighborhood": "indiranagar",
+      "landmark": "Lavelle Road Indiranagar",
+      "reportedAt": "2026-06-21T15:54:39.755Z",
+      "updatedAt": "2026-06-21T15:54:39.755Z",
+      "validators": [
+        "u2"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.55,
+      "stakeTotal": 6,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u14",
+          "at": "2026-06-21T15:54:39.755Z",
+          "note": "New road already peeling off!"
+        },
+        {
+          "action": "validated",
+          "by": "u2",
+          "at": "2026-06-22T15:54:39.755Z",
+          "note": "Corruption? Just 2 months old"
+        }
+      ],
+      "imageColor": "#4A4A38",
+      "dna": "POT-IND-H58-2DY",
+      "upvotes": 11,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-1782228754457",
+      "category": "garbage",
+      "title": "Unsanitary conditions at Reported Location",
+      "description": "A early-stage garbage / waste dump issue has been identified near Reported Location. The issue creates unsanitary conditions for residents. Regular garbage collection seems disrupted. The affected area spans approximately 10 sq meters. Recommended priority: LOW.",
+      "severity": 1.5559109300374985,
+      "status": "reported",
+      "reportedBy": "u-admin-001",
+      "lat": 23.239514671295474,
+      "lng": 77.523215694356,
+      "neighborhood": "koramangala",
+      "landmark": "Reported Location",
+      "reportedAt": "2026-06-23T15:32:34.457Z",
+      "updatedAt": "2026-06-23T15:32:34.457Z",
+      "validators": [],
+      "disputes": [],
+      "swarmConfidence": 0,
+      "stakeTotal": 5,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u-admin-001",
+          "at": "2026-06-23T15:32:34.457Z",
+          "note": "Issue reported via CivicTech Command"
+        }
+      ],
+      "imageColor": "#606060",
+      "dna": "GRB-TSP-H16-EJ7"
+    },
+    {
+      "id": "iss-001",
+      "category": "pothole",
+      "title": "Deep pothole on 80 Feet Road",
+      "description": "A dangerous pothole approximately 2 feet wide and 8 inches deep has formed on 80 Feet Road near the Koramangala water tank junction. Multiple vehicles have been damaged. The pothole fills with water during rain making it invisible to drivers.",
+      "severity": 8.5,
+      "status": "in_progress",
+      "reportedBy": "u1",
+      "lat": 12.9352,
+      "lng": 77.619,
+      "neighborhood": "koramangala",
+      "landmark": "Koramangala Water Tank Junction",
+      "reportedAt": "2026-06-20T15:21:55.975Z",
+      "updatedAt": "2026-06-23T09:21:55.975Z",
+      "validators": [
+        "u2",
+        "u3",
+        "u6",
+        "u8"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.92,
+      "stakeTotal": 45,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u1",
+          "at": "2026-06-20T15:21:55.975Z",
+          "note": "Issue reported with photo evidence"
+        },
+        {
+          "action": "validated",
+          "by": "u2",
+          "at": "2026-06-20T15:21:55.975Z",
+          "note": "Confirmed - drove past this today"
+        },
+        {
+          "action": "validated",
+          "by": "u3",
+          "at": "2026-06-21T15:21:55.975Z",
+          "note": "Very dangerous, needs urgent fix"
+        },
+        {
+          "action": "validated",
+          "by": "u6",
+          "at": "2026-06-21T15:21:55.975Z",
+          "note": "Saw a bike skid here yesterday"
+        },
+        {
+          "action": "validated",
+          "by": "u8",
+          "at": "2026-06-22T15:21:55.975Z",
+          "note": "Still unfixed, getting worse"
+        }
+      ],
+      "imageColor": "#6B5B3D",
+      "dna": "POT-KRM-H85-3DA",
+      "upvotes": 3,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-002",
+      "category": "water_leak",
+      "title": "Major water pipeline burst on 12th Main",
+      "description": "A major water pipeline has burst near 12th Main Road, Indiranagar. Water is gushing out and flooding the road. The leak has been ongoing for 2 days with no response from BWSSB. Nearby houses are facing water shortage.",
+      "severity": 9.2,
+      "status": "in_progress",
+      "reportedBy": "u2",
+      "lat": 12.9784,
+      "lng": 77.6408,
+      "neighborhood": "indiranagar",
+      "landmark": "12th Main Indiranagar",
+      "reportedAt": "2026-06-21T15:21:55.975Z",
+      "updatedAt": "2026-06-23T12:21:55.975Z",
+      "validators": [
+        "u1",
+        "u4",
+        "u8",
+        "u14",
+        "u3"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.96,
+      "stakeTotal": 78,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u2",
+          "at": "2026-06-21T15:21:55.975Z",
+          "note": "Massive leak, road flooded"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-21T15:21:55.975Z",
+          "note": "Confirmed, water wasting rapidly"
+        },
+        {
+          "action": "validated",
+          "by": "u4",
+          "at": "2026-06-22T15:21:55.975Z",
+          "note": "Entire road is waterlogged"
+        },
+        {
+          "action": "status_change",
+          "by": "system",
+          "at": "2026-06-23T07:21:55.975Z",
+          "note": "BWSSB team dispatched"
+        },
+        {
+          "action": "in_progress",
+          "by": "system",
+          "at": "2026-06-23T12:21:55.975Z",
+          "note": "Repair work started"
+        }
+      ],
+      "imageColor": "#4A90D9",
+      "dna": "WLK-IND-H92-2DB",
+      "upvotes": 17,
+      "upvotedBy": [
+        "u1",
+        "u2",
+        "u-admin-001"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-003",
+      "category": "garbage",
+      "title": "Garbage dumping near park entrance",
+      "description": "Illegal garbage dumping has been happening near the entrance of Jayanagar 4th Block Park. Plastic waste, food scraps, and construction debris piled up. Strong foul smell. Stray dogs gathering in the area creating nuisance.",
+      "severity": 6.8,
+      "status": "validated",
+      "reportedBy": "u3",
+      "lat": 12.926,
+      "lng": 77.582,
+      "neighborhood": "jayanagar",
+      "landmark": "Jayanagar 4th Block Park",
+      "reportedAt": "2026-06-18T15:21:55.975Z",
+      "updatedAt": "2026-06-22T15:21:55.975Z",
+      "validators": [
+        "u9",
+        "u15"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.84,
+      "stakeTotal": 22,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u3",
+          "at": "2026-06-18T15:21:55.975Z",
+          "note": "Garbage pile growing daily"
+        },
+        {
+          "action": "validated",
+          "by": "u9",
+          "at": "2026-06-19T15:21:55.975Z",
+          "note": "Can confirm, very unhygienic"
+        },
+        {
+          "action": "validated",
+          "by": "u15",
+          "at": "2026-06-20T15:21:55.975Z",
+          "note": "BBMP should act immediately"
+        }
+      ],
+      "imageColor": "#8B6914",
+      "dna": "GRB-JAY-H68-5DC",
+      "upvotes": 9,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-004",
+      "category": "streetlight",
+      "title": "Entire street dark - 5 lights out",
+      "description": "Five consecutive streetlights on ITPL Main Road near Whitefield are completely non-functional. The stretch is extremely dark and dangerous at night. There have been reports of chain snatching in this area.",
+      "severity": 8,
+      "status": "validated",
+      "reportedBy": "u4",
+      "lat": 12.9698,
+      "lng": 77.75,
+      "neighborhood": "whitefield",
+      "landmark": "ITPL Main Road",
+      "reportedAt": "2026-06-22T15:21:55.975Z",
+      "updatedAt": "2026-06-22T15:21:55.975Z",
+      "validators": [
+        "u10"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.65,
+      "stakeTotal": 15,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u4",
+          "at": "2026-06-22T15:21:55.975Z",
+          "note": "Extremely dangerous at night"
+        },
+        {
+          "action": "validated",
+          "by": "u10",
+          "at": "2026-06-22T21:21:55.975Z",
+          "note": "Yes, very scary to walk here at night"
+        }
+      ],
+      "imageColor": "#1a1a2e",
+      "dna": "STL-WHT-H80-1DD",
+      "upvotes": 12,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-005",
+      "category": "pothole",
+      "title": "Series of potholes on HSR 27th Main",
+      "description": "Multiple potholes have formed on 27th Main Road, HSR Layout Sector 1. At least 4 large potholes within a 200m stretch. The road was recently dug up for cable laying and never properly restored.",
+      "severity": 7.2,
+      "status": "validated",
+      "reportedBy": "u5",
+      "lat": 12.9116,
+      "lng": 77.6389,
+      "neighborhood": "hsr_layout",
+      "landmark": "HSR 27th Main Road",
+      "reportedAt": "2026-06-16T15:21:55.975Z",
+      "updatedAt": "2026-06-21T15:21:55.975Z",
+      "validators": [
+        "u1",
+        "u11"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.81,
+      "stakeTotal": 18,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u5",
+          "at": "2026-06-16T15:21:55.975Z",
+          "note": "Road is in terrible condition"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-18T15:21:55.975Z",
+          "note": "Confirmed during morning jog"
+        },
+        {
+          "action": "validated",
+          "by": "u11",
+          "at": "2026-06-20T15:21:55.975Z",
+          "note": "My car tire got damaged here"
+        }
+      ],
+      "imageColor": "#5C5040",
+      "dna": "POT-HSR-H72-7DE",
+      "upvotes": 4,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-006",
+      "category": "damage",
+      "title": "Cracked footpath near bus stop",
+      "description": "The footpath near Malleshwaram Circle bus stop has severely cracked and is partially caved in. Pedestrians especially elderly people are at risk. Steel rebar is exposed creating a tripping hazard.",
+      "severity": 7.8,
+      "status": "validated",
+      "reportedBy": "u7",
+      "lat": 12.9966,
+      "lng": 77.5713,
+      "neighborhood": "malleshwaram",
+      "landmark": "Malleshwaram Circle Bus Stop",
+      "reportedAt": "2026-06-19T15:21:55.975Z",
+      "updatedAt": "2026-06-22T15:21:55.975Z",
+      "validators": [
+        "u12",
+        "u15",
+        "u3"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.89,
+      "stakeTotal": 35,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u7",
+          "at": "2026-06-19T15:21:55.975Z",
+          "note": "Footpath is caving in"
+        },
+        {
+          "action": "validated",
+          "by": "u12",
+          "at": "2026-06-20T15:21:55.975Z",
+          "note": "Very dangerous for elderly"
+        },
+        {
+          "action": "validated",
+          "by": "u15",
+          "at": "2026-06-21T15:21:55.975Z",
+          "note": "Exposed rebar is hazardous"
+        },
+        {
+          "action": "validated",
+          "by": "u3",
+          "at": "2026-06-22T15:21:55.975Z",
+          "note": "Someone fell here yesterday"
+        }
+      ],
+      "imageColor": "#7D7368",
+      "dna": "DMG-MAL-H78-4DF",
+      "upvotes": 3,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-007",
+      "category": "garbage",
+      "title": "Construction debris blocking drain",
+      "description": "Construction debris from a nearby building site has been dumped into the storm water drain on 5th Cross, Koramangala. The drain is completely blocked. With monsoon approaching this could cause severe flooding.",
+      "severity": 8.8,
+      "status": "validated",
+      "reportedBy": "u6",
+      "lat": 12.934,
+      "lng": 77.62,
+      "neighborhood": "koramangala",
+      "landmark": "5th Cross Koramangala",
+      "reportedAt": "2026-06-21T15:21:55.975Z",
+      "updatedAt": "2026-06-23T03:21:55.975Z",
+      "validators": [
+        "u1",
+        "u13",
+        "u2",
+        "u8"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.93,
+      "stakeTotal": 55,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u6",
+          "at": "2026-06-21T15:21:55.975Z",
+          "note": "Drain completely blocked by debris"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-21T15:21:55.975Z",
+          "note": "Flooding risk is real"
+        },
+        {
+          "action": "validated",
+          "by": "u13",
+          "at": "2026-06-22T15:21:55.975Z",
+          "note": "Construction site nearby is responsible"
+        },
+        {
+          "action": "validated",
+          "by": "u2",
+          "at": "2026-06-22T15:21:55.975Z",
+          "note": "This needs immediate BBMP action"
+        },
+        {
+          "action": "validated",
+          "by": "u8",
+          "at": "2026-06-23T03:21:55.975Z",
+          "note": "Water already stagnating"
+        }
+      ],
+      "imageColor": "#A09070",
+      "dna": "GRB-KRM-H88-2DG",
+      "upvotes": 3,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-008",
+      "category": "water_leak",
+      "title": "Sewage overflow on residential street",
+      "description": "Sewage is overflowing from a manhole on 3rd Main Road, HSR Layout Sector 2. The entire street is flooded with sewage water. Residents are unable to step out of their homes. Severe health hazard.",
+      "severity": 9.5,
+      "status": "in_progress",
+      "reportedBy": "u5",
+      "lat": 12.913,
+      "lng": 77.635,
+      "neighborhood": "hsr_layout",
+      "landmark": "3rd Main Road HSR Sector 2",
+      "reportedAt": "2026-06-22T15:21:55.975Z",
+      "updatedAt": "2026-06-23T13:21:55.975Z",
+      "validators": [
+        "u1",
+        "u2",
+        "u4",
+        "u6",
+        "u8",
+        "u11"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.98,
+      "stakeTotal": 95,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u5",
+          "at": "2026-06-22T15:21:55.975Z",
+          "note": "Emergency - sewage flooding"
+        },
+        {
+          "action": "validated",
+          "by": "u11",
+          "at": "2026-06-22T15:21:55.975Z",
+          "note": "Confirmed, cannot leave home"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-22T19:21:55.975Z",
+          "note": "Health emergency!"
+        },
+        {
+          "action": "validated",
+          "by": "u2",
+          "at": "2026-06-22T21:21:55.975Z",
+          "note": "BWSSB must respond NOW"
+        },
+        {
+          "action": "status_change",
+          "by": "system",
+          "at": "2026-06-23T10:21:55.975Z",
+          "note": "Emergency team dispatched"
+        },
+        {
+          "action": "in_progress",
+          "by": "system",
+          "at": "2026-06-23T13:21:55.975Z",
+          "note": "Cleanup underway"
+        }
+      ],
+      "imageColor": "#4A6B3D",
+      "dna": "WLK-HSR-H95-1DH",
+      "upvotes": 14,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-009",
+      "category": "pothole",
+      "title": "Crater-sized pothole on service road",
+      "description": "A massive pothole has formed on the Outer Ring Road service road near Marathahalli. The pothole is over 3 feet wide and a foot deep. Already caused two accidents this week.",
+      "severity": 9,
+      "status": "reported",
+      "reportedBy": "u4",
+      "lat": 12.9568,
+      "lng": 77.7011,
+      "neighborhood": "whitefield",
+      "landmark": "ORR Service Road Marathahalli",
+      "reportedAt": "2026-06-23T07:21:55.975Z",
+      "updatedAt": "2026-06-23T07:21:55.975Z",
+      "validators": [],
+      "disputes": [],
+      "swarmConfidence": 0,
+      "stakeTotal": 10,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u4",
+          "at": "2026-06-23T07:21:55.975Z",
+          "note": "Extremely dangerous crater on road"
+        }
+      ],
+      "imageColor": "#4D4030",
+      "dna": "POT-WHT-H90-0DI",
+      "upvotes": 15,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-010",
+      "category": "streetlight",
+      "title": "Flickering streetlight creating hazard",
+      "description": "A streetlight on Church Street, Indiranagar is rapidly flickering on and off causing disorientation to drivers. The strobe-like effect is dangerous for those with photosensitive conditions.",
+      "severity": 5.5,
+      "status": "reported",
+      "reportedBy": "u14",
+      "lat": 12.979,
+      "lng": 77.639,
+      "neighborhood": "indiranagar",
+      "landmark": "Church Street Indiranagar",
+      "reportedAt": "2026-06-22T15:21:55.975Z",
+      "updatedAt": "2026-06-22T15:21:55.975Z",
+      "validators": [
+        "u2"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.58,
+      "stakeTotal": 8,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u14",
+          "at": "2026-06-22T15:21:55.975Z",
+          "note": "Dangerous flickering light"
+        },
+        {
+          "action": "validated",
+          "by": "u2",
+          "at": "2026-06-22T19:21:55.975Z",
+          "note": "Can confirm, very distracting while driving"
+        }
+      ],
+      "imageColor": "#2C2C3E",
+      "dna": "STL-IND-H55-1DJ",
+      "upvotes": 7,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-011",
+      "category": "garbage",
+      "title": "Overflowing garbage bin at market",
+      "description": "The community garbage bin outside KR Market junction has been overflowing for a week. Garbage is spread across the sidewalk. Food waste is attracting rats and stray animals.",
+      "severity": 6.2,
+      "status": "resolved",
+      "reportedBy": "u12",
+      "lat": 12.998,
+      "lng": 77.57,
+      "neighborhood": "malleshwaram",
+      "landmark": "KR Market Junction Malleshwaram",
+      "reportedAt": "2026-06-13T15:21:55.975Z",
+      "updatedAt": "2026-06-20T15:21:55.975Z",
+      "validators": [
+        "u7",
+        "u15",
+        "u3"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.87,
+      "stakeTotal": 28,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u12",
+          "at": "2026-06-13T15:21:55.975Z",
+          "note": "Bin overflowing for days"
+        },
+        {
+          "action": "validated",
+          "by": "u7",
+          "at": "2026-06-14T15:21:55.975Z",
+          "note": "Horrible smell in the area"
+        },
+        {
+          "action": "validated",
+          "by": "u15",
+          "at": "2026-06-15T15:21:55.975Z",
+          "note": "Rats everywhere at night"
+        },
+        {
+          "action": "in_progress",
+          "by": "system",
+          "at": "2026-06-18T15:21:55.975Z",
+          "note": "BBMP pourakarmikas dispatched"
+        },
+        {
+          "action": "resolved",
+          "by": "system",
+          "at": "2026-06-20T15:21:55.975Z",
+          "note": "Bin cleared and sanitized"
+        }
+      ],
+      "imageColor": "#8B7355",
+      "dna": "GRB-MAL-H62-ADK",
+      "upvotes": 10,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": [
+        {
+          "text": "hello",
+          "userId": "u-admin-001",
+          "userName": "System Admin",
+          "id": "c-1782228516560",
+          "createdAt": "2026-06-23T15:28:36.560Z"
+        }
+      ]
+    },
+    {
+      "id": "iss-012",
+      "category": "damage",
+      "title": "Broken boundary wall leaning on road",
+      "description": "The boundary wall of an abandoned property on CMH Road is severely leaning towards the road. Large cracks visible. Could collapse any time especially during rain or wind.",
+      "severity": 8.3,
+      "status": "validated",
+      "reportedBy": "u8",
+      "lat": 12.975,
+      "lng": 77.635,
+      "neighborhood": "indiranagar",
+      "landmark": "CMH Road Indiranagar",
+      "reportedAt": "2026-06-20T15:21:55.975Z",
+      "updatedAt": "2026-06-22T15:21:55.975Z",
+      "validators": [
+        "u2",
+        "u14",
+        "u1"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.9,
+      "stakeTotal": 40,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u8",
+          "at": "2026-06-20T15:21:55.975Z",
+          "note": "Wall could collapse anytime"
+        },
+        {
+          "action": "validated",
+          "by": "u2",
+          "at": "2026-06-21T15:21:55.975Z",
+          "note": "Extremely dangerous for pedestrians"
+        },
+        {
+          "action": "validated",
+          "by": "u14",
+          "at": "2026-06-21T15:21:55.975Z",
+          "note": "Cracks are getting wider daily"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-22T15:21:55.975Z",
+          "note": "Needs emergency demolition"
+        }
+      ],
+      "imageColor": "#8A7E6B",
+      "dna": "DMG-IND-H83-3DL",
+      "upvotes": 16,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-013",
+      "category": "pothole",
+      "title": "Road cave-in near metro construction",
+      "description": "The road has partially caved in near the Jayanagar Metro station construction site. A 4-foot wide sinkhole has appeared. Metal barriers have been placed but are inadequate.",
+      "severity": 9.3,
+      "status": "in_progress",
+      "reportedBy": "u15",
+      "lat": 12.929,
+      "lng": 77.583,
+      "neighborhood": "jayanagar",
+      "landmark": "Near Jayanagar Metro Station",
+      "reportedAt": "2026-06-22T15:21:55.975Z",
+      "updatedAt": "2026-06-23T11:21:55.975Z",
+      "validators": [
+        "u3",
+        "u9",
+        "u1",
+        "u2",
+        "u12"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.95,
+      "stakeTotal": 82,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u15",
+          "at": "2026-06-22T15:21:55.975Z",
+          "note": "Road caving in! Emergency!"
+        },
+        {
+          "action": "validated",
+          "by": "u3",
+          "at": "2026-06-22T15:21:55.975Z",
+          "note": "Massive sinkhole forming"
+        },
+        {
+          "action": "validated",
+          "by": "u9",
+          "at": "2026-06-22T19:21:55.975Z",
+          "note": "This is extremely dangerous"
+        },
+        {
+          "action": "in_progress",
+          "by": "system",
+          "at": "2026-06-23T11:21:55.975Z",
+          "note": "Metro contractor team on site"
+        }
+      ],
+      "imageColor": "#3D3528",
+      "dna": "POT-JAY-H93-1DM",
+      "upvotes": 10,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-014",
+      "category": "water_leak",
+      "title": "Tap water running brown/muddy",
+      "description": "Residents on 17th Cross, Malleshwaram have been receiving brown colored water from taps for 3 days. Water smells of mud and is not safe for consumption. BWSSB not responding to complaints.",
+      "severity": 7.5,
+      "status": "validated",
+      "reportedBy": "u7",
+      "lat": 12.995,
+      "lng": 77.573,
+      "neighborhood": "malleshwaram",
+      "landmark": "17th Cross Malleshwaram",
+      "reportedAt": "2026-06-20T15:21:55.975Z",
+      "updatedAt": "2026-06-22T15:21:55.975Z",
+      "validators": [
+        "u12",
+        "u15"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.82,
+      "stakeTotal": 20,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u7",
+          "at": "2026-06-20T15:21:55.975Z",
+          "note": "Brown water from taps"
+        },
+        {
+          "action": "validated",
+          "by": "u12",
+          "at": "2026-06-21T15:21:55.975Z",
+          "note": "Same issue at my house too"
+        },
+        {
+          "action": "validated",
+          "by": "u15",
+          "at": "2026-06-22T15:21:55.975Z",
+          "note": "Buying bottled water now"
+        }
+      ],
+      "imageColor": "#7B6B4E",
+      "dna": "WLK-MAL-H75-3DN",
+      "upvotes": 10,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-015",
+      "category": "streetlight",
+      "title": "Fallen electric pole after storm",
+      "description": "An electric pole has fallen after last night's thunderstorm on 100 Feet Road, Koramangala. Live wires are dangling close to the ground. Area cordoned off by residents using makeshift barriers.",
+      "severity": 9.8,
+      "status": "in_progress",
+      "reportedBy": "u13",
+      "lat": 12.937,
+      "lng": 77.621,
+      "neighborhood": "koramangala",
+      "landmark": "100 Feet Road Koramangala",
+      "reportedAt": "2026-06-23T09:21:55.975Z",
+      "updatedAt": "2026-06-23T14:21:55.975Z",
+      "validators": [
+        "u1",
+        "u6",
+        "u2",
+        "u8",
+        "u3",
+        "u4"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.99,
+      "stakeTotal": 110,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u13",
+          "at": "2026-06-23T09:21:55.975Z",
+          "note": "EMERGENCY - Live wires on road!"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-23T10:21:55.975Z",
+          "note": "Life threatening! Stay away!"
+        },
+        {
+          "action": "validated",
+          "by": "u6",
+          "at": "2026-06-23T10:21:55.975Z",
+          "note": "Called BESCOM emergency"
+        },
+        {
+          "action": "in_progress",
+          "by": "system",
+          "at": "2026-06-23T13:21:55.975Z",
+          "note": "BESCOM team arrived on site"
+        }
+      ],
+      "imageColor": "#1C1C2D",
+      "dna": "STL-KRM-H98-0DO",
+      "upvotes": 8,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-016",
+      "category": "garbage",
+      "title": "Plastic waste choking lake inlet",
+      "description": "Massive amounts of plastic waste have accumulated at the inlet of Agara Lake. The inlet pipe is almost completely blocked. This is causing water stagnation and killing aquatic life.",
+      "severity": 7.8,
+      "status": "validated",
+      "reportedBy": "u1",
+      "lat": 12.92,
+      "lng": 77.638,
+      "neighborhood": "hsr_layout",
+      "landmark": "Agara Lake Inlet",
+      "reportedAt": "2026-06-19T15:21:55.975Z",
+      "updatedAt": "2026-06-22T15:21:55.975Z",
+      "validators": [
+        "u5",
+        "u11",
+        "u6"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.86,
+      "stakeTotal": 30,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u1",
+          "at": "2026-06-19T15:21:55.975Z",
+          "note": "Lake inlet choked with plastic"
+        },
+        {
+          "action": "validated",
+          "by": "u5",
+          "at": "2026-06-20T15:21:55.975Z",
+          "note": "Fish dying in the area"
+        },
+        {
+          "action": "validated",
+          "by": "u11",
+          "at": "2026-06-21T15:21:55.975Z",
+          "note": "This is an ecological disaster"
+        },
+        {
+          "action": "validated",
+          "by": "u6",
+          "at": "2026-06-22T15:21:55.975Z",
+          "note": "Needs NGO + BBMP joint action"
+        }
+      ],
+      "imageColor": "#3D6B4A",
+      "dna": "GRB-HSR-H78-4DP",
+      "upvotes": 3,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-017",
+      "category": "damage",
+      "title": "Bridge railing missing section",
+      "description": "A 10-foot section of the bridge railing on Koramangala inner ring road overpass is completely missing. No warning signs placed. Extremely dangerous for two-wheelers and pedestrians.",
+      "severity": 9,
+      "status": "reported",
+      "reportedBy": "u6",
+      "lat": 12.938,
+      "lng": 77.625,
+      "neighborhood": "koramangala",
+      "landmark": "Koramangala IRR Overpass",
+      "reportedAt": "2026-06-23T03:21:55.975Z",
+      "updatedAt": "2026-06-23T03:21:55.975Z",
+      "validators": [
+        "u1"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.55,
+      "stakeTotal": 12,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u6",
+          "at": "2026-06-23T03:21:55.975Z",
+          "note": "Bridge railing missing - deadly!"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-23T05:21:55.975Z",
+          "note": "This is life-threatening"
+        }
+      ],
+      "imageColor": "#5A5A5A",
+      "dna": "DMG-KRM-H90-0DQ",
+      "upvotes": 16,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-018",
+      "category": "pothole",
+      "title": "Waterlogged road impossible to pass",
+      "description": "The road near Sony Signal, Jayanagar is perpetually waterlogged due to blocked drainage. Vehicles get stuck daily. Auto-rickshaws refuse to go through this route.",
+      "severity": 6.5,
+      "status": "resolved",
+      "reportedBy": "u9",
+      "lat": 12.927,
+      "lng": 77.585,
+      "neighborhood": "jayanagar",
+      "landmark": "Sony Signal Jayanagar",
+      "reportedAt": "2026-06-08T15:21:55.975Z",
+      "updatedAt": "2026-06-18T15:21:55.975Z",
+      "validators": [
+        "u3",
+        "u15"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.83,
+      "stakeTotal": 18,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u9",
+          "at": "2026-06-08T15:21:55.975Z",
+          "note": "Road permanently waterlogged"
+        },
+        {
+          "action": "validated",
+          "by": "u3",
+          "at": "2026-06-09T15:21:55.975Z",
+          "note": "Drainage blocked for months"
+        },
+        {
+          "action": "in_progress",
+          "by": "system",
+          "at": "2026-06-15T15:21:55.975Z",
+          "note": "Drain clearing initiated"
+        },
+        {
+          "action": "resolved",
+          "by": "system",
+          "at": "2026-06-18T15:21:55.975Z",
+          "note": "Drainage restored, road resurfaced"
+        }
+      ],
+      "imageColor": "#506878",
+      "dna": "POT-JAY-H65-FDR",
+      "upvotes": 8,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-019",
+      "category": "other",
+      "title": "Illegal parking blocking ambulance route",
+      "description": "Cars are illegally parked on both sides of the road near Whitefield hospital, reducing it to single lane. Ambulances unable to pass during emergencies. Despite no-parking signs, enforcement is absent.",
+      "severity": 7,
+      "status": "reported",
+      "reportedBy": "u10",
+      "lat": 12.971,
+      "lng": 77.748,
+      "neighborhood": "whitefield",
+      "landmark": "Near Whitefield Hospital",
+      "reportedAt": "2026-06-21T15:21:55.975Z",
+      "updatedAt": "2026-06-21T15:21:55.975Z",
+      "validators": [
+        "u4"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.6,
+      "stakeTotal": 10,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u10",
+          "at": "2026-06-21T15:21:55.975Z",
+          "note": "Ambulances cant get through!"
+        },
+        {
+          "action": "validated",
+          "by": "u4",
+          "at": "2026-06-22T15:21:55.975Z",
+          "note": "Witnessed ambulance stuck in traffic"
+        }
+      ],
+      "imageColor": "#6A6A7A",
+      "dna": "OTH-WHT-H70-2DS",
+      "upvotes": 3,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-020",
+      "category": "water_leak",
+      "title": "Overflowing manhole during rain",
+      "description": "The manhole cover on 3rd Cross, Koramangala overflows every time it rains. Dirty water enters ground floor houses. The manhole cover is also partially broken and a tripping hazard.",
+      "severity": 7,
+      "status": "validated",
+      "reportedBy": "u13",
+      "lat": 12.9345,
+      "lng": 77.623,
+      "neighborhood": "koramangala",
+      "landmark": "3rd Cross Koramangala",
+      "reportedAt": "2026-06-17T15:21:55.975Z",
+      "updatedAt": "2026-06-21T15:21:55.975Z",
+      "validators": [
+        "u1",
+        "u6"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.79,
+      "stakeTotal": 16,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u13",
+          "at": "2026-06-17T15:21:55.975Z",
+          "note": "Manhole overflows during rain"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-18T15:21:55.975Z",
+          "note": "Yes, a recurring problem here"
+        },
+        {
+          "action": "validated",
+          "by": "u6",
+          "at": "2026-06-20T15:21:55.975Z",
+          "note": "My house got flooded last rain"
+        }
+      ],
+      "imageColor": "#5B6B5B",
+      "dna": "WLK-KRM-H70-6DT",
+      "upvotes": 5,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-021",
+      "category": "streetlight",
+      "title": "Sparking transformer box",
+      "description": "An electrical transformer box near Indiranagar BDA Complex is sparking intermittently. Burning smell noticed by passersby. Potential fire hazard.",
+      "severity": 9,
+      "status": "validated",
+      "reportedBy": "u2",
+      "lat": 12.977,
+      "lng": 77.642,
+      "neighborhood": "indiranagar",
+      "landmark": "BDA Complex Indiranagar",
+      "reportedAt": "2026-06-22T21:21:55.975Z",
+      "updatedAt": "2026-06-23T09:21:55.975Z",
+      "validators": [
+        "u8",
+        "u14",
+        "u1"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.91,
+      "stakeTotal": 50,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u2",
+          "at": "2026-06-22T21:21:55.975Z",
+          "note": "Transformer sparking - fire risk!"
+        },
+        {
+          "action": "validated",
+          "by": "u8",
+          "at": "2026-06-22T23:21:55.975Z",
+          "note": "Confirmed, called BESCOM"
+        },
+        {
+          "action": "validated",
+          "by": "u14",
+          "at": "2026-06-23T03:21:55.975Z",
+          "note": "Burning smell getting stronger"
+        },
+        {
+          "action": "validated",
+          "by": "u1",
+          "at": "2026-06-23T09:21:55.975Z",
+          "note": "Still sparking, no response yet"
+        }
+      ],
+      "imageColor": "#FF6633",
+      "dna": "STL-IND-H90-0DU",
+      "upvotes": 9,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-022",
+      "category": "garbage",
+      "title": "Dead animal carcass on roadside",
+      "description": "A dead stray dog carcass has been lying on the roadside near HSR Layout Sector 4 park for 3 days. BBMP has not removed it despite multiple calls. Health hazard to children playing in the park.",
+      "severity": 6.5,
+      "status": "resolved",
+      "reportedBy": "u11",
+      "lat": 12.908,
+      "lng": 77.64,
+      "neighborhood": "hsr_layout",
+      "landmark": "HSR Sector 4 Park",
+      "reportedAt": "2026-06-15T15:21:55.975Z",
+      "updatedAt": "2026-06-19T15:21:55.975Z",
+      "validators": [
+        "u5"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.62,
+      "stakeTotal": 8,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u11",
+          "at": "2026-06-15T15:21:55.975Z",
+          "note": "Dead animal needs removal"
+        },
+        {
+          "action": "validated",
+          "by": "u5",
+          "at": "2026-06-16T15:21:55.975Z",
+          "note": "Children play near here"
+        },
+        {
+          "action": "in_progress",
+          "by": "system",
+          "at": "2026-06-18T15:21:55.975Z",
+          "note": "BBMP van scheduled"
+        },
+        {
+          "action": "resolved",
+          "by": "system",
+          "at": "2026-06-19T15:21:55.975Z",
+          "note": "Carcass removed and area sanitized"
+        }
+      ],
+      "imageColor": "#666655",
+      "dna": "GRB-HSR-H65-8DV",
+      "upvotes": 7,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-023",
+      "category": "damage",
+      "title": "Collapsed compound wall after rain",
+      "description": "A compound wall of a residential building on 7th Main, Jayanagar collapsed during heavy rain last night. Debris is blocking half the road. No injuries reported but road is partially blocked.",
+      "severity": 6.8,
+      "status": "in_progress",
+      "reportedBy": "u3",
+      "lat": 12.93,
+      "lng": 77.581,
+      "neighborhood": "jayanagar",
+      "landmark": "7th Main Jayanagar",
+      "reportedAt": "2026-06-22T15:21:55.975Z",
+      "updatedAt": "2026-06-23T07:21:55.975Z",
+      "validators": [
+        "u9",
+        "u15"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.8,
+      "stakeTotal": 16,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u3",
+          "at": "2026-06-22T15:21:55.975Z",
+          "note": "Wall collapsed, debris on road"
+        },
+        {
+          "action": "validated",
+          "by": "u9",
+          "at": "2026-06-22T19:21:55.975Z",
+          "note": "Road partially blocked"
+        },
+        {
+          "action": "validated",
+          "by": "u15",
+          "at": "2026-06-22T23:21:55.975Z",
+          "note": "Needs debris clearing"
+        },
+        {
+          "action": "in_progress",
+          "by": "system",
+          "at": "2026-06-23T07:21:55.975Z",
+          "note": "BBMP clearing team dispatched"
+        }
+      ],
+      "imageColor": "#8B7D6B",
+      "dna": "DMG-JAY-H68-1DW",
+      "upvotes": 3,
+      "upvotedBy": [
+        "u1",
+        "u2",
+        "u-admin-001"
+      ],
+      "comments": [
+        {
+          "text": "x x ",
+          "userId": "u-admin-001",
+          "userName": "System Admin",
+          "id": "c-1782228680977",
+          "createdAt": "2026-06-23T15:31:20.977Z"
+        }
+      ]
+    },
+    {
+      "id": "iss-024",
+      "category": "other",
+      "title": "Overhanging tree branch on power line",
+      "description": "A large tree branch is resting on a high-tension power line on Sampige Road, Malleshwaram. Risk of power line snapping or fire. BESCOM needs to coordinate with BBMP for trimming.",
+      "severity": 8,
+      "status": "reported",
+      "reportedBy": "u12",
+      "lat": 12.999,
+      "lng": 77.572,
+      "neighborhood": "malleshwaram",
+      "landmark": "Sampige Road Malleshwaram",
+      "reportedAt": "2026-06-23T11:21:55.975Z",
+      "updatedAt": "2026-06-23T11:21:55.975Z",
+      "validators": [],
+      "disputes": [],
+      "swarmConfidence": 0,
+      "stakeTotal": 8,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u12",
+          "at": "2026-06-23T11:21:55.975Z",
+          "note": "Tree on power line - fire risk!"
+        }
+      ],
+      "imageColor": "#2D5A1E",
+      "dna": "OTH-MAL-H80-0DX",
+      "upvotes": 9,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    },
+    {
+      "id": "iss-025",
+      "category": "pothole",
+      "title": "Road surface peeling off in patches",
+      "description": "The newly laid road on Lavelle Road, Indiranagar has started peeling off in large patches just 2 months after resurfacing. Clearly substandard material was used. Tax money wasted.",
+      "severity": 5.8,
+      "status": "reported",
+      "reportedBy": "u14",
+      "lat": 12.976,
+      "lng": 77.638,
+      "neighborhood": "indiranagar",
+      "landmark": "Lavelle Road Indiranagar",
+      "reportedAt": "2026-06-21T15:21:55.975Z",
+      "updatedAt": "2026-06-21T15:21:55.975Z",
+      "validators": [
+        "u2"
+      ],
+      "disputes": [],
+      "swarmConfidence": 0.55,
+      "stakeTotal": 6,
+      "timeline": [
+        {
+          "action": "reported",
+          "by": "u14",
+          "at": "2026-06-21T15:21:55.975Z",
+          "note": "New road already peeling off!"
+        },
+        {
+          "action": "validated",
+          "by": "u2",
+          "at": "2026-06-22T15:21:55.975Z",
+          "note": "Corruption? Just 2 months old"
+        }
+      ],
+      "imageColor": "#4A4A38",
+      "dna": "POT-IND-H58-2DY",
+      "upvotes": 15,
+      "upvotedBy": [
+        "u1",
+        "u2"
+      ],
+      "comments": []
+    }
+  ],
+  "quests": [
+    {
+      "id": "q1",
+      "title": "The Pothole Slayer",
+      "icon": "Sword",
+      "description": "Report 5 road damage issues to earn the Pothole Slayer badge",
+      "category": "pothole",
+      "target": 5,
+      "progress": 3,
+      "xpReward": 200,
+      "pointsReward": 50,
+      "type": "report",
+      "active": true
+    },
+    {
+      "id": "q2",
+      "title": "Water Guardian",
+      "icon": "Shield",
+      "description": "Validate 3 water-related issues to become a Water Guardian",
+      "category": "water_leak",
+      "target": 3,
+      "progress": 1,
+      "xpReward": 150,
+      "pointsReward": 35,
+      "type": "validate",
+      "active": true
+    },
+    {
+      "id": "q3",
+      "title": "Night Watch",
+      "icon": "Moon",
+      "description": "Report 3 issues after 8 PM to earn the Night Watch badge",
+      "category": null,
+      "target": 3,
+      "progress": 0,
+      "xpReward": 250,
+      "pointsReward": 60,
+      "type": "night_report",
+      "active": true
+    },
+    {
+      "id": "q4",
+      "title": "First Responder",
+      "icon": "Zap",
+      "description": "Be the first to validate 5 newly reported issues",
+      "category": null,
+      "target": 5,
+      "progress": 2,
+      "xpReward": 300,
+      "pointsReward": 75,
+      "type": "first_validate",
+      "active": true
+    },
+    {
+      "id": "q5",
+      "title": "Community Raid Boss",
+      "icon": "Users",
+      "description": "Get 10+ citizens to validate a single critical issue you reported",
+      "category": null,
+      "target": 1,
+      "progress": 0,
+      "xpReward": 500,
+      "pointsReward": 120,
+      "type": "raid",
+      "active": true
+    },
+    {
+      "id": "q6",
+      "title": "The Clean Crusader",
+      "icon": "Trash2",
+      "description": "Report 3 garbage/waste issues to earn the Clean Crusader badge",
+      "category": "garbage",
+      "target": 3,
+      "progress": 2,
+      "xpReward": 150,
+      "pointsReward": 35,
+      "type": "report",
+      "active": true
+    },
+    {
+      "id": "q7",
+      "title": "Infrastructure Inspector",
+      "icon": "Search",
+      "description": "Validate 5 infrastructure damage issues",
+      "category": "damage",
+      "target": 5,
+      "progress": 4,
+      "xpReward": 200,
+      "pointsReward": 50,
+      "type": "validate",
+      "active": true
+    },
+    {
+      "id": "q8",
+      "title": "Streak Master",
+      "icon": "Flame",
+      "description": "Report at least 1 issue every day for 7 consecutive days",
+      "category": null,
+      "target": 7,
+      "progress": 4,
+      "xpReward": 400,
+      "pointsReward": 100,
+      "type": "streak",
+      "active": true
+    }
+  ],
+  "achievements": [
+    {
+      "id": "a1",
+      "title": "First Report",
+      "icon": "Target",
+      "description": "Report your first community issue",
+      "unlocked": true,
+      "unlockedAt": "2026-04-24T15:54:39.959Z"
+    },
+    {
+      "id": "a2",
+      "title": "Sharp Eye",
+      "icon": "Eye",
+      "description": "Report 10 issues",
+      "unlocked": true,
+      "unlockedAt": "2026-05-24T15:54:39.959Z"
+    },
+    {
+      "id": "a3",
+      "title": "Watchdog",
+      "icon": "Shield",
+      "description": "Validate 25 issues",
+      "unlocked": true,
+      "unlockedAt": "2026-06-03T15:54:39.959Z"
+    },
+    {
+      "id": "a4",
+      "title": "Guardian Angel",
+      "icon": "CheckCircle",
+      "description": "Help resolve 10 issues",
+      "unlocked": true,
+      "unlockedAt": "2026-06-08T15:54:39.959Z"
+    },
+    {
+      "id": "a5",
+      "title": "Pothole Hunter",
+      "icon": "AlertTriangle",
+      "description": "Report 5 pothole issues",
+      "unlocked": true,
+      "unlockedAt": "2026-05-29T15:54:39.959Z"
+    },
+    {
+      "id": "a6",
+      "title": "Water Warrior",
+      "icon": "Droplets",
+      "description": "Report 3 water-related issues",
+      "unlocked": false,
+      "unlockedAt": null
+    },
+    {
+      "id": "a7",
+      "title": "Night Owl",
+      "icon": "Moon",
+      "description": "Report an issue after midnight",
+      "unlocked": false,
+      "unlockedAt": null
+    },
+    {
+      "id": "a8",
+      "title": "Centurion",
+      "icon": "Award",
+      "description": "Reach 100 Shield Points",
+      "unlocked": true,
+      "unlockedAt": "2026-06-13T15:54:39.959Z"
+    },
+    {
+      "id": "a9",
+      "title": "Neighborhood Hero",
+      "icon": "UserCheck",
+      "description": "Reach Level 10",
+      "unlocked": true,
+      "unlockedAt": "2026-06-15T15:54:39.959Z"
+    },
+    {
+      "id": "a10",
+      "title": "Legend of the City",
+      "icon": "Star",
+      "description": "Reach Level 20",
+      "unlocked": false,
+      "unlockedAt": null
+    },
+    {
+      "id": "a11",
+      "title": "Rally Master",
+      "icon": "Megaphone",
+      "description": "Get 5+ validators on a single issue",
+      "unlocked": true,
+      "unlockedAt": "2026-06-18T15:54:39.959Z"
+    },
+    {
+      "id": "a12",
+      "title": "Perfect Accuracy",
+      "icon": "Crosshair",
+      "description": "Maintain 95%+ validation accuracy",
+      "unlocked": false,
+      "unlockedAt": null
+    }
+  ],
+  "vitalsHistory": {
+    "koramangala": [
+      {
+        "date": "2026-05-24T15:54:39.960Z",
+        "infrastructure": 62,
+        "safety": 80,
+        "cleanliness": 67,
+        "responseSpeed": 49
+      },
+      {
+        "date": "2026-05-25T15:54:39.960Z",
+        "infrastructure": 61,
+        "safety": 69,
+        "cleanliness": 82,
+        "responseSpeed": 70
+      },
+      {
+        "date": "2026-05-26T15:54:39.960Z",
+        "infrastructure": 78,
+        "safety": 67,
+        "cleanliness": 52,
+        "responseSpeed": 44
+      },
+      {
+        "date": "2026-05-27T15:54:39.960Z",
+        "infrastructure": 66,
+        "safety": 62,
+        "cleanliness": 70,
+        "responseSpeed": 77
+      },
+      {
+        "date": "2026-05-28T15:54:39.960Z",
+        "infrastructure": 72,
+        "safety": 64,
+        "cleanliness": 69,
+        "responseSpeed": 43
+      },
+      {
+        "date": "2026-05-29T15:54:39.960Z",
+        "infrastructure": 74,
+        "safety": 79,
+        "cleanliness": 63,
+        "responseSpeed": 60
+      },
+      {
+        "date": "2026-05-30T15:54:39.960Z",
+        "infrastructure": 84,
+        "safety": 66,
+        "cleanliness": 61,
+        "responseSpeed": 74
+      },
+      {
+        "date": "2026-05-31T15:54:39.960Z",
+        "infrastructure": 70,
+        "safety": 80,
+        "cleanliness": 66,
+        "responseSpeed": 51
+      },
+      {
+        "date": "2026-06-01T15:54:39.960Z",
+        "infrastructure": 82,
+        "safety": 60,
+        "cleanliness": 53,
+        "responseSpeed": 61
+      },
+      {
+        "date": "2026-06-02T15:54:39.960Z",
+        "infrastructure": 67,
+        "safety": 61,
+        "cleanliness": 79,
+        "responseSpeed": 70
+      },
+      {
+        "date": "2026-06-03T15:54:39.960Z",
+        "infrastructure": 56,
+        "safety": 79,
+        "cleanliness": 71,
+        "responseSpeed": 57
+      },
+      {
+        "date": "2026-06-04T15:54:39.960Z",
+        "infrastructure": 71,
+        "safety": 83,
+        "cleanliness": 57,
+        "responseSpeed": 60
+      },
+      {
+        "date": "2026-06-05T15:54:39.960Z",
+        "infrastructure": 67,
+        "safety": 79,
+        "cleanliness": 64,
+        "responseSpeed": 74
+      },
+      {
+        "date": "2026-06-06T15:54:39.960Z",
+        "infrastructure": 57,
+        "safety": 81,
+        "cleanliness": 76,
+        "responseSpeed": 58
+      },
+      {
+        "date": "2026-06-07T15:54:39.960Z",
+        "infrastructure": 79,
+        "safety": 71,
+        "cleanliness": 69,
+        "responseSpeed": 79
+      },
+      {
+        "date": "2026-06-08T15:54:39.960Z",
+        "infrastructure": 78,
+        "safety": 83,
+        "cleanliness": 75,
+        "responseSpeed": 56
+      },
+      {
+        "date": "2026-06-09T15:54:39.960Z",
+        "infrastructure": 56,
+        "safety": 82,
+        "cleanliness": 77,
+        "responseSpeed": 46
+      },
+      {
+        "date": "2026-06-10T15:54:39.960Z",
+        "infrastructure": 64,
+        "safety": 67,
+        "cleanliness": 80,
+        "responseSpeed": 59
+      },
+      {
+        "date": "2026-06-11T15:54:39.960Z",
+        "infrastructure": 56,
+        "safety": 65,
+        "cleanliness": 57,
+        "responseSpeed": 69
+      },
+      {
+        "date": "2026-06-12T15:54:39.960Z",
+        "infrastructure": 58,
+        "safety": 73,
+        "cleanliness": 52,
+        "responseSpeed": 58
+      },
+      {
+        "date": "2026-06-13T15:54:39.960Z",
+        "infrastructure": 60,
+        "safety": 62,
+        "cleanliness": 56,
+        "responseSpeed": 71
+      },
+      {
+        "date": "2026-06-14T15:54:39.960Z",
+        "infrastructure": 74,
+        "safety": 74,
+        "cleanliness": 77,
+        "responseSpeed": 64
+      },
+      {
+        "date": "2026-06-15T15:54:39.960Z",
+        "infrastructure": 87,
+        "safety": 65,
+        "cleanliness": 73,
+        "responseSpeed": 64
+      },
+      {
+        "date": "2026-06-16T15:54:39.960Z",
+        "infrastructure": 63,
+        "safety": 73,
+        "cleanliness": 76,
+        "responseSpeed": 50
+      },
+      {
+        "date": "2026-06-17T15:54:39.960Z",
+        "infrastructure": 81,
+        "safety": 73,
+        "cleanliness": 84,
+        "responseSpeed": 68
+      },
+      {
+        "date": "2026-06-18T15:54:39.960Z",
+        "infrastructure": 64,
+        "safety": 71,
+        "cleanliness": 51,
+        "responseSpeed": 63
+      },
+      {
+        "date": "2026-06-19T15:54:39.960Z",
+        "infrastructure": 87,
+        "safety": 68,
+        "cleanliness": 73,
+        "responseSpeed": 63
+      },
+      {
+        "date": "2026-06-20T15:54:39.960Z",
+        "infrastructure": 66,
+        "safety": 65,
+        "cleanliness": 56,
+        "responseSpeed": 64
+      },
+      {
+        "date": "2026-06-21T15:54:39.960Z",
+        "infrastructure": 84,
+        "safety": 81,
+        "cleanliness": 75,
+        "responseSpeed": 78
+      },
+      {
+        "date": "2026-06-22T15:54:39.960Z",
+        "infrastructure": 67,
+        "safety": 69,
+        "cleanliness": 61,
+        "responseSpeed": 56
+      },
+      {
+        "date": "2026-06-23T15:54:39.960Z",
+        "infrastructure": 65,
+        "safety": 73,
+        "cleanliness": 71,
+        "responseSpeed": 78
+      }
+    ],
+    "indiranagar": [
+      {
+        "date": "2026-05-24T15:54:39.960Z",
+        "infrastructure": 56,
+        "safety": 60,
+        "cleanliness": 56,
+        "responseSpeed": 65
+      },
+      {
+        "date": "2026-05-25T15:54:39.960Z",
+        "infrastructure": 79,
+        "safety": 84,
+        "cleanliness": 62,
+        "responseSpeed": 62
+      },
+      {
+        "date": "2026-05-26T15:54:39.960Z",
+        "infrastructure": 69,
+        "safety": 79,
+        "cleanliness": 55,
+        "responseSpeed": 41
+      },
+      {
+        "date": "2026-05-27T15:54:39.960Z",
+        "infrastructure": 55,
+        "safety": 83,
+        "cleanliness": 70,
+        "responseSpeed": 56
+      },
+      {
+        "date": "2026-05-28T15:54:39.960Z",
+        "infrastructure": 64,
+        "safety": 63,
+        "cleanliness": 65,
+        "responseSpeed": 78
+      },
+      {
+        "date": "2026-05-29T15:54:39.960Z",
+        "infrastructure": 84,
+        "safety": 71,
+        "cleanliness": 79,
+        "responseSpeed": 63
+      },
+      {
+        "date": "2026-05-30T15:54:39.960Z",
+        "infrastructure": 66,
+        "safety": 68,
+        "cleanliness": 56,
+        "responseSpeed": 68
+      },
+      {
+        "date": "2026-05-31T15:54:39.960Z",
+        "infrastructure": 78,
+        "safety": 66,
+        "cleanliness": 66,
+        "responseSpeed": 47
+      },
+      {
+        "date": "2026-06-01T15:54:39.960Z",
+        "infrastructure": 77,
+        "safety": 70,
+        "cleanliness": 80,
+        "responseSpeed": 51
+      },
+      {
+        "date": "2026-06-02T15:54:39.960Z",
+        "infrastructure": 56,
+        "safety": 77,
+        "cleanliness": 61,
+        "responseSpeed": 80
+      },
+      {
+        "date": "2026-06-03T15:54:39.960Z",
+        "infrastructure": 76,
+        "safety": 64,
+        "cleanliness": 63,
+        "responseSpeed": 49
+      },
+      {
+        "date": "2026-06-04T15:54:39.960Z",
+        "infrastructure": 77,
+        "safety": 79,
+        "cleanliness": 61,
+        "responseSpeed": 49
+      },
+      {
+        "date": "2026-06-05T15:54:39.960Z",
+        "infrastructure": 64,
+        "safety": 77,
+        "cleanliness": 66,
+        "responseSpeed": 65
+      },
+      {
+        "date": "2026-06-06T15:54:39.960Z",
+        "infrastructure": 63,
+        "safety": 73,
+        "cleanliness": 52,
+        "responseSpeed": 72
+      },
+      {
+        "date": "2026-06-07T15:54:39.960Z",
+        "infrastructure": 80,
+        "safety": 84,
+        "cleanliness": 68,
+        "responseSpeed": 78
+      },
+      {
+        "date": "2026-06-08T15:54:39.960Z",
+        "infrastructure": 75,
+        "safety": 68,
+        "cleanliness": 54,
+        "responseSpeed": 65
+      },
+      {
+        "date": "2026-06-09T15:54:39.960Z",
+        "infrastructure": 60,
+        "safety": 73,
+        "cleanliness": 65,
+        "responseSpeed": 73
+      },
+      {
+        "date": "2026-06-10T15:54:39.960Z",
+        "infrastructure": 64,
+        "safety": 75,
+        "cleanliness": 68,
+        "responseSpeed": 53
+      },
+      {
+        "date": "2026-06-11T15:54:39.960Z",
+        "infrastructure": 70,
+        "safety": 75,
+        "cleanliness": 63,
+        "responseSpeed": 58
+      },
+      {
+        "date": "2026-06-12T15:54:39.960Z",
+        "infrastructure": 63,
+        "safety": 64,
+        "cleanliness": 55,
+        "responseSpeed": 45
+      },
+      {
+        "date": "2026-06-13T15:54:39.960Z",
+        "infrastructure": 57,
+        "safety": 84,
+        "cleanliness": 70,
+        "responseSpeed": 56
+      },
+      {
+        "date": "2026-06-14T15:54:39.960Z",
+        "infrastructure": 68,
+        "safety": 80,
+        "cleanliness": 82,
+        "responseSpeed": 85
+      },
+      {
+        "date": "2026-06-15T15:54:39.960Z",
+        "infrastructure": 83,
+        "safety": 78,
+        "cleanliness": 52,
+        "responseSpeed": 51
+      },
+      {
+        "date": "2026-06-16T15:54:39.960Z",
+        "infrastructure": 89,
+        "safety": 83,
+        "cleanliness": 65,
+        "responseSpeed": 71
+      },
+      {
+        "date": "2026-06-17T15:54:39.960Z",
+        "infrastructure": 76,
+        "safety": 79,
+        "cleanliness": 50,
+        "responseSpeed": 65
+      },
+      {
+        "date": "2026-06-18T15:54:39.960Z",
+        "infrastructure": 90,
+        "safety": 70,
+        "cleanliness": 59,
+        "responseSpeed": 58
+      },
+      {
+        "date": "2026-06-19T15:54:39.960Z",
+        "infrastructure": 81,
+        "safety": 67,
+        "cleanliness": 61,
+        "responseSpeed": 82
+      },
+      {
+        "date": "2026-06-20T15:54:39.960Z",
+        "infrastructure": 69,
+        "safety": 76,
+        "cleanliness": 83,
+        "responseSpeed": 74
+      },
+      {
+        "date": "2026-06-21T15:54:39.960Z",
+        "infrastructure": 86,
+        "safety": 66,
+        "cleanliness": 69,
+        "responseSpeed": 66
+      },
+      {
+        "date": "2026-06-22T15:54:39.960Z",
+        "infrastructure": 86,
+        "safety": 74,
+        "cleanliness": 73,
+        "responseSpeed": 80
+      },
+      {
+        "date": "2026-06-23T15:54:39.960Z",
+        "infrastructure": 69,
+        "safety": 69,
+        "cleanliness": 67,
+        "responseSpeed": 69
+      }
+    ],
+    "jayanagar": [
+      {
+        "date": "2026-05-24T15:54:39.960Z",
+        "infrastructure": 76,
+        "safety": 63,
+        "cleanliness": 62,
+        "responseSpeed": 47
+      },
+      {
+        "date": "2026-05-25T15:54:39.960Z",
+        "infrastructure": 73,
+        "safety": 64,
+        "cleanliness": 56,
+        "responseSpeed": 50
+      },
+      {
+        "date": "2026-05-26T15:54:39.960Z",
+        "infrastructure": 75,
+        "safety": 76,
+        "cleanliness": 83,
+        "responseSpeed": 42
+      },
+      {
+        "date": "2026-05-27T15:54:39.960Z",
+        "infrastructure": 56,
+        "safety": 72,
+        "cleanliness": 69,
+        "responseSpeed": 72
+      },
+      {
+        "date": "2026-05-28T15:54:39.960Z",
+        "infrastructure": 66,
+        "safety": 76,
+        "cleanliness": 68,
+        "responseSpeed": 45
+      },
+      {
+        "date": "2026-05-29T15:54:39.960Z",
+        "infrastructure": 58,
+        "safety": 76,
+        "cleanliness": 79,
+        "responseSpeed": 76
+      },
+      {
+        "date": "2026-05-30T15:54:39.960Z",
+        "infrastructure": 72,
+        "safety": 65,
+        "cleanliness": 57,
+        "responseSpeed": 74
+      },
+      {
+        "date": "2026-05-31T15:54:39.960Z",
+        "infrastructure": 66,
+        "safety": 66,
+        "cleanliness": 62,
+        "responseSpeed": 72
+      },
+      {
+        "date": "2026-06-01T15:54:39.960Z",
+        "infrastructure": 63,
+        "safety": 82,
+        "cleanliness": 76,
+        "responseSpeed": 62
+      },
+      {
+        "date": "2026-06-02T15:54:39.960Z",
+        "infrastructure": 55,
+        "safety": 63,
+        "cleanliness": 76,
+        "responseSpeed": 58
+      },
+      {
+        "date": "2026-06-03T15:54:39.960Z",
+        "infrastructure": 78,
+        "safety": 83,
+        "cleanliness": 62,
+        "responseSpeed": 79
+      },
+      {
+        "date": "2026-06-04T15:54:39.960Z",
+        "infrastructure": 78,
+        "safety": 69,
+        "cleanliness": 67,
+        "responseSpeed": 77
+      },
+      {
+        "date": "2026-06-05T15:54:39.960Z",
+        "infrastructure": 70,
+        "safety": 79,
+        "cleanliness": 69,
+        "responseSpeed": 77
+      },
+      {
+        "date": "2026-06-06T15:54:39.960Z",
+        "infrastructure": 66,
+        "safety": 72,
+        "cleanliness": 83,
+        "responseSpeed": 70
+      },
+      {
+        "date": "2026-06-07T15:54:39.960Z",
+        "infrastructure": 78,
+        "safety": 84,
+        "cleanliness": 52,
+        "responseSpeed": 58
+      },
+      {
+        "date": "2026-06-08T15:54:39.960Z",
+        "infrastructure": 82,
+        "safety": 61,
+        "cleanliness": 57,
+        "responseSpeed": 64
+      },
+      {
+        "date": "2026-06-09T15:54:39.960Z",
+        "infrastructure": 76,
+        "safety": 70,
+        "cleanliness": 64,
+        "responseSpeed": 73
+      },
+      {
+        "date": "2026-06-10T15:54:39.960Z",
+        "infrastructure": 68,
+        "safety": 64,
+        "cleanliness": 58,
+        "responseSpeed": 70
+      },
+      {
+        "date": "2026-06-11T15:54:39.961Z",
+        "infrastructure": 77,
+        "safety": 76,
+        "cleanliness": 68,
+        "responseSpeed": 76
+      },
+      {
+        "date": "2026-06-12T15:54:39.961Z",
+        "infrastructure": 61,
+        "safety": 78,
+        "cleanliness": 68,
+        "responseSpeed": 78
+      },
+      {
+        "date": "2026-06-13T15:54:39.961Z",
+        "infrastructure": 85,
+        "safety": 82,
+        "cleanliness": 67,
+        "responseSpeed": 71
+      },
+      {
+        "date": "2026-06-14T15:54:39.961Z",
+        "infrastructure": 83,
+        "safety": 80,
+        "cleanliness": 75,
+        "responseSpeed": 61
+      },
+      {
+        "date": "2026-06-15T15:54:39.961Z",
+        "infrastructure": 80,
+        "safety": 76,
+        "cleanliness": 78,
+        "responseSpeed": 64
+      },
+      {
+        "date": "2026-06-16T15:54:39.961Z",
+        "infrastructure": 90,
+        "safety": 60,
+        "cleanliness": 57,
+        "responseSpeed": 67
+      },
+      {
+        "date": "2026-06-17T15:54:39.961Z",
+        "infrastructure": 89,
+        "safety": 70,
+        "cleanliness": 57,
+        "responseSpeed": 76
+      },
+      {
+        "date": "2026-06-18T15:54:39.961Z",
+        "infrastructure": 88,
+        "safety": 62,
+        "cleanliness": 59,
+        "responseSpeed": 63
+      },
+      {
+        "date": "2026-06-19T15:54:39.961Z",
+        "infrastructure": 76,
+        "safety": 79,
+        "cleanliness": 80,
+        "responseSpeed": 84
+      },
+      {
+        "date": "2026-06-20T15:54:39.961Z",
+        "infrastructure": 66,
+        "safety": 82,
+        "cleanliness": 69,
+        "responseSpeed": 78
+      },
+      {
+        "date": "2026-06-21T15:54:39.961Z",
+        "infrastructure": 90,
+        "safety": 70,
+        "cleanliness": 82,
+        "responseSpeed": 85
+      },
+      {
+        "date": "2026-06-22T15:54:39.961Z",
+        "infrastructure": 74,
+        "safety": 69,
+        "cleanliness": 68,
+        "responseSpeed": 85
+      },
+      {
+        "date": "2026-06-23T15:54:39.961Z",
+        "infrastructure": 88,
+        "safety": 82,
+        "cleanliness": 81,
+        "responseSpeed": 65
+      }
+    ],
+    "whitefield": [
+      {
+        "date": "2026-05-24T15:54:39.961Z",
+        "infrastructure": 74,
+        "safety": 64,
+        "cleanliness": 57,
+        "responseSpeed": 48
+      },
+      {
+        "date": "2026-05-25T15:54:39.961Z",
+        "infrastructure": 80,
+        "safety": 76,
+        "cleanliness": 78,
+        "responseSpeed": 66
+      },
+      {
+        "date": "2026-05-26T15:54:39.961Z",
+        "infrastructure": 73,
+        "safety": 67,
+        "cleanliness": 55,
+        "responseSpeed": 73
+      },
+      {
+        "date": "2026-05-27T15:54:39.962Z",
+        "infrastructure": 61,
+        "safety": 79,
+        "cleanliness": 68,
+        "responseSpeed": 70
+      },
+      {
+        "date": "2026-05-28T15:54:39.963Z",
+        "infrastructure": 63,
+        "safety": 79,
+        "cleanliness": 51,
+        "responseSpeed": 46
+      },
+      {
+        "date": "2026-05-29T15:54:39.963Z",
+        "infrastructure": 82,
+        "safety": 65,
+        "cleanliness": 70,
+        "responseSpeed": 41
+      },
+      {
+        "date": "2026-05-30T15:54:39.963Z",
+        "infrastructure": 83,
+        "safety": 76,
+        "cleanliness": 61,
+        "responseSpeed": 50
+      },
+      {
+        "date": "2026-05-31T15:54:39.963Z",
+        "infrastructure": 76,
+        "safety": 78,
+        "cleanliness": 71,
+        "responseSpeed": 53
+      },
+      {
+        "date": "2026-06-01T15:54:39.963Z",
+        "infrastructure": 56,
+        "safety": 75,
+        "cleanliness": 55,
+        "responseSpeed": 57
+      },
+      {
+        "date": "2026-06-02T15:54:39.963Z",
+        "infrastructure": 70,
+        "safety": 62,
+        "cleanliness": 57,
+        "responseSpeed": 40
+      },
+      {
+        "date": "2026-06-03T15:54:39.963Z",
+        "infrastructure": 82,
+        "safety": 67,
+        "cleanliness": 58,
+        "responseSpeed": 68
+      },
+      {
+        "date": "2026-06-04T15:54:39.963Z",
+        "infrastructure": 79,
+        "safety": 83,
+        "cleanliness": 64,
+        "responseSpeed": 61
+      },
+      {
+        "date": "2026-06-05T15:54:39.963Z",
+        "infrastructure": 82,
+        "safety": 72,
+        "cleanliness": 83,
+        "responseSpeed": 45
+      },
+      {
+        "date": "2026-06-06T15:54:39.963Z",
+        "infrastructure": 62,
+        "safety": 81,
+        "cleanliness": 50,
+        "responseSpeed": 66
+      },
+      {
+        "date": "2026-06-07T15:54:39.963Z",
+        "infrastructure": 85,
+        "safety": 64,
+        "cleanliness": 63,
+        "responseSpeed": 54
+      },
+      {
+        "date": "2026-06-08T15:54:39.963Z",
+        "infrastructure": 84,
+        "safety": 74,
+        "cleanliness": 52,
+        "responseSpeed": 66
+      },
+      {
+        "date": "2026-06-09T15:54:39.963Z",
+        "infrastructure": 60,
+        "safety": 64,
+        "cleanliness": 57,
+        "responseSpeed": 49
+      },
+      {
+        "date": "2026-06-10T15:54:39.963Z",
+        "infrastructure": 71,
+        "safety": 75,
+        "cleanliness": 75,
+        "responseSpeed": 47
+      },
+      {
+        "date": "2026-06-11T15:54:39.963Z",
+        "infrastructure": 80,
+        "safety": 79,
+        "cleanliness": 53,
+        "responseSpeed": 55
+      },
+      {
+        "date": "2026-06-12T15:54:39.963Z",
+        "infrastructure": 71,
+        "safety": 63,
+        "cleanliness": 73,
+        "responseSpeed": 50
+      },
+      {
+        "date": "2026-06-13T15:54:39.963Z",
+        "infrastructure": 72,
+        "safety": 60,
+        "cleanliness": 61,
+        "responseSpeed": 61
+      },
+      {
+        "date": "2026-06-14T15:54:39.963Z",
+        "infrastructure": 64,
+        "safety": 78,
+        "cleanliness": 65,
+        "responseSpeed": 81
+      },
+      {
+        "date": "2026-06-15T15:54:39.963Z",
+        "infrastructure": 83,
+        "safety": 83,
+        "cleanliness": 65,
+        "responseSpeed": 52
+      },
+      {
+        "date": "2026-06-16T15:54:39.963Z",
+        "infrastructure": 90,
+        "safety": 83,
+        "cleanliness": 82,
+        "responseSpeed": 58
+      },
+      {
+        "date": "2026-06-17T15:54:39.963Z",
+        "infrastructure": 61,
+        "safety": 81,
+        "cleanliness": 59,
+        "responseSpeed": 76
+      },
+      {
+        "date": "2026-06-18T15:54:39.963Z",
+        "infrastructure": 84,
+        "safety": 76,
+        "cleanliness": 82,
+        "responseSpeed": 75
+      },
+      {
+        "date": "2026-06-19T15:54:39.963Z",
+        "infrastructure": 79,
+        "safety": 66,
+        "cleanliness": 81,
+        "responseSpeed": 64
+      },
+      {
+        "date": "2026-06-20T15:54:39.963Z",
+        "infrastructure": 83,
+        "safety": 63,
+        "cleanliness": 51,
+        "responseSpeed": 50
+      },
+      {
+        "date": "2026-06-21T15:54:39.963Z",
+        "infrastructure": 83,
+        "safety": 79,
+        "cleanliness": 61,
+        "responseSpeed": 79
+      },
+      {
+        "date": "2026-06-22T15:54:39.963Z",
+        "infrastructure": 79,
+        "safety": 80,
+        "cleanliness": 67,
+        "responseSpeed": 71
+      },
+      {
+        "date": "2026-06-23T15:54:39.963Z",
+        "infrastructure": 76,
+        "safety": 60,
+        "cleanliness": 75,
+        "responseSpeed": 86
+      }
+    ],
+    "hsr_layout": [
+      {
+        "date": "2026-05-24T15:54:39.963Z",
+        "infrastructure": 68,
+        "safety": 71,
+        "cleanliness": 67,
+        "responseSpeed": 53
+      },
+      {
+        "date": "2026-05-25T15:54:39.963Z",
+        "infrastructure": 59,
+        "safety": 71,
+        "cleanliness": 67,
+        "responseSpeed": 77
+      },
+      {
+        "date": "2026-05-26T15:54:39.963Z",
+        "infrastructure": 59,
+        "safety": 80,
+        "cleanliness": 51,
+        "responseSpeed": 50
+      },
+      {
+        "date": "2026-05-27T15:54:39.963Z",
+        "infrastructure": 66,
+        "safety": 77,
+        "cleanliness": 80,
+        "responseSpeed": 68
+      },
+      {
+        "date": "2026-05-28T15:54:39.963Z",
+        "infrastructure": 63,
+        "safety": 76,
+        "cleanliness": 50,
+        "responseSpeed": 51
+      },
+      {
+        "date": "2026-05-29T15:54:39.963Z",
+        "infrastructure": 62,
+        "safety": 85,
+        "cleanliness": 76,
+        "responseSpeed": 54
+      },
+      {
+        "date": "2026-05-30T15:54:39.963Z",
+        "infrastructure": 64,
+        "safety": 67,
+        "cleanliness": 74,
+        "responseSpeed": 77
+      },
+      {
+        "date": "2026-05-31T15:54:39.963Z",
+        "infrastructure": 68,
+        "safety": 73,
+        "cleanliness": 78,
+        "responseSpeed": 48
+      },
+      {
+        "date": "2026-06-01T15:54:39.963Z",
+        "infrastructure": 70,
+        "safety": 66,
+        "cleanliness": 62,
+        "responseSpeed": 41
+      },
+      {
+        "date": "2026-06-02T15:54:39.963Z",
+        "infrastructure": 66,
+        "safety": 69,
+        "cleanliness": 51,
+        "responseSpeed": 46
+      },
+      {
+        "date": "2026-06-03T15:54:39.963Z",
+        "infrastructure": 71,
+        "safety": 79,
+        "cleanliness": 68,
+        "responseSpeed": 73
+      },
+      {
+        "date": "2026-06-04T15:54:39.963Z",
+        "infrastructure": 58,
+        "safety": 65,
+        "cleanliness": 70,
+        "responseSpeed": 75
+      },
+      {
+        "date": "2026-06-05T15:54:39.963Z",
+        "infrastructure": 58,
+        "safety": 78,
+        "cleanliness": 83,
+        "responseSpeed": 40
+      },
+      {
+        "date": "2026-06-06T15:54:39.964Z",
+        "infrastructure": 76,
+        "safety": 81,
+        "cleanliness": 51,
+        "responseSpeed": 42
+      },
+      {
+        "date": "2026-06-07T15:54:39.964Z",
+        "infrastructure": 60,
+        "safety": 78,
+        "cleanliness": 66,
+        "responseSpeed": 43
+      },
+      {
+        "date": "2026-06-08T15:54:39.964Z",
+        "infrastructure": 69,
+        "safety": 71,
+        "cleanliness": 67,
+        "responseSpeed": 43
+      },
+      {
+        "date": "2026-06-09T15:54:39.964Z",
+        "infrastructure": 83,
+        "safety": 78,
+        "cleanliness": 82,
+        "responseSpeed": 65
+      },
+      {
+        "date": "2026-06-10T15:54:39.964Z",
+        "infrastructure": 84,
+        "safety": 83,
+        "cleanliness": 55,
+        "responseSpeed": 60
+      },
+      {
+        "date": "2026-06-11T15:54:39.964Z",
+        "infrastructure": 80,
+        "safety": 80,
+        "cleanliness": 71,
+        "responseSpeed": 46
+      },
+      {
+        "date": "2026-06-12T15:54:39.964Z",
+        "infrastructure": 80,
+        "safety": 75,
+        "cleanliness": 85,
+        "responseSpeed": 62
+      },
+      {
+        "date": "2026-06-13T15:54:39.964Z",
+        "infrastructure": 83,
+        "safety": 73,
+        "cleanliness": 77,
+        "responseSpeed": 67
+      },
+      {
+        "date": "2026-06-14T15:54:39.964Z",
+        "infrastructure": 78,
+        "safety": 85,
+        "cleanliness": 51,
+        "responseSpeed": 72
+      },
+      {
+        "date": "2026-06-15T15:54:39.964Z",
+        "infrastructure": 61,
+        "safety": 74,
+        "cleanliness": 72,
+        "responseSpeed": 63
+      },
+      {
+        "date": "2026-06-16T15:54:39.964Z",
+        "infrastructure": 89,
+        "safety": 69,
+        "cleanliness": 70,
+        "responseSpeed": 67
+      },
+      {
+        "date": "2026-06-17T15:54:39.964Z",
+        "infrastructure": 74,
+        "safety": 80,
+        "cleanliness": 77,
+        "responseSpeed": 52
+      },
+      {
+        "date": "2026-06-18T15:54:39.964Z",
+        "infrastructure": 61,
+        "safety": 75,
+        "cleanliness": 73,
+        "responseSpeed": 58
+      },
+      {
+        "date": "2026-06-19T15:54:39.964Z",
+        "infrastructure": 64,
+        "safety": 68,
+        "cleanliness": 52,
+        "responseSpeed": 85
+      },
+      {
+        "date": "2026-06-20T15:54:39.964Z",
+        "infrastructure": 67,
+        "safety": 63,
+        "cleanliness": 68,
+        "responseSpeed": 70
+      },
+      {
+        "date": "2026-06-21T15:54:39.964Z",
+        "infrastructure": 68,
+        "safety": 68,
+        "cleanliness": 58,
+        "responseSpeed": 65
+      },
+      {
+        "date": "2026-06-22T15:54:39.964Z",
+        "infrastructure": 69,
+        "safety": 71,
+        "cleanliness": 80,
+        "responseSpeed": 54
+      },
+      {
+        "date": "2026-06-23T15:54:39.964Z",
+        "infrastructure": 72,
+        "safety": 80,
+        "cleanliness": 67,
+        "responseSpeed": 74
+      }
+    ],
+    "malleshwaram": [
+      {
+        "date": "2026-05-24T15:54:39.964Z",
+        "infrastructure": 84,
+        "safety": 71,
+        "cleanliness": 59,
+        "responseSpeed": 54
+      },
+      {
+        "date": "2026-05-25T15:54:39.964Z",
+        "infrastructure": 73,
+        "safety": 69,
+        "cleanliness": 77,
+        "responseSpeed": 46
+      },
+      {
+        "date": "2026-05-26T15:54:39.964Z",
+        "infrastructure": 58,
+        "safety": 80,
+        "cleanliness": 53,
+        "responseSpeed": 64
+      },
+      {
+        "date": "2026-05-27T15:54:39.964Z",
+        "infrastructure": 64,
+        "safety": 66,
+        "cleanliness": 78,
+        "responseSpeed": 74
+      },
+      {
+        "date": "2026-05-28T15:54:39.964Z",
+        "infrastructure": 58,
+        "safety": 79,
+        "cleanliness": 84,
+        "responseSpeed": 72
+      },
+      {
+        "date": "2026-05-29T15:54:39.964Z",
+        "infrastructure": 75,
+        "safety": 65,
+        "cleanliness": 54,
+        "responseSpeed": 47
+      },
+      {
+        "date": "2026-05-30T15:54:39.964Z",
+        "infrastructure": 64,
+        "safety": 63,
+        "cleanliness": 61,
+        "responseSpeed": 63
+      },
+      {
+        "date": "2026-05-31T15:54:39.964Z",
+        "infrastructure": 73,
+        "safety": 62,
+        "cleanliness": 83,
+        "responseSpeed": 74
+      },
+      {
+        "date": "2026-06-01T15:54:39.964Z",
+        "infrastructure": 75,
+        "safety": 70,
+        "cleanliness": 52,
+        "responseSpeed": 60
+      },
+      {
+        "date": "2026-06-02T15:54:39.964Z",
+        "infrastructure": 56,
+        "safety": 68,
+        "cleanliness": 57,
+        "responseSpeed": 52
+      },
+      {
+        "date": "2026-06-03T15:54:39.964Z",
+        "infrastructure": 73,
+        "safety": 83,
+        "cleanliness": 67,
+        "responseSpeed": 58
+      },
+      {
+        "date": "2026-06-04T15:54:39.964Z",
+        "infrastructure": 85,
+        "safety": 70,
+        "cleanliness": 83,
+        "responseSpeed": 79
+      },
+      {
+        "date": "2026-06-05T15:54:39.964Z",
+        "infrastructure": 56,
+        "safety": 64,
+        "cleanliness": 60,
+        "responseSpeed": 68
+      },
+      {
+        "date": "2026-06-06T15:54:39.964Z",
+        "infrastructure": 71,
+        "safety": 75,
+        "cleanliness": 63,
+        "responseSpeed": 63
+      },
+      {
+        "date": "2026-06-07T15:54:39.964Z",
+        "infrastructure": 81,
+        "safety": 85,
+        "cleanliness": 77,
+        "responseSpeed": 44
+      },
+      {
+        "date": "2026-06-08T15:54:39.964Z",
+        "infrastructure": 79,
+        "safety": 81,
+        "cleanliness": 70,
+        "responseSpeed": 64
+      },
+      {
+        "date": "2026-06-09T15:54:39.964Z",
+        "infrastructure": 83,
+        "safety": 66,
+        "cleanliness": 84,
+        "responseSpeed": 59
+      },
+      {
+        "date": "2026-06-10T15:54:39.964Z",
+        "infrastructure": 67,
+        "safety": 78,
+        "cleanliness": 62,
+        "responseSpeed": 52
+      },
+      {
+        "date": "2026-06-11T15:54:39.964Z",
+        "infrastructure": 68,
+        "safety": 65,
+        "cleanliness": 83,
+        "responseSpeed": 57
+      },
+      {
+        "date": "2026-06-12T15:54:39.964Z",
+        "infrastructure": 77,
+        "safety": 70,
+        "cleanliness": 78,
+        "responseSpeed": 70
+      },
+      {
+        "date": "2026-06-13T15:54:39.964Z",
+        "infrastructure": 78,
+        "safety": 71,
+        "cleanliness": 52,
+        "responseSpeed": 66
+      },
+      {
+        "date": "2026-06-14T15:54:39.964Z",
+        "infrastructure": 71,
+        "safety": 62,
+        "cleanliness": 78,
+        "responseSpeed": 76
+      },
+      {
+        "date": "2026-06-15T15:54:39.964Z",
+        "infrastructure": 62,
+        "safety": 71,
+        "cleanliness": 52,
+        "responseSpeed": 78
+      },
+      {
+        "date": "2026-06-16T15:54:39.964Z",
+        "infrastructure": 79,
+        "safety": 77,
+        "cleanliness": 63,
+        "responseSpeed": 79
+      },
+      {
+        "date": "2026-06-17T15:54:39.964Z",
+        "infrastructure": 71,
+        "safety": 71,
+        "cleanliness": 56,
+        "responseSpeed": 87
+      },
+      {
+        "date": "2026-06-18T15:54:39.964Z",
+        "infrastructure": 73,
+        "safety": 61,
+        "cleanliness": 77,
+        "responseSpeed": 59
+      },
+      {
+        "date": "2026-06-19T15:54:39.964Z",
+        "infrastructure": 66,
+        "safety": 79,
+        "cleanliness": 54,
+        "responseSpeed": 78
+      },
+      {
+        "date": "2026-06-20T15:54:39.964Z",
+        "infrastructure": 89,
+        "safety": 62,
+        "cleanliness": 68,
+        "responseSpeed": 76
+      },
+      {
+        "date": "2026-06-21T15:54:39.964Z",
+        "infrastructure": 75,
+        "safety": 77,
+        "cleanliness": 59,
+        "responseSpeed": 74
+      },
+      {
+        "date": "2026-06-22T15:54:39.964Z",
+        "infrastructure": 78,
+        "safety": 67,
+        "cleanliness": 58,
+        "responseSpeed": 63
+      },
+      {
+        "date": "2026-06-23T15:54:39.964Z",
+        "infrastructure": 65,
+        "safety": 83,
+        "cleanliness": 53,
+        "responseSpeed": 55
+      }
+    ]
+  },
+  "lastSynced": "2026-06-23T15:32:36.477Z"
+}

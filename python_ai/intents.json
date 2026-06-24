@@ -1,0 +1,111 @@
+[
+  {
+    "intent": "GREETING",
+    "examples": [
+      "hi",
+      "hello",
+      "hey there",
+      "good morning",
+      "start",
+      "help me",
+      "what can you do",
+      "I need assistance",
+      "who are you",
+      "what is this bot"
+    ]
+  },
+  {
+    "intent": "REPORT_ISSUE",
+    "examples": [
+      "I want to report an issue",
+      "there is a pothole here",
+      "huge crater in the road",
+      "water leak near the station",
+      "broken street light",
+      "garbage dump on the sidewalk",
+      "how do I complain about a pothole",
+      "file a report",
+      "report trash",
+      "the road is completely broken",
+      "there is a pipe leaking water everywhere",
+      "streetlamp is out of order"
+    ]
+  },
+  {
+    "intent": "CHECK_STATUS",
+    "examples": [
+      "what is the status of my report",
+      "is the pothole fixed yet",
+      "did the government dispatch someone",
+      "track my issue",
+      "check progress",
+      "has my report been validated",
+      "how long until it gets fixed",
+      "when will they fix the leak"
+    ]
+  },
+  {
+    "intent": "ECONOMY_SP",
+    "examples": [
+      "what are shield points",
+      "how does sp work",
+      "what is the civic stake",
+      "why do I have to stake points",
+      "do I lose points if I make a fake report",
+      "how do I get my staked points back",
+      "what is the currency",
+      "shield points explained"
+    ]
+  },
+  {
+    "intent": "ECONOMY_XP",
+    "examples": [
+      "how do I level up",
+      "what is xp",
+      "how do I get experience points",
+      "what is my current level",
+      "what is the vanguard rank",
+      "how do I get the legend badge",
+      "how to earn more xp"
+    ]
+  },
+  {
+    "intent": "CASCADE_ROI",
+    "examples": [
+      "what is cascade roi",
+      "how does the predictive engine work",
+      "cascade risk for potholes",
+      "future cost prediction",
+      "how much money does this save",
+      "roi calculation",
+      "what happens if they don't fix the leak",
+      "secondary damages",
+      "explain the cascade effect"
+    ]
+  },
+  {
+    "intent": "SWARM_VALIDATION",
+    "examples": [
+      "what is swarm validation",
+      "how do you prevent fake reports",
+      "who validates the issues",
+      "community verification",
+      "what is swarm confidence",
+      "how many people need to confirm",
+      "anti spam system"
+    ]
+  },
+  {
+    "intent": "AI_SYSTEM",
+    "examples": [
+      "how does the ai work",
+      "what is the fusion engine",
+      "how do you calculate issue dna",
+      "tell me about the tech stack",
+      "what ai models do you use",
+      "explain the 4 layer fusion",
+      "semantic cnn",
+      "pixel math heuristics"
+    ]
+  }
+]
