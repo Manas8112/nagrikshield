@@ -101,9 +101,19 @@ export async function addValidation(issueId, userId, isDispute = false) {
     });
   }
 
+  // Check if this is the first validator and if it completes a raid
+  const isFirst = (!issue.validators || issue.validators.length === 1); // it's 1 because we just added it above?
+  // Wait, let's see how validators are added. They are pushed to issue.validators.
+  // Actually, wait, the user's validation is just added. So if issue.validators didn't exist or is length 1.
+  
   // 1. Process User Rewards & Quests
   if (!isDispute) {
-    await processUserAction(userId, 'validate_issue', issue.category);
+    const isFirstValidator = (issue.validators?.length === 1);
+    const isRaidComplete = (issue.validators?.length === 10);
+    await processUserAction(userId, 'validate_issue', issue.category, { isFirst: isFirstValidator });
+    if (isRaidComplete && issue.reportedBy) {
+      await processUserAction(issue.reportedBy, 'raid_complete', issue.category);
+    }
   }
 
   return await updateIssue(issueId, issue);
@@ -316,19 +326,22 @@ export async function updateNeighborhoodVitals(neighborhood, isResolved = false)
 }
 
 // Engine Processors
-export async function processUserAction(userId, actionType, category = null) {
+export async function processUserAction(userId, actionType, category = null, extraData = {}) {
   const user = await getUserById(userId);
   if (!user) return;
 
-  const xpReward = reputationEngine.getXPForAction(actionType);
-  const spReward = reputationEngine.getPointsForAction(actionType);
+  const xpReward = reputationEngine.getXPForAction(actionType) || 0;
+  const spReward = reputationEngine.getPointsForAction(actionType) || 0;
   
   let updates = {
     xp: (user.xp || 0) + xpReward,
     shieldPoints: (user.shieldPoints || 0) + spReward,
   };
   
-  if (actionType === 'report_issue') updates.issuesReported = (user.issuesReported || 0) + 1;
+  if (actionType === 'report_issue') {
+    updates.issuesReported = (user.issuesReported || 0) + 1;
+    updates.currentStreak = (user.currentStreak || 0) + 1;
+  }
   if (actionType === 'validate_issue') updates.issuesValidated = (user.issuesValidated || 0) + 1;
   
   // Check leveling
@@ -344,13 +357,17 @@ export async function processUserAction(userId, actionType, category = null) {
   const userQuests = user.activeQuests || allQuests.map(q => ({...q, progress: 0}));
   let updatedQuests = [];
   
+  let qType = actionType;
+  if (actionType === 'report_issue') qType = 'report';
+  if (actionType === 'validate_issue') qType = 'validate';
+
   for (let q of userQuests) {
     if (q.completed) {
       updatedQuests.push(q);
       continue;
     }
     
-    const nextQ = questEngine.checkQuestProgress(q, user, { type: actionType === 'report_issue' ? 'report' : 'validate', category });
+    const nextQ = questEngine.checkQuestProgress(q, user, { type: qType, category, ...extraData });
     if (nextQ.completed && !q.completed) {
       updates.xp += nextQ.xpReward;
       updates.shieldPoints += nextQ.pointsReward;

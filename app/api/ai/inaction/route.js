@@ -64,6 +64,6 @@ Return EXACTLY a JSON object with these three keys (and nothing else):
       dailyImpact: "Unknown", 
       monthlyProjection: "Unknown", 
       summaryText: "Could not calculate the cost of inaction at this time." 
-    }, { status: 500 });
+    }, { status: 200 });
   }
 }

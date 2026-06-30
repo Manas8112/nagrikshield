@@ -1,7 +1,7 @@
 'use client';
 
 import { createContext, useContext, useState, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import { isInitialized, initializeWithSeedData, setCurrentUser, logoutUser } from './storage';
 import { seedData } from './seedData';
 
@@ -11,6 +11,7 @@ export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
   const router = useRouter();
+  const pathname = usePathname();
 
   useEffect(() => {
     // Ensure localStorage is seeded for the demo
@@ -24,11 +25,13 @@ export function AuthProvider({ children }) {
         if (data.user) {
           setUser(data.user);
           setCurrentUser(data.user.id); // Sync storage
+        } else {
+          setUser(null);
         }
         setLoading(false);
       })
       .catch(() => setLoading(false));
-  }, []);
+  }, [pathname]);
 
   const login = async (email, password) => {
     const res = await fetch('/api/auth/login', {

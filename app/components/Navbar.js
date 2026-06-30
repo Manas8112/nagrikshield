@@ -5,12 +5,11 @@ import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import { useAuth } from '../lib/authProvider';
 import { getNotifications, markNotificationsRead } from '../lib/storage';
-import { Shield, Menu, X, Bell } from 'lucide-react';
+import { Shield, Bell, LogOut } from 'lucide-react';
 import XboxAvatar from './XboxAvatar';
 
 export default function Navbar() {
   const pathname = usePathname();
-  const [menuOpen, setMenuOpen] = useState(false);
   const [showNotifications, setShowNotifications] = useState(false);
   const [notifications, setNotifications] = useState([]);
   const { user, loading, logout } = useAuth();
@@ -40,7 +39,8 @@ export default function Navbar() {
     { href: '/vitals', label: 'Civic Vitals' },
     { href: '/cascade', label: 'Cascade ROI' },
     { href: '/leaderboard', label: 'Vanguard' },
-    { href: '/guide', label: 'Tech Stack & Guide' },
+    { href: '/guide', label: 'Game Guide' },
+    { href: '/tech-stack', label: 'Tech Stack' },
   ];
 
   if (user?.role === 'admin') {
@@ -50,18 +50,17 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-inner">
-        <Link href="/" className="navbar-logo" onClick={() => setMenuOpen(false)}>
+        <Link href="/" className="navbar-logo">
           <Shield size={24} className="text-primary" />
           NAGRIKSHIELD
         </Link>
         
-        <div className={`navbar-links ${menuOpen ? 'open' : ''}`}>
+        <div className="navbar-links open" style={{ display: 'flex' }}>
           {links.map(link => (
             <Link 
               key={link.href} 
               href={link.href} 
               className={`nav-link ${pathname === link.href ? 'active' : ''}`}
-              onClick={() => setMenuOpen(false)}
             >
               {link.label}
             </Link>
@@ -71,11 +70,6 @@ export default function Navbar() {
         <div className="navbar-actions">
           {!loading && user ? (
             <>
-              {user.role !== 'admin' && (
-                <Link href="/report" className="btn btn-primary" style={{ display: 'none' }}>
-                  Report Issue
-                </Link>
-              )}
               {user.role !== 'admin' && (
                 <Link href="/report" className="btn btn-primary" style={{ '@media(minWidth: 768px)': { display: 'flex' } }}>
                   Report Issue
@@ -113,6 +107,10 @@ export default function Navbar() {
                 <XboxAvatar user={user} size={28} style={{ borderRadius: '5px' }} />
                 <span style={{ fontSize: 13, fontWeight: 600 }}>{user.name.split(' ')[0]}</span>
               </Link>
+              
+              <button className="btn btn-ghost" style={{ padding: 8, color: 'var(--status-critical)' }} onClick={logout} title="Quick Logout">
+                <LogOut size={20} />
+              </button>
             </>
           ) : !loading && (
             <>
@@ -120,10 +118,6 @@ export default function Navbar() {
               <Link href="/register" className="btn btn-primary">Sign Up</Link>
             </>
           )}
-
-          <button className="mobile-menu-btn btn btn-ghost" style={{ padding: 4 }} onClick={() => setMenuOpen(!menuOpen)}>
-            {menuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
         </div>
       </div>
     </nav>

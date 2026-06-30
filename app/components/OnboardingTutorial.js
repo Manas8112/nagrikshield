@@ -30,7 +30,7 @@ export default function OnboardingTutorial({ user }) {
       id: 'guide',
       title: 'Read the Field Guide',
       desc: 'Learn about Swarm DNA, Vitals, and the Reputation system.',
-      completed: false, // Will always encourage reading
+      completed: !!user.hasReadGuide,
       link: '/guide',
       icon: BookOpen,
       color: 'var(--status-warning)'

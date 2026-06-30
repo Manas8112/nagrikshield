@@ -2,8 +2,19 @@
 
 import { ShieldCheck, Cpu, Network, Award, Zap, Camera, Activity, AlertTriangle, Layers, BookOpen, ArrowRight, MapPin } from 'lucide-react';
 import Link from 'next/link';
+import { useEffect } from 'react';
+import { useAuth } from '../lib/authProvider';
+import { updateUser } from '../lib/storage';
 
 export default function GuidePage() {
+  const { user } = useAuth();
+
+  useEffect(() => {
+    if (user && !user.hasReadGuide) {
+      updateUser(user.id, { hasReadGuide: true }).catch(console.error);
+    }
+  }, [user]);
+
   return (
     <>
       <style dangerouslySetInnerHTML={{__html: `
@@ -121,54 +132,16 @@ export default function GuidePage() {
           </div>
         </div>
         <h1 className="display-lg stagger-2" style={{ marginBottom: 20 }}>
-          The Engine <span className="text-primary">Room</span>
+          The Game <span className="text-primary">Manual</span>
         </h1>
         <p className="title-md stagger-3" style={{ color: 'var(--text-muted)', maxWidth: 700, margin: '0 auto' }}>
-          Discover the technology stack and rules behind CivicTech Command. A complete guide for judges and citizens.
+          Discover the gamified rules behind CivicTech Command. A complete guide for citizens.
         </p>
       </section>
 
       <div className="container" style={{ maxWidth: 1000, margin: '0 auto' }}>
         
-        {/* Section 1: The Tech Stack */}
-        <section className="guide-section stagger-4">
-          <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 32 }}>
-            <Layers size={32} className="text-secondary" />
-            <h2 className="display-sm">Architecture & Tech Stack</h2>
-          </div>
-          
-          <div className="grid-3" style={{ gap: 24 }}>
-            <div className="tech-card">
-              <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 16 }}>
-                <Activity size={24} className="text-primary" />
-                <h3 className="title-sm">Next.js App Router</h3>
-              </div>
-              <p className="text-muted" style={{ fontSize: '0.95rem', lineHeight: 1.6 }}>
-                Built natively on React and Next.js 15 using Server Components where possible, and seamless Client Components for high interactivity. Fully static, edge-ready performance.
-              </p>
-            </div>
-            
-            <div className="tech-card">
-              <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 16 }}>
-                <MapPin size={24} className="text-primary" />
-                <h3 className="title-sm">Leaflet GPS Mapping</h3>
-              </div>
-              <p className="text-muted" style={{ fontSize: '0.95rem', lineHeight: 1.6 }}>
-                Features a sophisticated dynamic Leaflet map integration allowing citizens to precisely drop pins on the map for accurate issue localization and deduplication geometry.
-              </p>
-            </div>
-            
-            <div className="tech-card">
-              <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 16 }}>
-                <Cpu size={24} className="text-primary" />
-                <h3 className="title-sm">Python Vision Backend</h3>
-              </div>
-              <p className="text-muted" style={{ fontSize: '0.95rem', lineHeight: 1.6 }}>
-                A custom Python Flask backend running CLIP (ViT-B-32) to perform deep semantic image similarity validation when government workers resolve issues.
-              </p>
-            </div>
-          </div>
-        </section>
+
 
         {/* Section 2: Gamified Dictionary */}
         <section className="guide-section">

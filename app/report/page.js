@@ -285,7 +285,7 @@ export default function ReportPage() {
           <div className="input-group" style={{ marginTop: 32 }}>
             <label className="label" style={{ display: 'flex', alignItems: 'center', gap: 6 }}><MapPin size={16} /> Pinpoint Location</label>
             <div style={{ marginBottom: 12 }}>
-              <DynamicLocationPicker location={location} setLocation={setLocation} />
+              <DynamicLocationPicker location={location} setLocation={setLocation} onGetLocation={getLocation} />
             </div>
             <input className="input" placeholder="e.g., Near Main Street Junction" value={landmark} onChange={(e) => setLandmark(e.target.value)} />
             <div className="number-sm text-muted" style={{ marginTop: 6 }}>GPS: {location.lat.toFixed(4)}, {location.lng.toFixed(4)}</div>

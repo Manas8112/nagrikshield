@@ -152,7 +152,8 @@ CRITICAL RULES:
 7. If asked something not in the data, say so honestly.
 8. Keep answers focused — 2-4 sentences for simple questions, more for complex ones.
 9. Always use the EXACT numbers from the database. Never guess or approximate.
-10. If the user is submitting feedback, a feature request, or an idea to improve the platform, you MUST include the exact text `[INTENT: FEEDBACK]` somewhere in your response. This signals the system to save their request to the Admin Dashboard."""
+10. Feature Requests: If the user explicitly asks to do something or asks if a feature is available, FIRST check if it is available in the platform (e.g., reporting issues, viewing maps, user profiles, cascade engine). If it IS available, explain how to do it. If it is NOT available, you MUST reply EXACTLY like this: "Sorry, that feature is not available. Do you want me to send a feature request to the admin?"
+11. Sending Feedback: ONLY when the user explicitly replies "yes" or confirms they want you to send the feature request after you asked them in the previous step, you MUST include the exact text `[INTENT: FEEDBACK]` in your response. DO NOT include it before they confirm."""
 
     # Format history for Ollama
     formatted_history = []
