@@ -178,12 +178,14 @@ export async function POST(req) {
       responseText = mlResponse.text || "I'm processing your civic query using our custom LLM...";
       
       if (responseText.includes('[INTENT: FEEDBACK]')) {
-        responseText = responseText.replace('[INTENT: FEEDBACK]', '').trim();
+        const match = responseText.match(/\[INTENT: FEEDBACK\]\s*(?:\(Feature:\s*(.*?)\))?/i);
+        const featureDesc = (match && match[1]) ? match[1] : finalMessage;
+        responseText = responseText.replace(/\[INTENT: FEEDBACK\].*/i, '').trim();
         // Save feedback
         const fbUserId = userContext ? userContext.id : 'anonymous';
         const fbUserName = userContext ? userContext.name : 'Anonymous';
-        await addFeedback({ userId: fbUserId, userName: fbUserName, message: finalMessage });
-        responseText += "\n\n*(System Note: I've successfully submitted your feature request to the Admins!)*";
+        await addFeedback({ userId: fbUserId, userName: fbUserName, message: featureDesc });
+        responseText += `\n\n*(System Note: Feature Request Submitted for "${featureDesc}" - I've sent it to the Admin team!)*`;
       }
 
       // Dynamically map LLM conversational context to interactive UI actions

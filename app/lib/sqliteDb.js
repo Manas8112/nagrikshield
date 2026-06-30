@@ -15,6 +15,9 @@ export async function getDb() {
     driver: sqlite3.Database
   });
 
+  // Enable WAL (Write-Ahead Logging) to allow highly concurrent writes (like our broadcastNotification function)
+  await db.exec('PRAGMA journal_mode = WAL;');
+
   // Create the Document Store Table if it doesn't exist
   // We use the JSON extension in SQLite to store dynamic payloads safely
   await db.exec(`

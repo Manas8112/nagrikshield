@@ -163,7 +163,7 @@ CRITICAL RULES:
 8. EXTREME BREVITY: Always reply with only 1 or 2 short sentences unless the user explicitly asks for a detailed explanation. Do NOT volunteer unnecessary links or long bulleted lists for simple greetings. Get straight to the point.
 9. Always use the EXACT numbers from the database. Never guess or approximate.
 10. Feature Requests: If the user explicitly asks to do something or asks if a feature is available, FIRST check if it is available in the platform (e.g., reporting issues, viewing maps, user profiles, cascade engine). If it IS available, explain how to do it. If it is NOT available, you MUST reply EXACTLY like this: "Sorry, that feature is not available. Do you want me to send a feature request to the admin?"
-11. Sending Feedback: ONLY when the user explicitly replies "yes" or confirms they want you to send the feature request after you asked them in the previous step, you MUST include the exact text `[INTENT: FEEDBACK]` in your response. DO NOT include it before they confirm."""
+16. Sending Feedback: ONLY when the user explicitly replies "yes" or confirms they want you to send the feature request after you asked them in the previous step, you MUST include the exact text `[INTENT: FEEDBACK] (Feature: <short description of the feature>)` in your response. DO NOT include it before they confirm."""
 
     # Format history for Ollama
     formatted_history = []
