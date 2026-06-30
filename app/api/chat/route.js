@@ -23,8 +23,21 @@ async function runPythonML(message, liveContext = "", history = []) {
     
     return await res.json();
   } catch (error) {
-    console.error("Failed to connect to Flask ML Server. Is it running on port 5001?", error);
-    throw error;
+    console.warn("Flask ML Server unreachable (Cloud Mode activated):", error.message);
+    const lower = message.toLowerCase();
+    
+    if (lower.includes('report') || lower.includes('pothole') || lower.includes('leak')) return { intent: 'REPORT_ISSUE', category: null };
+    if (lower.includes('xp') || lower.includes('level')) return { intent: 'ECONOMY_XP', category: null };
+    if (lower.includes('sp') || lower.includes('stake') || lower.includes('point')) return { intent: 'ECONOMY_SP', category: null };
+    if (lower.includes('swarm') || lower.includes('validate')) return { intent: 'SWARM_VALIDATION', category: null };
+    if (lower.includes('cascade')) return { intent: 'CASCADE_ROI', category: null };
+    if (lower.includes('hi') || lower.includes('hello')) return { intent: 'GREETING', category: null };
+    
+    return {
+      intent: 'LLM_GENERATED',
+      category: null,
+      text: "*(Cloud Fallback Mode)*: I am the CivicTech Command Assistant. The local GPU processing node is offline in this cloud environment, but I am still here to help! Try asking me about Swarm Validation, Cascade ROI, or how to report an issue."
+    };
   }
 }
 

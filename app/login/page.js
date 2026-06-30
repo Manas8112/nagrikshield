@@ -30,6 +30,14 @@ export default function LoginPage() {
           <h1 className="title-lg mb-1">Welcome Back</h1>
           <p className="text-muted" style={{ fontSize: 14 }}>Log in to continue protecting your community.</p>
         </div>
+
+        <div style={{ background: 'var(--surface-hover)', padding: '12px 16px', borderRadius: 'var(--radius-md)', marginBottom: 24, border: '1px solid var(--border-medium)' }}>
+          <div style={{ fontSize: 12, fontWeight: 700, color: 'var(--text-muted)', textTransform: 'uppercase', marginBottom: 4 }}>Judges / Evaluation</div>
+          <div style={{ fontSize: 14 }}>
+            Admin Email: <strong>admin@nagrik.in</strong><br />
+            Password: <strong>admin123</strong>
+          </div>
+        </div>
         
         {error && (
           <div style={{ background: 'rgba(246, 70, 93, 0.1)', border: '1px solid var(--trading-down)', color: 'var(--trading-down)', padding: 12, borderRadius: 'var(--radius-md)', fontSize: 14, marginBottom: 20 }}>
