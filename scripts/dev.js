@@ -164,6 +164,11 @@ async function setup() {
     }
   }
 
+  if (args.includes('--no-server')) {
+    console.log('Skipping server start due to --no-server flag.');
+    process.exit(0);
+  }
+
   console.log('🚀 Starting Next.js development server...');
   
   const nextArgs = [];

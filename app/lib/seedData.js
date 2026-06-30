@@ -555,10 +555,9 @@ export const seedData = {
     { id: 'u-admin-001', name: 'System Admin', avatar: 'ShieldCheck', email: 'admin@nagrik.in', password: 'admin123', avatarSeed: 99, friends: [], level: 99, xp: 99999, shieldPoints: 9999, issuesReported: 0, issuesValidated: 0, accuracy: 1.0, neighborhood: 'bbmp_hq', joinedAt: daysAgo(365), title: 'Administrator', role: 'admin', notifications: [] },
     ...users.map(u => ({ ...u, notifications: [] }))
   ],
-  currentUserId: 'u1',
   quests,
   achievements,
-  vitalsHistory: generateVitalsHistory(),
+  vitalsHistory: [{ id: 'main', ...generateVitalsHistory() }],
 };
 
 export { CATEGORIES, STATUS, NEIGHBORHOODS };
