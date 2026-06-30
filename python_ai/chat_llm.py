@@ -178,9 +178,11 @@ CRITICAL RULES:
             "options": {
                 "temperature": 0.7,
                 "top_p": 0.9,
-                "num_predict": 400
+                "num_predict": 400,
+                "num_thread": 4,
+                "num_ctx": 2048
             }
-        }, timeout=60)
+        }, timeout=180)
         
         result = ollama_response.json()
         if "error" in result:
