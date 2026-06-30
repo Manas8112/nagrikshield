@@ -30,7 +30,11 @@ Return EXACTLY a JSON object with these three keys (and nothing else):
       prompt: prompt,
       stream: false,
       format: "json",
-      keep_alive: -1
+      keep_alive: -1,
+      options: {
+        num_thread: 2,
+        num_predict: 150
+      }
     };
 
     const response = await fetch("http://127.0.0.1:11434/api/generate", {

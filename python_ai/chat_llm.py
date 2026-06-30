@@ -60,7 +60,7 @@ def get_full_db_snapshot():
                 admins.append(u.get('name','?'))
         
         snapshot.append(f"REGISTERED USERS ({len(users_raw)} total, Admins: {', '.join(admins) if admins else 'none'}):")
-        snapshot.append("\n".join(user_lines[:20]))
+        snapshot.append("\n".join(user_lines[:5]))
         
         # --- ISSUES ---
         cursor.execute("SELECT data FROM documents WHERE model='issues'")
@@ -80,7 +80,7 @@ def get_full_db_snapshot():
         snapshot.append(f"  Categories: {cat_str}")
         
         # All active issues (Gemma can handle the context)
-        sorted_issues = sorted(active, key=lambda x: x.get('reportedAt', ''), reverse=True)[:15]
+        sorted_issues = sorted(active, key=lambda x: x.get('reportedAt', ''), reverse=True)[:5]
         for i in sorted_issues:
             reporter = next((u.get('name') for u in users_raw if u.get('id') == i.get('reportedBy')), 'Unknown')
             date = i.get('reportedAt', '')[:10]
@@ -179,8 +179,8 @@ CRITICAL RULES:
             "options": {
                 "temperature": 0.7,
                 "top_p": 0.9,
-                "num_predict": 400,
-                "num_thread": 4,
+                "num_predict": 150,
+                "num_thread": 2,
                 "num_ctx": 2048
             }
         }, timeout=180)
