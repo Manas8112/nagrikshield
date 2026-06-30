@@ -289,6 +289,9 @@ export default function ReportPage() {
             </div>
             <input className="input" placeholder="e.g., Near Main Street Junction" value={landmark} onChange={(e) => setLandmark(e.target.value)} />
             <div className="number-sm text-muted" style={{ marginTop: 6 }}>GPS: {location.lat.toFixed(4)}, {location.lng.toFixed(4)}</div>
+            <div style={{ fontSize: 11, color: 'var(--status-warning)', marginTop: 8, background: 'rgba(217, 119, 6, 0.1)', padding: '6px 10px', borderRadius: 'var(--radius-sm)', border: '1px solid rgba(217, 119, 6, 0.2)' }}>
+              Note for Judges: Auto-GPS is disabled by Chrome on non-HTTPS connections for security. Using a dummy location instead. You can drag the map to set a manual location.
+            </div>
           </div>
         </div>
       )}
