@@ -32,7 +32,7 @@ with open('rag_corpus.json', 'r', encoding='utf-8') as f:
 # ---------------------------------------------------------
 DB_PATH = '../data/database.sqlite'
 
-def get_full_db_snapshot():
+def get_full_db_snapshot(deep_fetch=False):
     """
     Builds a complete, human-readable snapshot of the entire database.
     Injected into EVERY prompt for true general intelligence.
@@ -60,7 +60,7 @@ def get_full_db_snapshot():
                 admins.append(u.get('name','?'))
         
         snapshot.append(f"REGISTERED USERS ({len(users_raw)} total, Admins: {', '.join(admins) if admins else 'none'}):")
-        snapshot.append("\n".join(user_lines[:5]))
+        snapshot.append("\n".join(user_lines[:(100 if deep_fetch else 5)]))
         
         # --- ISSUES ---
         cursor.execute("SELECT data FROM documents WHERE model='issues'")
@@ -80,7 +80,7 @@ def get_full_db_snapshot():
         snapshot.append(f"  Categories: {cat_str}")
         
         # All active issues (Gemma can handle the context)
-        sorted_issues = sorted(active, key=lambda x: x.get('reportedAt', ''), reverse=True)[:5]
+        sorted_issues = sorted(active, key=lambda x: x.get('reportedAt', ''), reverse=True)[:(100 if deep_fetch else 5)]
         for i in sorted_issues:
             reporter = next((u.get('name') for u in users_raw if u.get('id') == i.get('reportedBy')), 'Unknown')
             date = i.get('reportedAt', '')[:10]
@@ -111,6 +111,16 @@ def chat():
     if not user_input:
         return jsonify({"error": "No input provided"}), 400
 
+    deep_fetch = False
+    lower_input = user_input.lower().strip()
+    if "deep fetch" in lower_input or "fetch full" in lower_input:
+        deep_fetch = True
+    elif lower_input in ["yes", "y", "sure", "do it", "fetch it", "yeah", "ok", "okay"]:
+        if history and len(history) > 0:
+            last_msg = history[-1].get("text", "").lower()
+            if "deep fetch" in last_msg or "take 45 seconds" in last_msg or "take time" in last_msg:
+                deep_fetch = True
+
     # 1. RAG Retrieval
     print("Retrieving civic knowledge context...", file=sys.stderr)
     user_embedding = embedder.encode([user_input], convert_to_numpy=True)
@@ -123,8 +133,8 @@ def chat():
         print(f"RAG Context Found: {retrieved_context[:50]}...", file=sys.stderr)
 
     # 2. Full database snapshot
-    print("Building database snapshot...", file=sys.stderr)
-    db_snapshot = get_full_db_snapshot()
+    print(f"Building database snapshot (Deep Fetch: {deep_fetch})...", file=sys.stderr)
+    db_snapshot = get_full_db_snapshot(deep_fetch)
 
     # 3. Build system prompt with ALL context
     system_prompt = f"""You are 'Earth Guardian', the AI assistant for NagrikShield — a civic tech platform where citizens report infrastructure issues (potholes, water leaks, garbage, streetlights) and earn XP/Shield Points for participation.
@@ -149,7 +159,7 @@ CRITICAL RULES:
 4. Report new issues: [Report Issue](/report)
 5. View map: [View Map](/map)
 6. User profiles: [My Profile](/profile)
-7. If asked something not in the data, say so honestly.
+7. I have only been provided the TOP 5 most recent issues and users to optimize speed. If asked about older/other data not listed above, guide the user to view the full list on the [Admin Dashboard](/admin) or [Map](/map). Alternatively, ask them EXACTLY this: "Do you want me to run a Deep Fetch of the database? (This takes ~45 seconds)".
 8. Keep answers focused — 2-4 sentences for simple questions, more for complex ones.
 9. Always use the EXACT numbers from the database. Never guess or approximate.
 10. Feature Requests: If the user explicitly asks to do something or asks if a feature is available, FIRST check if it is available in the platform (e.g., reporting issues, viewing maps, user profiles, cascade engine). If it IS available, explain how to do it. If it is NOT available, you MUST reply EXACTLY like this: "Sorry, that feature is not available. Do you want me to send a feature request to the admin?"
