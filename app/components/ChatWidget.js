@@ -168,8 +168,12 @@ export default function ChatWidget() {
                       Intent: {msg.intent.replace('_', ' ')}
                     </div>
                   )}
-                  {/* Super basic markdown rendering for bold text */}
-                  <div dangerouslySetInnerHTML={{ __html: msg.text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') }} />
+                  {/* Super basic markdown rendering for bold text and links */}
+                  <div dangerouslySetInnerHTML={{ 
+                    __html: msg.text
+                      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                      .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" style="color: var(--primary); text-decoration: underline; font-weight: 500;">$1</a>')
+                  }} />
                 </div>
                 
                 {msg.actions && msg.actions.length > 0 && (
@@ -192,8 +196,9 @@ export default function ChatWidget() {
             
             {isLoading && (
               <div style={{ display: 'flex', alignItems: 'center', gap: 8, color: 'var(--text-muted)', fontSize: 12, padding: '0 12px' }}>
-                <Activity size={12} className="animate-pulse" />
-                <span className="animate-pulse">ML Core processing...</span>
+                <style>{`@keyframes spin { 100% { transform: rotate(360deg); } }`}</style>
+                <svg style={{ animation: 'spin 1s linear infinite' }} width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 12a9 9 0 1 1-6.219-8.56"/></svg>
+                <span className="animate-pulse">Generating response on Google Cloud CPU (please wait)...</span>
               </div>
             )}
             <div ref={messagesEndRef} />

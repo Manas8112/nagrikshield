@@ -17,3 +17,8 @@ export async function getVisionPipeline() {
   }
   return await globalForVision.clipPipeline;
 }
+
+// Preload the heavy CLIP model immediately in the background so it's instantly ready when a user uploads an image!
+if (typeof window === 'undefined') {
+  getVisionPipeline().catch(e => console.error("Vision preload error:", e));
+}
