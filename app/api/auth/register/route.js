@@ -20,7 +20,7 @@ export async function POST(request) {
     const cookieStore = await cookies();
     cookieStore.set('session', sessionToken, {
       httpOnly: true,
-      secure: process.env.NODE_ENV === 'production',
+      secure: false, // Force false for HTTP IP testing
       sameSite: 'lax',
       path: '/'
     });
