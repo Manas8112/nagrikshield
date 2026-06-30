@@ -1,7 +1,8 @@
 // NagrikShield - Async Database Client
 // 100% Server API persistent storage
 
-const API_BASE = typeof window === 'undefined' ? 'http://127.0.0.1:3000/api/database' : '/api/database';
+const PORT = process.env.PORT || 3000;
+const API_BASE = typeof window === 'undefined' ? `http://127.0.0.1:${PORT}/api/database` : '/api/database';
 import { seedData } from './seedData';
 import reputationEngine from './reputationEngine';
 import questEngine from './questEngine';
