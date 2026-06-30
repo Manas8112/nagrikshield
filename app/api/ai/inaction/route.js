@@ -32,7 +32,7 @@ Return EXACTLY a JSON object with these three keys (and nothing else):
       format: "json",
       keep_alive: -1,
       options: {
-        num_thread: 2,
+        num_thread: 4,
         num_predict: 150
       }
     };

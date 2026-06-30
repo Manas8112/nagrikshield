@@ -190,7 +190,7 @@ CRITICAL RULES:
                 "temperature": 0.7,
                 "top_p": 0.9,
                 "num_predict": 150,
-                "num_thread": 2,
+                "num_thread": 4,
                 "num_ctx": 2048
             }
         }, timeout=180)
