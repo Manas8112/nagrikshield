@@ -14,7 +14,7 @@ app = Flask(__name__)
 # ---------------------------------------------------------
 # Ollama API (already running on your machine!)
 OLLAMA_URL = "http://localhost:11434/api/chat"
-OLLAMA_MODEL = "gemma3:4b"  # Maximum intelligence — Google's latest Gemma 4
+OLLAMA_MODEL = "gemma2:2b"  # Maximum intelligence — Google's latest Gemma 4
 
 print(f"Using Ollama model: {OLLAMA_MODEL}", file=sys.stderr)
 print("Loading RAG Pipeline...", file=sys.stderr)
@@ -186,7 +186,7 @@ CRITICAL RULES:
         if "error" in result:
             err_msg = result["error"]
             if "requires more system memory" in err_msg:
-                response = f"⚠️ **GPU Memory Error:** The massive `{OLLAMA_MODEL}` requires more free VRAM than is currently available on your RTX 4060. Please close some background applications to free up VRAM, or switch the backend model back to `gemma3:4b` in `chat_llm.py`."
+                response = f"⚠️ **GPU Memory Error:** The massive `{OLLAMA_MODEL}` requires more free VRAM than is currently available on your RTX 4060. Please close some background applications to free up VRAM, or switch the backend model back to `gemma2:2b` in `chat_llm.py`."
             else:
                 response = f"⚠️ **Ollama Error:** {err_msg}"
         else:

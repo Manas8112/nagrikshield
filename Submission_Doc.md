@@ -38,7 +38,7 @@ NagrikShield is a gamified, AI-powered civic engagement platform that acts as a 
 - **How to test:** Attempt to report a pothole in the exact same location as an existing pothole. The system will recognize the >80% similarity threshold and block the duplicate, suggesting you validate the existing issue instead.
 
 ### 🤖 RAG-Powered Command Assistant
-- **How it works:** An embedded AI chatbot powered by Google's Gemma-3 that is fully aware of the live application database and civic policies using FAISS and vector embeddings.
+- **How it works:** An embedded AI chatbot powered by Google's Gemma-2 that is fully aware of the live application database and civic policies using FAISS and vector embeddings.
 - **How to test:** Open the AI chatbot widget on the bottom right. Ask it: "Who are the top users?" or "How many active issues are there?" It will read the live database state and answer dynamically.
 
 ### 👁️ Python Vision Verification (Anti-Corruption)
@@ -53,6 +53,6 @@ NagrikShield is a gamified, AI-powered civic engagement platform that acts as a 
 - **Storage:** Custom asynchronous IndexedDB/LocalStorage state manager mimicking a high-latency SQL deployment.
 
 ## 5. Google Technologies Utilized
-- **Gemini Pro 3.1 & Google Gemma 3 (4B):** The primary brains behind the platform's RAG Command Assistant and AI Fusion pipelines. We leverage the open-weights Gemma 3 model running locally to ensure high privacy for civic data while benefiting from Google's state-of-the-art instruction-following capabilities. The system seamlessly scales to **Gemini Pro 3.1** via API fallback to analyze dynamic JSON state structures and calculate the precise "Cost of Inaction" for critical infrastructure failures.
+- **Gemini Pro 3.1 & Google Gemma 2 (2B):** The primary brains behind the platform's RAG Command Assistant and AI Fusion pipelines. We leverage the open-weights Gemma 2 model running locally to ensure high privacy for civic data while benefiting from Google's state-of-the-art instruction-following capabilities. The system seamlessly scales to **Gemini Pro 3.1** via API fallback to analyze dynamic JSON state structures and calculate the precise "Cost of Inaction" for critical infrastructure failures.
 - **Google Antigravity IDE:** The entire architectural structure, modular component design, and complex React state-management of this project was rapidly prototyped, structured, and coded utilizing **Google Antigravity**, an advanced agentic AI coding environment.
 - **Google Cloud Platform (Deployment):** The production build of the Next.js frontend is containerized and deployed on Google Cloud Run to ensure high availability, edge caching, and scalable bandwidth during the evaluation period.

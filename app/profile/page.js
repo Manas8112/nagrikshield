@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { useAuth } from '../lib/authProvider';
-import { getIssues, getAchievements, getUsers, updateUser, getApplications, addApplication, getQuests } from '../lib/storage';
+import { getIssues, getAchievements, getUsers, updateUser, getApplications, addApplication, getQuests, addNotification } from '../lib/storage';
 import { getSeverityLevel, getDynamicSeverity } from '../lib/resolutionKB';
 import { getLevelInfo } from '../lib/reputationEngine';
 import { getQuestProgressPercent, getQuestStatusLabel } from '../lib/questEngine';

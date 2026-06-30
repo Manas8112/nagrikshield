@@ -9,7 +9,7 @@ The platform is designed around a modern, scalable web architecture integrated h
 - **Frontend:** Next.js 15 (App Router), React, Leaflet for geospatial mapping, Vanilla CSS for responsive and modern UI styling.
 - **Backend AI Engine (Python):** Flask API powering multiple ML nodes:
   - **Computer Vision Pipeline:** OpenAI CLIP (ViT-B/32) model for deep semantic image validation. Verifies the structural integrity and semantic match of "resolved" proof photos against original reports to prevent corruption.
-  - **LLM Command Assistant:** Gemini Pro 3.1 and Google's Gemma-3 (4B). 
+  - **LLM Command Assistant:** Gemini Pro 3.1 and Google's Gemma-2 (2B). 
   - **RAG Implementation:** Uses SentenceTransformers (all-MiniLM-L6-v2) and FAISS/NumPy for vector indexing and high-speed retrieval of civic policy documents.
   - **Deduplication Engine:** Cosine similarity calculation over unique issue "DNA" (geocoordinates, severity, category) to block duplicate reports.
 - **Mock Asynchronous Storage:** A custom IndexedDB/LocalStorage wrapper that mimics a high-latency persistent SQL database for the purpose of this demonstration without requiring complex external database provisioning.
@@ -31,7 +31,7 @@ To evaluate the project locally, a setup script has been provided which automati
    ```bash
    python setup.py
    ```
-   *Note: This script will verify your Ollama installation, attempt to download Google's Gemma 3 model if missing, create a Python virtual environment, and install all required pip and npm dependencies.*
+   *Note: This script will verify your Ollama installation, attempt to download Google's Gemma 2 model if missing, create a Python virtual environment, and install all required pip and npm dependencies.*
 
 2. **Start the Backend AI Engine (Terminal 1):**
    ```bash

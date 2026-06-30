@@ -146,6 +146,7 @@ export default function AdminDashboard() {
   };
 
   const handleApproveApp = async (app) => {
+    setApplications(prev => prev.filter(a => a.id !== app.id));
     await updateApplication(app.id, { status: 'approved' });
     await updateUser(app.userId, { role: 'department_head', department: app.department });
     await addNotification(app.userId, { message: `Congratulations! Your request to become the Head of ${app.department} has been APPROVED by the Admin.` });
@@ -153,6 +154,7 @@ export default function AdminDashboard() {
   };
 
   const handleRejectApp = async (app) => {
+    setApplications(prev => prev.filter(a => a.id !== app.id));
     await updateApplication(app.id, { status: 'rejected' });
     await addNotification(app.userId, { message: `Your request to lead ${app.department} was rejected.` });
     await refresh();

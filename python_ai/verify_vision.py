@@ -35,7 +35,7 @@ def get_target_description(title, description):
         prompt = f"Given the civic issue titled '{title}' with description '{description}', write a single short sentence describing exactly what a photograph of the FIXED and RESOLVED state of this issue would look like. Do not include introductory text, just the visual description."
         
         payload = {
-            "model": "gemma3:4b",
+            "model": "gemma2:2b",
             "prompt": prompt,
             "stream": False
         }

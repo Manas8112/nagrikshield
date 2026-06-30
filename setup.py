@@ -21,24 +21,24 @@ def check_ollama():
         return False
 
 def check_gemma3():
-    print("Checking for Google's Gemma 3 model (gemma3:4b) in Ollama...")
+    print("Checking for Google's Gemma 2 model (gemma2:2b) in Ollama...")
     try:
         req = urllib.request.Request("http://localhost:11434/api/tags", method="GET")
         with urllib.request.urlopen(req, timeout=3) as response:
             data = json.loads(response.read().decode())
             models = [m.get("name") for m in data.get("models", [])]
-            if "gemma3:4b" in models or "gemma3:latest" in models or "gemma3:4b-instruct-q4_K_M" in models:
-                print("✅ Gemma 3 model found.")
+            if "gemma2:2b" in models or "gemma2:latest" in models or "gemma2:2b-instruct-q4_K_M" in models:
+                print("✅ Gemma 2 model found.")
                 return True
             else:
-                print("❌ Gemma 3 model NOT found.")
-                print("Attempting to pull gemma3:4b. This may take a few minutes...")
-                pull_req = urllib.request.Request("http://localhost:11434/api/pull", data=json.dumps({"name": "gemma3:4b"}).encode(), headers={'Content-Type': 'application/json'}, method="POST")
+                print("❌ Gemma 2 model NOT found.")
+                print("Attempting to pull gemma2:2b. This may take a few minutes...")
+                pull_req = urllib.request.Request("http://localhost:11434/api/pull", data=json.dumps({"name": "gemma2:2b"}).encode(), headers={'Content-Type': 'application/json'}, method="POST")
                 with urllib.request.urlopen(pull_req) as pull_response:
-                    print("✅ Successfully pulled Gemma 3 model.")
+                    print("✅ Successfully pulled Gemma 2 model.")
                     return True
     except Exception as e:
-        print(f"❌ Failed to verify Gemma 3 model: {e}")
+        print(f"❌ Failed to verify Gemma 2 model: {e}")
         return False
 
 def setup_python_env():

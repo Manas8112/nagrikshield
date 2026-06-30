@@ -26,7 +26,7 @@ Return EXACTLY a JSON object with these three keys (and nothing else):
 }`;
 
     const payload = {
-      model: "gemma3:4b",
+      model: "gemma2:2b",
       prompt: prompt,
       stream: false,
       format: "json"

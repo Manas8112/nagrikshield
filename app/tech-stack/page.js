@@ -142,7 +142,7 @@ export default function TechStackPage() {
                 <span className="badge-tech">Machine Learning</span>
                 <h3 className="title-md mb-3" style={{ display: 'flex', alignItems: 'center', gap: 8 }}><Brain size={20} className="text-primary"/> LLM & RAG Engine</h3>
                 <p className="text-muted" style={{ fontSize: '0.95rem', lineHeight: 1.6 }}>
-                  Powered by <strong>Google's Gemma-3 (4B)</strong> model via local Ollama inference. The persistent Flask server utilizes <code>SentenceTransformers (all-MiniLM-L6-v2)</code> to encode user queries and performs high-speed vector retrieval using NumPy/FAISS over a custom civic knowledge base.
+                  Powered by <strong>Google's Gemma-2 (2B)</strong> model via local Ollama inference. The persistent Flask server utilizes <code>SentenceTransformers (all-MiniLM-L6-v2)</code> to encode user queries and performs high-speed vector retrieval using NumPy/FAISS over a custom civic knowledge base.
                 </p>
               </div>
             </div>
