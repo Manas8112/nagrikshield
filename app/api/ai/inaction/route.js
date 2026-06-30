@@ -29,7 +29,8 @@ Return EXACTLY a JSON object with these three keys (and nothing else):
       model: "gemma2:2b",
       prompt: prompt,
       stream: false,
-      format: "json"
+      format: "json",
+      keep_alive: -1
     };
 
     const response = await fetch("http://127.0.0.1:11434/api/generate", {

@@ -175,6 +175,7 @@ CRITICAL RULES:
             "model": OLLAMA_MODEL,
             "messages": messages,
             "stream": False,
+            "keep_alive": -1,
             "options": {
                 "temperature": 0.7,
                 "top_p": 0.9,
