@@ -240,6 +240,9 @@ export default function ChatWidget() {
               <Send size={18} />
             </button>
           </form>
+          <div style={{ fontSize: 10, color: 'var(--text-muted)', textAlign: 'center', marginTop: 12 }}>
+            Note: Generation may take 10-20 seconds as the AI runs entirely on Google Cloud CPUs.
+          </div>
         </div>
         </div>
       )}
